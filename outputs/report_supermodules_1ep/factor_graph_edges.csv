@@ -1,0 +1,347 @@
+source,target,module_id,compound_name,compound_kegg_id,direction,sign
+module:M_1,compound:Glucose,M_1,Glucose,C00267,input,-1
+module:M_1,compound:G6P,M_1,G6P,C00668,output,1
+module:M_2,compound:G6P,M_2,G6P,C00668,input,-1
+module:M_2,compound:G3P,M_2,G3P,C00118,output,1
+module:M_3,compound:G3P,M_3,G3P,C00118,input,-1
+module:M_3,compound:3PD,M_3,3PD,C00197,output,1
+module:M_4,compound:3PD,M_4,3PD,C00197,input,-1
+module:M_4,compound:Pyruvate,M_4,Pyruvate,C00022,output,1
+module:M_5,compound:Pyruvate,M_5,Pyruvate,C00022,input,-1
+module:M_5,compound:Acetyl-Coa,M_5,Acetyl-Coa,C00024,output,1
+module:M_6,compound:Pyruvate,M_6,Pyruvate,C00022,input,-1
+module:M_6,compound:Lactate,M_6,Lactate,C00256,output,1
+module:M_7,compound:Acetyl-CoA,M_7,Acetyl-CoA,C00024,input,-1
+module:M_7,compound:Oxaloacetate,M_7,Oxaloacetate,C00036,input,-1
+module:M_7,compound:Citrate,M_7,Citrate,C00158,output,1
+module:M_8,compound:Citrate,M_8,Citrate,C00158,input,-1
+module:M_8,compound:2OG,M_8,2OG,C00026,output,1
+module:M_9,compound:2OG,M_9,2OG,C00026,input,-1
+module:M_9,compound:Succinyl-CoA,M_9,Succinyl-CoA,C00091,output,1
+module:M_10,compound:Succinyl-CoA,M_10,Succinyl-CoA,C00091,input,-1
+module:M_10,compound:Succinate,M_10,Succinate,C00042,output,1
+module:M_11,compound:Succinate,M_11,Succinate,C00042,input,-1
+module:M_11,compound:Fumarate,M_11,Fumarate,C00122,output,1
+module:M_12,compound:Fumarate,M_12,Fumarate,C00122,input,-1
+module:M_12,compound:Malate,M_12,Malate,C00149,output,1
+module:M_13,compound:Malate,M_13,Malate,C00149,input,-1
+module:M_13,compound:Oxaloacetate,M_13,Oxaloacetate,C00036,output,1
+module:M_14,compound:Pyruvate,M_14,Pyruvate,C00022,input,-1
+module:M_14,compound:Oxaloacetate,M_14,Oxaloacetate,C00036,output,1
+module:M_15,compound:3PD,M_15,3PD,C00197,input,-1
+module:M_15,compound:Serine,M_15,Serine,C00065,output,1
+module:M_16,compound:Serine,M_16,Serine,C00065,input,-1
+module:M_16,compound:Pyruvate,M_16,Pyruvate,C00022,output,1
+module:M_17,compound:Serine,M_17,Serine,C00065,input,-1
+module:M_17,compound:Cysteine,M_17,Cysteine,C00097,output,1
+module:M_18,compound:Serine,M_18,Serine,C00065,input,-1
+module:M_18,compound:Glycine,M_18,Glycine,C00037,output,1
+module:M_19,compound:Glycine,M_19,Glycine,C00037,input,-1
+module:M_19,compound:Creatine,M_19,Creatine,C00300,output,1
+module:M_20,compound:Glycine,M_20,Glycine,C00037,input,-1
+module:M_20,compound:Glyoxylate,M_20,Glyoxylate,C00048,output,1
+module:M_21,compound:Choline,M_21,Choline,C00114,input,-1
+module:M_21,compound:Glycine,M_21,Glycine,C00037,output,1
+module:M_22,compound:Glycine,M_22,Glycine,C00037,input,-1
+module:M_22,compound:Glycine-OUT,M_22,Glycine-OUT,C00000,output,1
+module:M_23,compound:Glycine,M_23,Glycine,C00037,input,-1
+module:M_23,compound:Glutathione,M_23,Glutathione,C00051,output,1
+module:M_24,compound:Glutathione,M_24,Glutathione,C00051,input,-1
+module:M_24,compound:Glycine,M_24,Glycine,C00037,output,1
+module:M_24,compound:Cysteine,M_24,Cysteine,C00097,output,1
+module:M_25,compound:Glutathione,M_25,Glutathione,C00051,input,-1
+module:M_25,compound:glutamate,M_25,glutamate,C00025,output,1
+module:M_26,compound:Glutamate,M_26,Glutamate,C00025,input,-1
+module:M_26,compound:Cysteine,M_26,Cysteine,C00097,input,-1
+module:M_26,compound:Glutathione,M_26,Glutathione,C00051,output,1
+module:M_27,compound:Serine,M_27,Serine,C00065,input,-1
+module:M_27,compound:2-Aminoacrylate,M_27,2-Aminoacrylate,C02218,output,1
+module:M_28,compound:Serine,M_28,Serine,C00065,input,-1
+module:M_28,compound:Methionine,M_28,Methionine,C00073,output,1
+module:M_29,compound:Cysteine,M_29,Cysteine,C00097,input,-1
+module:M_29,compound:Pyruvate,M_29,Pyruvate,C00022,output,1
+module:M_30,compound:Methionine,M_30,Methionine,C00073,input,-1
+module:M_30,compound:Cysteine,M_30,Cysteine,C00097,output,1
+module:M_31,compound:Methionine,M_31,Methionine,C00073,input,-1
+module:M_31,compound:Methionine-OUT,M_31,Methionine-OUT,C00000,output,1
+module:M_32,compound:Threonine,M_32,Threonine,C00188,input,-1
+module:M_32,compound:Propanoyl-CoA,M_32,Propanoyl-CoA,C00100,output,1
+module:M_33,compound:G3P,M_33,G3P,C00118,input,-1
+module:M_33,compound:PRPP,M_33,PRPP,C00119,output,1
+module:M_34,compound:Acetyl-CoA,M_34,Acetyl-CoA,C00024,input,-1
+module:M_34,compound:Fatty Acid,M_34,Fatty Acid,CC0001,output,1
+module:M_35,compound:Fatty Acid,M_35,Fatty Acid,CC0001,input,-1
+module:M_35,compound:Acetyl-CoA,M_35,Acetyl-CoA,C00024,output,1
+module:M_36,compound:Aspartate,M_36,Aspartate,C00049,input,-1
+module:M_36,compound:Pyrimidine,M_36,Pyrimidine,CC0002,output,1
+module:M_37,compound:Aspartate,M_37,Aspartate,C00049,input,-1
+module:M_37,compound:Aspartate-OUT,M_37,Aspartate-OUT,C00000,output,1
+module:M_38,compound:Aspartate,M_38,Aspartate,C00049,input,-1
+module:M_38,compound:Asparagine,M_38,Asparagine,C00152,output,1
+module:M_39,compound:Aspartate,M_39,Aspartate,C00049,input,-1
+module:M_39,compound:Fumarate,M_39,Fumarate,C00122,output,1
+module:M_40,compound:Aspartate,M_40,Aspartate,C00049,input,-1
+module:M_40,compound:Oxaloacetate,M_40,Oxaloacetate,C00036,output,1
+module:M_41,compound:Aspartate,M_41,Aspartate,C00049,input,-1
+module:M_41,compound:B-Alanine,M_41,B-Alanine,C00099,output,1
+module:M_42,compound:Spermine,M_42,Spermine,C00750,input,-1
+module:M_42,compound:B-Alanine,M_42,B-Alanine,C00099,output,1
+module:M_43,compound:Histidine,M_43,Histidine,C00135,input,-1
+module:M_43,compound:B-Alanine,M_43,B-Alanine,C00099,output,1
+module:M_44,compound:B-Alanine,M_44,B-Alanine,C00099,input,-1
+module:M_44,compound:Acetyl-CoA,M_44,Acetyl-CoA,C00024,output,1
+module:M_45,compound:Pyrimidine,M_45,Pyrimidine,CC0002,input,-1
+module:M_45,compound:B-Alanine,M_45,B-Alanine,C00099,output,1
+module:M_46,compound:Propanoyl-CoA,M_46,Propanoyl-CoA,C00100,input,-1
+module:M_46,compound:Succinate,M_46,Succinate,C00042,output,1
+module:M_47,compound:Propanoyl-CoA,M_47,Propanoyl-CoA,C00100,input,-1
+module:M_47,compound:Acetyl-CoA,M_47,Acetyl-CoA,C00024,output,1
+module:M_48,compound:Glutamate,M_48,Glutamate,C00025,input,-1
+module:M_48,compound:Glutamine,M_48,Glutamine,C00064,output,1
+module:M_49,compound:Glutamate,M_49,Glutamate,C00025,input,-1
+module:M_49,compound:GABA,M_49,GABA,C00334,output,1
+module:M_50,compound:GABA,M_50,GABA,C00334,input,-1
+module:M_50,compound:Succinate,M_50,Succinate,C00042,output,1
+module:M_51,compound:Glutamate,M_51,Glutamate,C00025,input,-1
+module:M_51,compound:2OG,M_51,2OG,C00026,output,1
+module:M_52,compound:Histidine,M_52,Histidine,C00135,input,-1
+module:M_52,compound:glutamate,M_52,glutamate,C00025,output,1
+module:M_53,compound:Leucine,M_53,Leucine,C00123,input,-1
+module:M_53,compound:Acetyl-CoA,M_53,Acetyl-CoA,C00024,output,1
+module:M_54,compound:Valine,M_54,Valine,C00183,input,-1
+module:M_54,compound:Succinyl-CoA,M_54,Succinyl-CoA,C00091,output,1
+module:M_55,compound:Isoleucine,M_55,Isoleucine,C00407,input,-1
+module:M_55,compound:Succinyl-CoA,M_55,Succinyl-CoA,C00091,output,1
+module:M_56,compound:Isoleucine,M_56,Isoleucine,C00407,input,-1
+module:M_56,compound:Acetyl-CoA,M_56,Acetyl-CoA,C00024,output,1
+module:M_57,compound:Tyrosine,M_57,Tyrosine,C00082,input,-1
+module:M_57,compound:Fumarate,M_57,Fumarate,C00122,output,1
+module:M_58,compound:Tyrosine,M_58,Tyrosine,C00082,input,-1
+module:M_58,compound:Tyrosine-OUT,M_58,Tyrosine-OUT,C00000,output,1
+module:M_59,compound:Phenylalanine,M_59,Phenylalanine,C00079,input,-1
+module:M_59,compound:Tyrosine,M_59,Tyrosine,C00082,output,1
+module:M_60,compound:lysine,M_60,lysine,C00047,input,-1
+module:M_60,compound:Acetyl-CoA,M_60,Acetyl-CoA,C00024,output,1
+module:M_61,compound:Putrescine,M_61,Putrescine,C00134,input,-1
+module:M_61,compound:GABA,M_61,GABA,C00334,output,1
+module:M_62,compound:Ornithine,M_62,Ornithine,C00077,input,-1
+module:M_62,compound:Putrescine,M_62,Putrescine,C00134,output,1
+module:M_63,compound:Arginine,M_63,Arginine,C00062,input,-1
+module:M_63,compound:Ornithine,M_63,Ornithine,C00077,output,1
+module:M_64,compound:Arginine,M_64,Arginine,C00062,input,-1
+module:M_64,compound:Putrescine,M_64,Putrescine,C00134,output,1
+module:M_65,compound:Argininosuccinate,M_65,Argininosuccinate,C03406,input,-1
+module:M_65,compound:Arginine,M_65,Arginine,C00062,output,1
+module:M_65,compound:Fumarate,M_65,Fumarate,C00122,output,1
+module:M_66,compound:Citruline,M_66,Citruline,C00327,input,-1
+module:M_66,compound:Aspartate,M_66,Aspartate,C00049,input,-1
+module:M_66,compound:Argininosuccinate,M_66,Argininosuccinate,C03406,output,1
+module:M_67,compound:Ornithine,M_67,Ornithine,C00077,input,-1
+module:M_67,compound:Proline,M_67,Proline,C00148,output,1
+module:M_68,compound:Proline,M_68,Proline,C00148,input,-1
+module:M_68,compound:Glyoxylate,M_68,Glyoxylate,C00048,output,1
+module:M_68,compound:pyruvate,M_68,pyruvate,C00022,output,1
+module:M_69,compound:Putresine,M_69,Putresine,C00134,input,-1
+module:M_69,compound:Spermine,M_69,Spermine,C00750,output,1
+module:M_70,compound:Methionine,M_70,Methionine,C00073,input,-1
+module:M_70,compound:Spermine,M_70,Spermine,C00750,output,1
+module:M_71,compound:Glucose_in,M_71,Glucose_in,C00000,input,-1
+module:M_71,compound:Glucose,M_71,Glucose,C00267,output,1
+module:M_72,compound:Acetyl-CoA_in,M_72,Acetyl-CoA_in,C00000,input,-1
+module:M_72,compound:Acetyl-CoA,M_72,Acetyl-CoA,C00024,output,1
+module:M_73,compound:Citrate_in,M_73,Citrate_in,C00000,input,-1
+module:M_73,compound:Citrate,M_73,Citrate,C00158,output,1
+module:M_74,compound:2OG_in,M_74,2OG_in,C00000,input,-1
+module:M_74,compound:2OG,M_74,2OG,C00026,output,1
+module:M_75,compound:Succinate_in,M_75,Succinate_in,C00000,input,-1
+module:M_75,compound:Succinate,M_75,Succinate,C00042,output,1
+module:M_76,compound:Malate_in,M_76,Malate_in,C00000,input,-1
+module:M_76,compound:Malate,M_76,Malate,C00149,output,1
+module:M_77,compound:Oxaloacetate_in,M_77,Oxaloacetate_in,C00000,input,-1
+module:M_77,compound:Oxaloacetate,M_77,Oxaloacetate,C00036,output,1
+module:M_78,compound:Lactate,M_78,Lactate,C00256,input,-1
+module:M_78,compound:Lactate_out,M_78,Lactate_out,C00000,output,1
+module:M_79,compound:serine_in,M_79,serine_in,C00000,input,-1
+module:M_79,compound:serine,M_79,serine,C00065,output,1
+module:M_80,compound:Cysteine_in,M_80,Cysteine_in,C00000,input,-1
+module:M_80,compound:Cysteine,M_80,Cysteine,C00097,output,1
+module:M_81,compound:Glycine_in,M_81,Glycine_in,C00000,input,-1
+module:M_81,compound:Glycine,M_81,Glycine,C00037,output,1
+module:M_83,compound:Choline_in,M_83,Choline_in,C00000,input,-1
+module:M_83,compound:Choline,M_83,Choline,C00114,output,1
+module:M_84,compound:Threonine_in,M_84,Threonine_in,C00000,input,-1
+module:M_84,compound:Threonine,M_84,Threonine,C00188,output,1
+module:M_85,compound:Aspartate_in,M_85,Aspartate_in,C00000,input,-1
+module:M_85,compound:Aspartate,M_85,Aspartate,C00049,output,1
+module:M_87,compound:Pyrimidine_in,M_87,Pyrimidine_in,C00000,input,-1
+module:M_87,compound:Pyrimidine,M_87,Pyrimidine,CC0002,output,1
+module:M_88,compound:Histidine_in,M_88,Histidine_in,C00000,input,-1
+module:M_88,compound:Histidine,M_88,Histidine,C00135,output,1
+module:M_89,compound:B-Alanine_in,M_89,B-Alanine_in,C00000,input,-1
+module:M_89,compound:B-Alanine,M_89,B-Alanine,C00099,output,1
+module:M_90,compound:Propanoyl-CoA_in,M_90,Propanoyl-CoA_in,C00000,input,-1
+module:M_90,compound:Propanoyl-CoA,M_90,Propanoyl-CoA,C00100,output,1
+module:M_91,compound:glutamate_in,M_91,glutamate_in,C00000,input,-1
+module:M_91,compound:glutamate,M_91,glutamate,C00025,output,1
+module:M_92,compound:Glutamine_in,M_92,Glutamine_in,C00000,input,-1
+module:M_92,compound:Glutamine,M_92,Glutamine,C00064,output,1
+module:M_93,compound:GABA_in,M_93,GABA_in,C00000,input,-1
+module:M_93,compound:GABA,M_93,GABA,C00334,output,1
+module:M_94,compound:Tyrosine_in,M_94,Tyrosine_in,C00000,input,-1
+module:M_94,compound:Tyrosine,M_94,Tyrosine,C00082,output,1
+module:M_95,compound:phenylalanine_in,M_95,phenylalanine_in,C00000,input,-1
+module:M_95,compound:phenylalanine,M_95,phenylalanine,C00079,output,1
+module:M_96,compound:Valine_in,M_96,Valine_in,C00000,input,-1
+module:M_96,compound:Valine,M_96,Valine,C00183,output,1
+module:M_97,compound:Isoleucine_in,M_97,Isoleucine_in,C00000,input,-1
+module:M_97,compound:Isoleucine,M_97,Isoleucine,C00407,output,1
+module:M_98,compound:Leucine_in,M_98,Leucine_in,C00000,input,-1
+module:M_98,compound:Leucine,M_98,Leucine,C00123,output,1
+module:M_99,compound:Lysine_in,M_99,Lysine_in,C00000,input,-1
+module:M_99,compound:Lysine,M_99,Lysine,C00047,output,1
+module:M_100,compound:Arginine,M_100,Arginine,C00000,input,-1
+module:M_100,compound:Arginine,M_100,Arginine,C00062,output,1
+module:M_101,compound:Citrulline_in,M_101,Citrulline_in,C00000,input,-1
+module:M_101,compound:Citrulline,M_101,Citrulline,C00327,output,1
+module:M_102,compound:Ornithine_in,M_102,Ornithine_in,C00000,input,-1
+module:M_102,compound:Ornithine,M_102,Ornithine,C00077,output,1
+module:M_103,compound:Proline_in,M_103,Proline_in,C00000,input,-1
+module:M_103,compound:Proline,M_103,Proline,C00148,output,1
+module:M_105,compound:Fatty Acid_in,M_105,Fatty Acid_in,C00000,input,-1
+module:M_105,compound:Fatty Acid,M_105,Fatty Acid,CC0001,output,1
+module:M_106,compound:Glucose,M_106,Glucose,C00267,input,-1
+module:M_106,compound:Glucose-6-phosphate,M_106,Glucose-6-phosphate,C00668,output,1
+module:M_107,compound:Glucose-6-phosphate,M_107,Glucose-6-phosphate,C00668,input,-1
+module:M_107,compound:UDP-N-acetylglucosamine,M_107,UDP-N-acetylglucosamine,C00043,output,1
+module:M_108,compound:Glucose-6-phosphate,M_108,Glucose-6-phosphate,C00668,input,-1
+module:M_108,compound:Glucose-1-phosphate,M_108,Glucose-1-phosphate,C00103,output,1
+module:M_109,compound:Glucose-1-phosphate,M_109,Glucose-1-phosphate,C00103,input,-1
+module:M_109,compound:UDP-glucuronic acid,M_109,UDP-glucuronic acid,C00167,output,1
+module:M_110,compound:UDP-glucuronic acid,M_110,UDP-glucuronic acid,C00167,input,-1
+module:M_110,compound:UDP-N-acetylglucosamine,M_110,UDP-N-acetylglucosamine,C00043,input,-1
+module:M_110,compound:Hyaluronic acid,M_110,Hyaluronic acid,C00518,output,1
+module:M_111,compound:Glucose-1-phosphate,M_111,Glucose-1-phosphate,C00103,input,-1
+module:M_111,compound:Glycogen,M_111,Glycogen,C00182,output,1
+module:M_112,compound:UDP-N-acetylglucosamine,M_112,UDP-N-acetylglucosamine,C00043,input,-1
+module:M_112,compound:CMP-N-acetylneuraminate,M_112,CMP-N-acetylneuraminate,C00128,output,1
+module:M_113,compound:Acetyl-CoA,M_113,Acetyl-CoA,C00024,input,-1
+module:M_113,"compound:(E,E)-Farnesyl-PP",M_113,"(E,E)-Farnesyl-PP",C00448,output,1
+module:M_114,"compound:(E,E)-Farnesyl-PP",M_114,"(E,E)-Farnesyl-PP",C00448,input,-1
+module:M_114,compound:Geranylgeranyl-PP,M_114,Geranylgeranyl-PP,C00353,output,1
+module:M_115,"compound:(E,E)-Farnesyl-PP",M_115,"(E,E)-Farnesyl-PP",C00448,input,-1
+module:M_115,compound:Farnesal,M_115,Farnesal,C03461,output,1
+module:M_116,"compound:(E,E)-Farnesyl-PP",M_116,"(E,E)-Farnesyl-PP",C00448,input,-1
+module:M_116,compound:Ubiquinone,M_116,Ubiquinone,C00399,output,1
+module:M_117,"compound:(E,E)-Farnesyl-PP",M_117,"(E,E)-Farnesyl-PP",C00448,input,-1
+module:M_117,compound:Dolichyl phosphate,M_117,Dolichyl phosphate,C00110,output,1
+module:M_118,compound:Dolichyl phosphate,M_118,Dolichyl phosphate,C00110,input,-1
+module:M_118,compound:Dolichyl phosphate D-mannose,M_118,Dolichyl phosphate D-mannose,C03862,output,1
+module:M_119,compound:Dolichyl phosphate,M_119,Dolichyl phosphate,C00110,input,-1
+module:M_119,compound:(GlcNAc)4 (Man)3 (Asn)1,M_119,(GlcNAc)4 (Man)3 (Asn)1,G00015,output,1
+module:M_120,compound:(Glc)3 (GlcNAc)2 (Man)9 (PP-Dol)1,M_120,(Glc)3 (GlcNAc)2 (Man)9 (PP-Dol)1,G00008,input,-1
+module:M_120,compound:Protein asparagine,M_120,Protein asparagine,C03021,input,-1
+module:M_120,compound:(Glc)3 (GlcNAc)2 (Man)9 (Asn)1,M_120,(Glc)3 (GlcNAc)2 (Man)9 (Asn)1,G00009,output,1
+module:M_121,compound:(Glc)3 (GlcNAc)2 (Man)9 (Asn)1,M_121,(Glc)3 (GlcNAc)2 (Man)9 (Asn)1,G00009,input,-1
+module:M_121,compound:(GlcNAc)4 (Man)3 (Asn)1,M_121,(GlcNAc)4 (Man)3 (Asn)1,G00015,output,1
+module:M_122,compound:(GlcNAc)4 (Man)3 (Asn)1,M_122,(GlcNAc)4 (Man)3 (Asn)1,G00015,input,-1
+module:M_122,compound:(Gal)2 (GlcNAc)4 (LFuc)1 (Man)3 (Neu5Ac)2 (Asn)1,M_122,(Gal)2 (GlcNAc)4 (LFuc)1 (Man)3 (Neu5Ac)2 (Asn)1,G00018,output,1
+module:M_123,compound:(GlcNAc)4 (Man)3 (Asn)1,M_123,(GlcNAc)4 (Man)3 (Asn)1,G00015,input,-1
+module:M_123,compound:(GlcNAc)7 (Man)3 (Asn)1,M_123,(GlcNAc)7 (Man)3 (Asn)1,G00022,output,1
+module:M_124,compound:(GlcNAc)4 (Man)3 (Asn)1,M_124,(GlcNAc)4 (Man)3 (Asn)1,G00015,input,-1
+module:M_124,compound:(GlcNAc)5 (Man)3 (Asn)1,M_124,(GlcNAc)5 (Man)3 (Asn)1,G00019,output,1
+module:M_125,compound:Dolichyl phosphate D-mannose,M_125,Dolichyl phosphate D-mannose,C03862,input,-1
+module:M_125,compound:Protein serine,M_125,Protein serine,C02189,input,-1
+module:M_125,compound:(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,M_125,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,G13084,output,1
+module:M_126,compound:(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,M_126,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,G13084,input,-1
+module:M_126,compound:(Gal)1 (GlcNAc)1 (Man)1 (Neu5Ac)1 (Ser/Thr)1,M_126,(Gal)1 (GlcNAc)1 (Man)1 (Neu5Ac)1 (Ser/Thr)1,G13085,output,1
+module:M_127,compound:(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,M_127,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,G13084,input,-1
+module:M_127,compound:(Gal)1 (GlcA)1 (GlcNAc)1 (Man)1 (S)1 (Ser/Thr)1,M_127,(Gal)1 (GlcA)1 (GlcNAc)1 (Man)1 (S)1 (Ser/Thr)1,G13088,output,1
+module:M_128,compound:(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,M_128,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,G13084,input,-1
+module:M_128,compound:(Gal)1 (GlcNAc)1 (LFuc)1 (Man)1 (Ser/Thr)1,M_128,(Gal)1 (GlcNAc)1 (LFuc)1 (Man)1 (Ser/Thr)1,G13100,output,1
+module:M_129,compound:Protein serine,M_129,Protein serine,C02189,input,-1
+module:M_129,compound:(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,M_129,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,G00157,output,1
+module:M_130,compound:(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,M_130,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,G00157,input,-1
+module:M_130,compound:Chondroitin,M_130,Chondroitin,C00401,output,1
+module:M_131,compound:Chondroitin,M_131,Chondroitin,C00401,input,-1
+module:M_131,compound:Dermatan,M_131,Dermatan,C01490,output,1
+module:M_132,compound:(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,M_132,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,G00157,input,-1
+module:M_132,compound:(Gal)2 (GlcA)2 (GlcNAc)2 (Xyl)1 (Ser)1,M_132,(Gal)2 (GlcA)2 (GlcNAc)2 (Xyl)1 (Ser)1,G00164,output,1
+module:M_133,compound:PRPP,M_133,PRPP,C00119,input,-1
+module:M_133,compound:Glutamine,M_133,Glutamine,C00064,input,-1
+module:M_133,compound:IMP,M_133,IMP,C00130,output,1
+module:M_134,compound:5-Phosphoribosylamine,M_134,5-Phosphoribosylamine,C03090,input,-1
+module:M_134,compound:AICAR,M_134,AICAR,C04677,output,1
+module:M_135,compound:AICAR,M_135,AICAR,C04677,input,-1
+module:M_135,compound:IMP,M_135,IMP,C00130,output,1
+module:M_136,compound:IMP,M_136,IMP,C00130,input,-1
+module:M_136,compound:AMP,M_136,AMP,C00020,output,1
+module:M_137,compound:IMP,M_137,IMP,C00130,input,-1
+module:M_137,compound:XMP,M_137,XMP,C00655,output,1
+module:M_138,compound:AMP,M_138,AMP,C00020,input,-1
+module:M_138,compound:Deoxyadenosine,M_138,Deoxyadenosine,C00559,output,1
+module:M_139,compound:AMP,M_139,AMP,C00020,input,-1
+module:M_139,compound:Adenine,M_139,Adenine,C00147,output,1
+module:M_140,compound:ADP,M_140,ADP,C00008,input,-1
+module:M_140,compound:Deoxyadenosine,M_140,Deoxyadenosine,C00559,output,1
+module:M_141,compound:Deoxyadenosine,M_141,Deoxyadenosine,C00559,input,-1
+module:M_141,compound:Adenine,M_141,Adenine,C00147,output,1
+module:M_142,compound:Deoxyadenosine,M_142,Deoxyadenosine,C00559,input,-1
+module:M_142,compound:Hypoxanthine,M_142,Hypoxanthine,C00262,output,1
+module:M_143,compound:IMP,M_143,IMP,C00130,input,-1
+module:M_143,compound:Hypoxanthine,M_143,Hypoxanthine,C00262,output,1
+module:M_144,compound:Hypoxanthine,M_144,Hypoxanthine,C00262,input,-1
+module:M_144,compound:Xanthine,M_144,Xanthine,C00385,output,1
+module:M_145,compound:XMP,M_145,XMP,C00655,input,-1
+module:M_145,compound:Xanthine,M_145,Xanthine,C00385,output,1
+module:M_146,compound:Xanthine,M_146,Xanthine,C00385,input,-1
+module:M_146,compound:Uric acid,M_146,Uric acid,C00366,output,1
+module:M_147,compound:Xanthine,M_147,Xanthine,C00385,input,-1
+module:M_147,compound:Guanine,M_147,Guanine,C00242,output,1
+module:M_148,compound:XMP,M_148,XMP,C00655,input,-1
+module:M_148,compound:Guanine,M_148,Guanine,C00242,output,1
+module:M_149,compound:GMP,M_149,GMP,C00144,input,-1
+module:M_149,compound:Guanine,M_149,Guanine,C00242,output,1
+module:M_150,compound:PRPP,M_150,PRPP,C00119,input,-1
+module:M_150,compound:UMP,M_150,UMP,C00105,output,1
+module:M_151,compound:Orotidylic acid,M_151,Orotidylic acid,C01103,input,-1
+module:M_151,compound:UMP,M_151,UMP,C00105,output,1
+module:M_152,compound:UMP,M_152,UMP,C00105,input,-1
+module:M_152,compound:B-Alanine,M_152,B-Alanine,C00099,output,1
+module:M_153,compound:UMP,M_153,UMP,C00105,input,-1
+module:M_153,compound:CDP,M_153,CDP,C00112,output,1
+module:M_154,compound:Uracil,M_154,Uracil,C00106,input,-1
+module:M_154,compound:B-Alanine,M_154,B-Alanine,C00099,output,1
+module:M_155,compound:UTP,M_155,UTP,C00075,input,-1
+module:M_155,compound:CDP,M_155,CDP,C00112,output,1
+module:M_156,compound:CDP,M_156,CDP,C00112,input,-1
+module:M_156,compound:Cytidine,M_156,Cytidine,C00475,output,1
+module:M_157,compound:CDP,M_157,CDP,C00112,input,-1
+module:M_157,compound:dCDP,M_157,dCDP,C00705,output,1
+module:M_158,compound:dCDP,M_158,dCDP,C00705,input,-1
+module:M_158,compound:Deoxycytidine,M_158,Deoxycytidine,C00881,output,1
+module:M_159,compound:dCMP,M_159,dCMP,C00239,input,-1
+module:M_159,compound:Deoxycytidine,M_159,Deoxycytidine,C00881,output,1
+module:M_160,compound:dCDP,M_160,dCDP,C00705,input,-1
+module:M_160,compound:dUMP,M_160,dUMP,C00365,output,1
+module:M_161,compound:dCDP,M_161,dCDP,C00705,input,-1
+module:M_161,compound:dCTP,M_161,dCTP,C00458,output,1
+module:M_162,compound:dUMP,M_162,dUMP,C00365,input,-1
+module:M_162,compound:Deoxyuridine,M_162,Deoxyuridine,C00526,output,1
+module:M_163,compound:dUMP,M_163,dUMP,C00365,input,-1
+module:M_163,compound:dTMP,M_163,dTMP,C00364,output,1
+module:M_164,compound:dTMP,M_164,dTMP,C00364,input,-1
+module:M_164,compound:Succinyl-CoA,M_164,Succinyl-CoA,C00091,output,1
+module:M_165,compound:dTMP,M_165,dTMP,C00364,input,-1
+module:M_165,compound:dTTP,M_165,dTTP,C00459,output,1
+module:M_166,compound:Thymine,M_166,Thymine,C00178,input,-1
+module:M_166,compound:Succinyl-CoA,M_166,Succinyl-CoA,C00091,output,1
+module:M_167,"compound:(E,E)-Farnesyl-PP",M_167,"(E,E)-Farnesyl-PP",C00448,input,-1
+module:M_167,compound:Cholesterol,M_167,Cholesterol,C00187,output,1
+module:M_168,compound:Cholesterol,M_168,Cholesterol,C00187,input,-1
+module:M_168,compound:Chenodeoxycholate,M_168,Chenodeoxycholate,C02528,output,1
+module:M_169,compound:Cholesterol,M_169,Cholesterol,C00187,input,-1
+module:M_169,compound:Steroid_hormone,M_169,Steroid_hormone,CC0003,output,1
+module:M_170,compound:XMP,M_170,XMP,C00655,input,-1
+module:M_170,compound:GMP,M_170,GMP,C00144,output,1
+module:M_171,compound:dCDP,M_171,dCDP,C00705,input,-1
+module:M_171,compound:dCMP,M_171,dCMP,C00239,output,1

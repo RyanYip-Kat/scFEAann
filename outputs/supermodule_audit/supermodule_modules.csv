@@ -1,0 +1,169 @@
+supermodule_id,supermodule_class,module_id,reaction,module_genes,n_module_genes
+1,Glycolysis+TCA cycle,M_1,Glucose -> G6P,ADPGK;G6PC;G6PC2;G6PC3;GALM;GCK;HK1;HK2;HK3;HKDC1,10
+1,Glycolysis+TCA cycle,M_2,G6P -> G3P,ALDOA;ALDOB;ALDOC;FBP1;FBP2;GPI;PFKL;PFKM;PFKP;TPI1,10
+1,Glycolysis+TCA cycle,M_3,G3P -> 3PD,BPGM;COQ2;GAPDH;GAPDHS;PGAM1;PGAM2;PGAM4;PGK1;PGK2;PHB;PPT1,11
+1,Glycolysis+TCA cycle,M_4,3PD -> Pyruvate,BPGM;COQ2;ENO1;ENO2;ENO3;MINPP1;PCK1;PCK2;PGAM1;PGAM2;PGAM4;PHB;PKLR;PKM;PPT1,15
+1,Glycolysis+TCA cycle,M_5,Pyruvate -> Acetyl-Coa,DLAT;DLD;PDHA1;PDHA2;PDHB,5
+1,Glycolysis+TCA cycle,M_6,Pyruvate -> Lactate,LDHA;LDHAL6A;LDHAL6B;LDHB;LDHC;LDHD,6
+1,Glycolysis+TCA cycle,M_7,Acetyl-CoA + Oxaloacetate -> Citrate,ACLY;CS,2
+1,Glycolysis+TCA cycle,M_8,Citrate -> 2OG,ACO1;ACO2;IDH1;IDH2;IDH3A;IDH3B;IDH3G,7
+1,Glycolysis+TCA cycle,M_9,2OG -> Succinyl-CoA,DLD;DLST;OGDH;OGDHL,4
+1,Glycolysis+TCA cycle,M_10,Succinyl-CoA -> Succinate,SUCLA2;SUCLG1;SUCLG2,3
+1,Glycolysis+TCA cycle,M_11,Succinate -> Fumarate,SDHA;SDHB,2
+1,Glycolysis+TCA cycle,M_12,Fumarate -> Malate,FH,1
+1,Glycolysis+TCA cycle,M_13,Malate -> Oxaloacetate,MDH1;MDH2,2
+1,Glycolysis+TCA cycle,M_14,Pyruvate -> Oxaloacetate,PC,1
+2,Serine metabolism,M_15,3PD -> Serine,PHGDH;PSAT1;PSPH,3
+2,Serine metabolism,M_16,Serine -> Pyruvate,SDS;SDSL,2
+2,Serine metabolism,M_17,Serine -> Cysteine,CBS;CTH,2
+2,Serine metabolism,M_18,Serine -> Glycine,AGXT;SHMT1;SHMT2,3
+2,Serine metabolism,M_19,Glycine -> Creatine,GAMT;GATM,2
+2,Serine metabolism,M_20,Glycine -> Glyoxylate,AGXT;AGXT2;DAO,3
+2,Serine metabolism,M_21,Choline -> Glycine,ALDH7A1;BHMT;CHDH;DMGDH;PIPOX;SARDH,6
+2,Serine metabolism,M_22,Glycine -> Glycine-OUT,ALAS1;ALAS2;AOC2;AOC3;GCAT;GLDC;MAOA;MAOB,8
+2,Serine metabolism,M_23,Glycine -> Glutathione,GSS,1
+2,Serine metabolism,M_24,Glutathione -> Glycine + Cysteine,ANPEP;GCLC;GGT6;GSS;LAP3,5
+2,Serine metabolism,M_25,Glutathione -> glutamate,GGCT;GGT1;GGT5;GGT6;GGT7;GSTA1;GSTA2;GSTA3;GSTA4;GSTA5;GSTK1;GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTO2;GSTP1;GSTT2;GSTT2B;MGST1;MGST2;MGST3;OPLAH,25
+2,Serine metabolism,M_26,Glutamate + Cysteine -> Glutathione,GCLC;GSS,2
+2,Serine metabolism,M_27,Serine -> 2-Aminoacrylate,SDS;SDSL,2
+2,Serine metabolism,M_28,Serine -> Methionine,BHMT;BHMT2;CBS;KYAT1;KYAT3;MTR,6
+2,Serine metabolism,M_29,Cysteine -> Pyruvate,CDO1;CTH;GOT1;GOT2;KYAT1;KYAT3;MPST;TST,8
+2,Serine metabolism,M_30,Methionine -> Cysteine,AHCY;AHCYL1;AHCYL2;CBS;CTH;DNMT1;DNMT3A;DNMT3B;DNMT3L;MAT1A;MAT2A;MAT2B,12
+2,Serine metabolism,M_31,Methionine -> Methionine-OUT,ADI1;AMD1;APIP;ENOPH1;IL4I1;MAT1A;MAT2A;MAT2B;MRI1;MTAP;SMS;SRM;TAT,13
+2,Serine metabolism,M_32,Threonine -> Propanoyl-CoA,BCKDHA;BCKDHB;DBT;DLAT;DLD;SDS;SDSL,7
+3,Pentose phosphate,M_33,G3P -> PRPP,ALDOA;ALDOB;ALDOC;FBP1;FBP2;G6PD;GPI;H6PD;PFKL;PFKM;PFKP;PGD;PGLS;PGM1;PGM2;PRPS1;PRPS1L1;PRPS2;RBKS;RPE;RPEL1;RPIA;TALDO1;TKT;TKTL1;TKTL2,26
+4,Fatty acids metabolism/synthesis,M_34,Acetyl-CoA -> Fatty Acid,ACACA;ACACB;ACSBG1;ACSBG2;ACSL1;ACSL3;ACSL4;ACSL5;ACSL6;FASN;HSD11B2;HSD17B1;HSD17B12;HSD17B2;HSD17B6;HSD17B7;HSD17B8;MAST1;MCAT;MECR;OLAH;OXSM;PECR;RDH10;RDH16;RDH8;RNF2;SLC27A2,28
+4,Fatty acids metabolism/synthesis,M_35,Fatty Acid -> Acetyl-CoA,ACAA1;ACAA2;ACADL;ACADM;ACADS;ACADSB;ACADVL;ACAT1;ACAT2;ACOX1;ACOX3;ACSBG1;ACSBG2;ACSL1;ACSL3;ACSL4;ACSL5;ACSL6;CPT1A;CPT1B;CPT1C;CPT2;ECHS1;EHHADH;GCDH;HADH;HADHA;HADHB;HSD17B10;HSD17B4;SLC27A2,31
+5,Aspartate metabolism,M_36,Aspartate -> Pyrimidine,CAD;DHODH,2
+5,Aspartate metabolism,M_37,Aspartate -> Aspartate-OUT,ACY3;ASPA;FOLH1;NAALAD2;NAALADL1;NAT8L;RIMKLA,7
+5,Aspartate metabolism,M_38,Aspartate -> Asparagine,ALPP;ASNS;ASPG;ASRGL1,4
+5,Aspartate metabolism,M_39,Aspartate -> Fumarate,ADSL;ADSS;ADSSL1;ASL;ASS1,5
+5,Aspartate metabolism,M_40,Aspartate -> Oxaloacetate,GOT1;GOT2;IL4I1,3
+6,Beta-alanine metabolism,M_41,Aspartate -> B-Alanine,AZIN2;GAD1;GAD2;GADL1,4
+6,Beta-alanine metabolism,M_42,Spermine -> B-Alanine,ALDH1A3;ALDH1B1;ALDH2;ALDH3A1;ALDH3A2;ALDH3B1;ALDH3B2;ALDH7A1;ALDH9A1;AOC2;AOC3;SMOX,12
+6,Beta-alanine metabolism,M_43,Histidine -> B-Alanine,CARNS1;CNDP1;CNDP2,3
+6,Beta-alanine metabolism,M_44,B-Alanine -> Acetyl-CoA,ABAT;ALDH6A1,2
+6,Beta-alanine metabolism,M_45,Pyrimidine -> B-Alanine,DPYD;DPYS;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PNP;TK1;TK2;TYMP;UCK1;UCK2;UCKL1;UPB1;UPP1;UPP2;UPRT,22
+7,Propionyl-CoA metabolism,M_46,Propanoyl-CoA -> Succinate,ECHDC1;MCEE;MUT;PCCA;PCCB;SUCLA2;SUCLG1;SUCLG2,8
+7,Propionyl-CoA metabolism,M_47,Propanoyl-CoA -> Acetyl-CoA,ACACA;ACACB;ACADS;ACOX1;ACOX3;ECHS1;EHHADH;HADHA;MLYCD,9
+8,Glutamate metabolism,M_48,Glutamate -> Glutamine,GLS;GLS2;GLUL,3
+8,Glutamate metabolism,M_49,Glutamate -> GABA,GAD1;GAD2,2
+8,Glutamate metabolism,M_50,GABA -> Succinate,ABAT;ALDH5A1,2
+8,Glutamate metabolism,M_51,Glutamate -> 2OG,GLUD1;GLUD2,2
+8,Glutamate metabolism,M_52,Histidine -> glutamate,AMDHD1;FTCD;HAL;UROC1,4
+9,Leucine+valine+isoleucine,M_53,Leucine -> Acetyl-CoA,AACS;ACADM;ACAT1;ACAT2;AUH;BCAT1;BCAT2;BCKDHA;BCKDHB;DBT;DLD;ECHS1;EHHADH;HADHA;HMGCL;HMGCS1;HMGCS2;IVD;MCCC1;MCCC2;OXCT1;OXCT2,22
+9,Leucine+valine+isoleucine,M_54,Valine -> Succinyl-CoA,ABAT;ACAD8;ACADM;ACADS;ACADSB;ACSF3;AGXT2;ALDH1B1;ALDH2;ALDH3A2;ALDH7A1;ALDH9A1;AOX1;BCAT1;BCAT2;BCKDHA;BCKDHB;DBT;DLD;ECHS1;EHHADH;HADH;HADHA;HIBADH;HIBCH;HSD17B10;MUT,27
+9,Leucine+valine+isoleucine,M_55,Isoleucine -> Succinyl-CoA,ACAA1;ACAA2;ACADM;ACADS;ACADSB;BCAT1;BCAT2;BCKDHA;BCKDHB;DBT;DLD;ECHS1;EHHADH;HADH;HADHA;HADHB;HSD17B10;IL4I1;MCEE;MUT;PCCA;PCCB,22
+9,Leucine+valine+isoleucine,M_56,Isoleucine -> Acetyl-CoA,ACAA1;ACAA2;ACADM;ACADS;ACADSB;BCAT1;BCAT2;BCKDHA;BCKDHB;DBT;DLD;ECHS1;EHHADH;HADH;HADHA;HADHB;HSD17B10;IL4I1,18
+9,Leucine+valine+isoleucine,M_57,Tyrosine -> Fumarate,FAH;GOT1;GOT2;GSTZ1;HGD;HPD;IL4I1;MIF;TAT,9
+9,Leucine+valine+isoleucine,M_58,Tyrosine -> Tyrosine-OUT,ALDH1A3;ALDH3A1;ALDH3B1;ALDH3B2;AOC2;AOC3;DDC;MAOA;MAOB;TH;TPO;TYR,12
+9,Leucine+valine+isoleucine,M_59,Phenylalanine -> Tyrosine,PAH,1
+9,Leucine+valine+isoleucine,M_60,lysine -> Acetyl-CoA,AADAT;AASS;ACAT1;ACAT2;ALDH7A1;DLD;ECHS1;EHHADH;GCDH;HADH;HADHA;HSD17B10;HSD17B4;HYKK;PHYKPL,15
+10,Urea cycle,M_61,Putrescine -> GABA,ALDH1B1;ALDH2;ALDH3A2;ALDH7A1;ALDH9A1;AOC1,6
+10,Urea cycle,M_62,Ornithine -> Putrescine,ODC1,1
+10,Urea cycle,M_63,Arginine -> Ornithine,ARG1;ARG2,2
+10,Urea cycle,M_64,Arginine -> Putrescine,AGMAT;AZIN2,2
+10,Urea cycle,M_65,Argininosuccinate -> Arginine + Fumarate,ASL,1
+10,Urea cycle,M_66,Citruline + Aspartate -> Argininosuccinate,ASS1,1
+10,Urea cycle,M_67,Ornithine -> Proline,OAT;PRODH;PRODH2;PYCR1;PYCR2;PYCR3,6
+10,Urea cycle,M_68,Proline -> Glyoxylate + pyruvate,ALDH4A1;GOT1;GOT2;HOGA1;PRODH2;PYCR1;PYCR2;PYCR3,8
+11,Spermine metabolism,M_69,Putresine -> Spermine,SMOX;SMS;SRM,3
+11,Spermine metabolism,M_70,Methionine -> Spermine,AMD1;MAT1A;MAT2A;MAT2B;SMOX;SMS;SRM,7
+12,Transporters,M_71,Glucose_in -> Glucose,SLC2A1;SLC2A2;SLC2A3;SLC2A4,4
+12,Transporters,M_72,Acetyl-CoA_in -> Acetyl-CoA,SLC33A1,1
+12,Transporters,M_73,Citrate_in -> Citrate,SLC13A5;SLC25A1,2
+12,Transporters,M_74,2OG_in -> 2OG,SLC25A11,1
+12,Transporters,M_75,Succinate_in -> Succinate,SLC13A3;SLC25A10,2
+12,Transporters,M_76,Malate_in -> Malate,SLC25A10;SLC25A11,2
+12,Transporters,M_77,Oxaloacetate_in -> Oxaloacetate,SLC25A21,1
+12,Transporters,M_78,Lactate -> Lactate_out,SLC16A1;SLC16A3;SLC16A4,3
+12,Transporters,M_79,serine_in -> serine,SLC1A4;SLC1A5;SLC38A2;SLC38A4;SLC38A5;SLC7A10,6
+12,Transporters,M_80,Cysteine_in -> Cysteine,SLC1A4;SLC1A5;SLC38A1;SLC38A2;SLC38A4;SLC7A10;SLC7A11;SLC7A7,8
+12,Transporters,M_81,Glycine_in -> Glycine,SLC6A5;SLC6A9,2
+12,Transporters,M_83,Choline_in -> Choline,SLC5A7,1
+12,Transporters,M_84,Threonine_in -> Threonine,SLC1A4;SLC7A8,2
+12,Transporters,M_85,Aspartate_in -> Aspartate,SLC1A3;SLC1A6,2
+12,Transporters,M_87,Pyrimidine_in -> Pyrimidine,SLC29A1;SLC29A2,2
+12,Transporters,M_88,Histidine_in -> Histidine,SLC15A4,1
+12,Transporters,M_89,B-Alanine_in -> B-Alanine,SLC6A6,1
+12,Transporters,M_90,Propanoyl-CoA_in -> Propanoyl-CoA,SLC27A1,1
+12,Transporters,M_91,glutamate_in -> glutamate,SLC17A6;SLC17A7;SLC17A8;SLC1A1;SLC1A2;SLC1A3;SLC1A5;SLC1A6;SLC1A7,9
+12,Transporters,M_92,Glutamine_in -> Glutamine,SLC1A5,1
+12,Transporters,M_93,GABA_in -> GABA,SLC32A1;SLC6A1;SLC6A11;SLC6A12;SLC6A13,5
+12,Transporters,M_94,Tyrosine_in -> Tyrosine,SLC7A5;SLC7A8,2
+12,Transporters,M_95,phenylalanine_in -> phenylalanine,SLC7A8,1
+12,Transporters,M_96,Valine_in -> Valine,SLC6A15,1
+12,Transporters,M_97,Isoleucine_in -> Isoleucine,SLC6A15,1
+12,Transporters,M_98,Leucine_in -> Leucine,SLC6A15;SLC7A5;SLC7A6,3
+12,Transporters,M_99,Lysine_in -> Lysine,SLC25A29;SLC38A4;SLC66A1,3
+12,Transporters,M_100,Arginine -> Arginine,SLC25A29;SLC7A1;SLC7A2,3
+12,Transporters,M_101,Citrulline_in -> Citrulline,SLC25A15,1
+12,Transporters,M_102,Ornithine_in -> Ornithine,SLC25A15;SLC25A15P1;SLC25A2;SLC25A29,4
+12,Transporters,M_103,Proline_in -> Proline,SLC36A1;SLC6A20;SLC6A7,3
+12,Transporters,M_105,Fatty Acid_in -> Fatty Acid,SLC27A1;SLC27A2;SLC27A3;SLC27A4;SLC27A5;SLC27A6,6
+13,Hyaluronic acid synthesis,M_106,Glucose -> Glucose-6-phosphate,GCK;HK1;HK2;HK3;HKDC1,5
+13,Hyaluronic acid synthesis,M_107,Glucose-6-phosphate -> UDP-N-acetylglucosamine,AMDHD2;GFPT1;GFPT2;GNPDA1;GNPDA2;GNPNAT1;GPI;PGM3;UAP1;UAP1L1,10
+13,Hyaluronic acid synthesis,M_108,Glucose-6-phosphate -> Glucose-1-phosphate,PGM1;PGM2,2
+13,Hyaluronic acid synthesis,M_109,Glucose-1-phosphate -> UDP-glucuronic acid,UGDH;UGP2,2
+13,Hyaluronic acid synthesis,M_110,UDP-glucuronic acid + UDP-N-acetylglucosamine -> Hyaluronic acid,HAS1;HAS2;HAS3,3
+14,Glycogen synthesis,M_111,Glucose-1-phosphate -> Glycogen,GYS1;GYS2;PYGB,3
+15,Glycosaminoglycan synthesis,M_112,UDP-N-acetylglucosamine -> CMP-N-acetylneuraminate,CMAS;GNE;NANP;NANS;TSPAN31,5
+16,N-linked glycan synthesis,M_113,"Acetyl-CoA -> (E,E)-Farnesyl-PP",ACAT1;ACAT2;FDPS;GGPS1;HMGCR;HMGCS1;HMGCS2;IDI1;IDI2;MVD;MVK;PMVK,12
+16,N-linked glycan synthesis,M_114,"(E,E)-Farnesyl-PP -> Geranylgeranyl-PP",FDPS;GGPS1,2
+16,N-linked glycan synthesis,M_115,"(E,E)-Farnesyl-PP -> Farnesal",FNTA;FNTB;ICMT;PCYOX1;RCE1;ZMPSTE24,6
+16,N-linked glycan synthesis,M_116,"(E,E)-Farnesyl-PP -> Ubiquinone",CLK1;COQ2;COQ3;COQ5;COQ6;COQ7;PDSS1;PDSS2;PHB;PPT1,10
+16,N-linked glycan synthesis,M_117,"(E,E)-Farnesyl-PP -> Dolichyl phosphate",ALG11;DHDDS;DOLK;SRD5A1;SRD5A2;SRD5A3,6
+16,N-linked glycan synthesis,M_118,Dolichyl phosphate -> Dolichyl phosphate D-mannose,DPM1,1
+16,N-linked glycan synthesis,M_119,Dolichyl phosphate -> (GlcNAc)4 (Man)3 (Asn)1,ALG10;ALG10B;ALG5;ALG6;ALG8;GANAB;MAN1A1;MAN1A2;MAN1B1;MAN1C1;MAN2A1;MAN2A2;MGAT1;MGAT2;MOGS;STT3A;STT3B,17
+16,N-linked glycan synthesis,M_120,(Glc)3 (GlcNAc)2 (Man)9 (PP-Dol)1 + Protein asparagine -> (Glc)3 (GlcNAc)2 (Man)9 (Asn)1,STT3A;STT3B,2
+16,N-linked glycan synthesis,M_121,(Glc)3 (GlcNAc)2 (Man)9 (Asn)1 -> (GlcNAc)4 (Man)3 (Asn)1,GANAB;MAN1A1;MAN1A2;MAN1B1;MAN1C1;MAN2A1;MAN2A2;MGAT1;MGAT2;MOGS,10
+16,N-linked glycan synthesis,M_122,(GlcNAc)4 (Man)3 (Asn)1 -> (Gal)2 (GlcNAc)4 (LFuc)1 (Man)3 (Neu5Ac)2 (Asn)1,ABO;B4GALT1;B4GALT2;B4GALT3;FUT8;ST6GAL1;ST6GAL2,7
+16,N-linked glycan synthesis,M_123,(GlcNAc)4 (Man)3 (Asn)1 -> (GlcNAc)7 (Man)3 (Asn)1,MGAT4A;MGAT4B;MGAT4C,3
+16,N-linked glycan synthesis,M_124,(GlcNAc)4 (Man)3 (Asn)1 -> (GlcNAc)5 (Man)3 (Asn)1,MGAT3,1
+17,O-linked glycan synthesis,M_125,Dolichyl phosphate D-mannose + Protein serine -> (Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,ABO;B3GLCT;B4GALT1;B4GALT2;B4GALT3;FUT4;FUT7;MGAT5B;POGLUT1;POMGNT1;POMT1;POMT2,12
+17,O-linked glycan synthesis,M_126,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1 -> (Gal)1 (GlcNAc)1 (Man)1 (Neu5Ac)1 (Ser/Thr)1,ST3GAL2;ST3GAL3;ST3GAL6,3
+17,O-linked glycan synthesis,M_127,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1 -> (Gal)1 (GlcA)1 (GlcNAc)1 (Man)1 (S)1 (Ser/Thr)1,B3GAT2;CHST10,2
+17,O-linked glycan synthesis,M_128,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1 -> (Gal)1 (GlcNAc)1 (LFuc)1 (Man)1 (Ser/Thr)1,FUT9,1
+18,Sialic acid synthesis,M_129,Protein serine -> (Gal)2 (GlcA)1 (Xyl)1 (Ser)1,B3GALT6;B3GAT3;B4GALT7;XYLT1;XYLT2,5
+18,Sialic acid synthesis,M_130,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1 -> Chondroitin,CHPF;CHPF2;CHSY1;CHSY3;CSGALNACT1;CSGALNACT2;DSE,7
+18,Sialic acid synthesis,M_131,Chondroitin -> Dermatan,DSE,1
+19,Glycan synthesis,M_132,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1 -> (Gal)2 (GlcA)2 (GlcNAc)2 (Xyl)1 (Ser)1,EXT1;EXT2;EXTL1;EXTL2;EXTL3,5
+20,Purine synthesis,M_133,PRPP + Glutamine -> IMP,ADSL;ATIC;CANT1;ENTPD1;ENTPD3;ENTPD4;ENTPD5;ENTPD6;ENTPD8;GART;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7;NUDT16;NUDT5;PAICS;PFAS;PPAT,23
+20,Purine synthesis,M_134,5-Phosphoribosylamine -> AICAR,ADSL;GART;PAICS;PFAS,4
+20,Purine synthesis,M_135,AICAR -> IMP,ATIC;CANT1;ENTPD1;ENTPD3;ENTPD4;ENTPD5;ENTPD6;ENTPD8;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7;NUDT16;NUDT5,18
+20,Purine synthesis,M_136,IMP -> AMP,ADSL;ADSS;ADSSL1;AMPD1;AMPD2;AMPD3,6
+20,Purine synthesis,M_137,IMP -> XMP,IMPDH1;IMPDH2,2
+20,Purine synthesis,M_138,AMP -> Deoxyadenosine,AK1;AK2;AK3;AK4;AK5;AK6;AK7;AK8;ENTPD1;ENTPD3;ENTPD8;F9;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PKLR;PKM;RRM1;RRM2;RRM2B,34
+20,Purine synthesis,M_139,AMP -> Adenine,ADK;DCK;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PNP,12
+20,Purine synthesis,M_140,ADP -> Deoxyadenosine,AK1;AK2;AK4;AK5;AK7;AK8;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PKLR;PKM;RRM1;RRM2;RRM2B,28
+20,Purine synthesis,M_141,Deoxyadenosine -> Adenine,PNP,1
+20,Purine synthesis,M_142,Deoxyadenosine -> Hypoxanthine,ADA;PNP,2
+20,Purine synthesis,M_143,IMP -> Hypoxanthine,ADA;HPRT1;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PNP,12
+20,Purine synthesis,M_144,Hypoxanthine -> Xanthine,XDH,1
+20,Purine synthesis,M_145,XMP -> Xanthine,HPRT1;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;NUDT2;NUDT5;PNP,13
+20,Purine synthesis,M_146,Xanthine -> Uric acid,XDH,1
+20,Purine synthesis,M_147,Xanthine -> Guanine,GDA,1
+20,Purine synthesis,M_148,XMP -> Guanine,APRT;GMPS;HPRT1;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;NUDT2;NUDT5;PNP,15
+20,Purine synthesis,M_149,GMP -> Guanine,APRT;HPRT1;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PNP,12
+20,Purine synthesis,M_170,XMP -> GMP,GMPS,1
+21,Pyrimidine synthesis,M_150,PRPP -> UMP,UMPS,1
+21,Pyrimidine synthesis,M_151,Orotidylic acid -> UMP,UMPS,1
+21,Pyrimidine synthesis,M_152,UMP -> B-Alanine,DPYD;DPYS;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;UCK1;UCK2;UCKL1;UPB1;UPP1;UPP2;UPRT,18
+21,Pyrimidine synthesis,M_153,UMP -> CDP,CANT1;CMPK1;CMPK2;CTPS1;CTPS2;ENTPD1;ENTPD3;ENTPD4;ENTPD5;ENTPD6;ENTPD8;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7,19
+21,Pyrimidine synthesis,M_154,Uracil -> B-Alanine,DPYD;DPYS;UPB1,3
+21,Pyrimidine synthesis,M_155,UTP -> CDP,CTPS1;CTPS2;ENTPD1;ENTPD3;ENTPD8;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7,13
+21,Pyrimidine synthesis,M_156,CDP -> Cytidine,CMPK1;CMPK2;ENTPD1;ENTPD3;ENTPD8;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;UCK1;UCK2;UCKL1,17
+21,Pyrimidine synthesis,M_157,CDP -> dCDP,RRM1;RRM2;RRM2B,3
+21,Pyrimidine synthesis,M_158,dCDP -> Deoxycytidine,CMPK1;CMPK2;DCK;DCTPP1;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M,13
+21,Pyrimidine synthesis,M_159,dCMP -> Deoxycytidine,DCK;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M,10
+21,Pyrimidine synthesis,M_160,dCDP -> dUMP,CMPK1;CMPK2;DCTD;DCTPP1,4
+21,Pyrimidine synthesis,M_161,dCDP -> dCTP,NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7,8
+21,Pyrimidine synthesis,M_162,dUMP -> Deoxyuridine,NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;TK1;TK2,11
+21,Pyrimidine synthesis,M_163,dUMP -> dTMP,TYMS,1
+21,Pyrimidine synthesis,M_164,dTMP -> Succinyl-CoA,ACSF3;AGXT2;ALDH1B1;ALDH2;ALDH3A2;ALDH7A1;ALDH9A1;AOX1;DPYD;DPYS;MUT;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;TK1;TK2;TYMP;UPB1,24
+21,Pyrimidine synthesis,M_165,dTMP -> dTTP,DTYMK;ENTPD1;ENTPD3;ENTPD8;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7,12
+21,Pyrimidine synthesis,M_166,Thymine -> Succinyl-CoA,ACSF3;AGXT2;ALDH1B1;ALDH2;ALDH3A2;ALDH7A1;ALDH9A1;AOX1;DPYD;DPYS;MUT;UPB1,12
+21,Pyrimidine synthesis,M_171,dCDP -> dCMP,CMPK1;CMPK2;DCTPP1,3
+22,Steroid hormone synthesis,M_167,"(E,E)-Farnesyl-PP -> Cholesterol",CYP51A1;DHCR24;DHCR7;EBP;FDFT1;HSD17B1;HSD17B12;HSD17B2;HSD17B6;HSD17B7;HSD17B8;LSS;MSMO1;NSDHL;RNF2;SC5D;SQLE;TM7SF2,18
+22,Steroid hormone synthesis,M_168,Cholesterol -> Chenodeoxycholate,ACOT1;ACOT2;ACOT4;ACOT7;ACOT8;ACOX2;AKR1C4;AKR1D1;AMACR;BAAT;CH25H;CYP27A1;CYP39A1;CYP46A1;CYP7A1;CYP7B1;CYP8B1;HSD11B2;HSD17B4;HSD3B7;RDH10;RDH16;RDH8;SCP2;SLC27A5,25
+22,Steroid hormone synthesis,M_169,Cholesterol -> Steroid_hormone,AKR1C1;AKR1C2;AKR1C3;AKR1C4;AKR1D1;ALG11;COMT;CYP11A1;CYP11B1;CYP11B2;CYP17A1;CYP19A1;CYP1A1;CYP1A2;CYP1B1;CYP2A13;CYP2A6;CYP2A7;CYP2B6;CYP2C18;CYP2C19;CYP2C8;CYP2C9;CYP2D6;CYP2E1;CYP2F1;CYP2J2;CYP2S1;CYP3A4;CYP3A43;CYP3A5;CYP3A7;CYP4B1;CYP4F8;CYP4X1;CYP4Z1;HSD11B1;HSD11B2;HSD17B1;HSD17B12;HSD17B2;HSD17B3;HSD17B6;HSD17B7;HSD17B8;HSD3B1;HSD3B2;RDH10;RDH16;RDH8;RNF2;SRD5A1;SRD5A2;SRD5A3;STS;SULT1E1;SULT2B1;UGT1A1;UGT1A10;UGT1A3;UGT1A4;UGT1A5;UGT1A6;UGT1A7;UGT1A8;UGT1A9;UGT2A1;UGT2A2;UGT2A3;UGT2B10;UGT2B11;UGT2B15;UGT2B17;UGT2B28;UGT2B4;UGT2B7,76

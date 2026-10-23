@@ -1,0 +1,1238 @@
+supermodule_id,supermodule_class,module_id,gene
+1,Glycolysis+TCA cycle,M_1,ADPGK
+1,Glycolysis+TCA cycle,M_1,G6PC
+1,Glycolysis+TCA cycle,M_1,G6PC2
+1,Glycolysis+TCA cycle,M_1,G6PC3
+1,Glycolysis+TCA cycle,M_1,GALM
+1,Glycolysis+TCA cycle,M_1,GCK
+1,Glycolysis+TCA cycle,M_1,HK1
+1,Glycolysis+TCA cycle,M_1,HK2
+1,Glycolysis+TCA cycle,M_1,HK3
+1,Glycolysis+TCA cycle,M_1,HKDC1
+1,Glycolysis+TCA cycle,M_2,ALDOA
+1,Glycolysis+TCA cycle,M_2,ALDOB
+1,Glycolysis+TCA cycle,M_2,ALDOC
+1,Glycolysis+TCA cycle,M_2,FBP1
+1,Glycolysis+TCA cycle,M_2,FBP2
+1,Glycolysis+TCA cycle,M_2,GPI
+1,Glycolysis+TCA cycle,M_2,PFKL
+1,Glycolysis+TCA cycle,M_2,PFKM
+1,Glycolysis+TCA cycle,M_2,PFKP
+1,Glycolysis+TCA cycle,M_2,TPI1
+1,Glycolysis+TCA cycle,M_3,BPGM
+1,Glycolysis+TCA cycle,M_3,COQ2
+1,Glycolysis+TCA cycle,M_3,GAPDH
+1,Glycolysis+TCA cycle,M_3,GAPDHS
+1,Glycolysis+TCA cycle,M_3,PGAM1
+1,Glycolysis+TCA cycle,M_3,PGAM2
+1,Glycolysis+TCA cycle,M_3,PGAM4
+1,Glycolysis+TCA cycle,M_3,PGK1
+1,Glycolysis+TCA cycle,M_3,PGK2
+1,Glycolysis+TCA cycle,M_3,PHB
+1,Glycolysis+TCA cycle,M_3,PPT1
+1,Glycolysis+TCA cycle,M_4,BPGM
+1,Glycolysis+TCA cycle,M_4,COQ2
+1,Glycolysis+TCA cycle,M_4,ENO1
+1,Glycolysis+TCA cycle,M_4,ENO2
+1,Glycolysis+TCA cycle,M_4,ENO3
+1,Glycolysis+TCA cycle,M_4,MINPP1
+1,Glycolysis+TCA cycle,M_4,PCK1
+1,Glycolysis+TCA cycle,M_4,PCK2
+1,Glycolysis+TCA cycle,M_4,PGAM1
+1,Glycolysis+TCA cycle,M_4,PGAM2
+1,Glycolysis+TCA cycle,M_4,PGAM4
+1,Glycolysis+TCA cycle,M_4,PHB
+1,Glycolysis+TCA cycle,M_4,PKLR
+1,Glycolysis+TCA cycle,M_4,PKM
+1,Glycolysis+TCA cycle,M_4,PPT1
+1,Glycolysis+TCA cycle,M_5,DLAT
+1,Glycolysis+TCA cycle,M_5,DLD
+1,Glycolysis+TCA cycle,M_5,PDHA1
+1,Glycolysis+TCA cycle,M_5,PDHA2
+1,Glycolysis+TCA cycle,M_5,PDHB
+1,Glycolysis+TCA cycle,M_6,LDHA
+1,Glycolysis+TCA cycle,M_6,LDHAL6A
+1,Glycolysis+TCA cycle,M_6,LDHAL6B
+1,Glycolysis+TCA cycle,M_6,LDHB
+1,Glycolysis+TCA cycle,M_6,LDHC
+1,Glycolysis+TCA cycle,M_6,LDHD
+1,Glycolysis+TCA cycle,M_7,ACLY
+1,Glycolysis+TCA cycle,M_7,CS
+1,Glycolysis+TCA cycle,M_8,ACO1
+1,Glycolysis+TCA cycle,M_8,ACO2
+1,Glycolysis+TCA cycle,M_8,IDH1
+1,Glycolysis+TCA cycle,M_8,IDH2
+1,Glycolysis+TCA cycle,M_8,IDH3A
+1,Glycolysis+TCA cycle,M_8,IDH3B
+1,Glycolysis+TCA cycle,M_8,IDH3G
+1,Glycolysis+TCA cycle,M_9,DLD
+1,Glycolysis+TCA cycle,M_9,DLST
+1,Glycolysis+TCA cycle,M_9,OGDH
+1,Glycolysis+TCA cycle,M_9,OGDHL
+1,Glycolysis+TCA cycle,M_10,SUCLA2
+1,Glycolysis+TCA cycle,M_10,SUCLG1
+1,Glycolysis+TCA cycle,M_10,SUCLG2
+1,Glycolysis+TCA cycle,M_11,SDHA
+1,Glycolysis+TCA cycle,M_11,SDHB
+1,Glycolysis+TCA cycle,M_12,FH
+1,Glycolysis+TCA cycle,M_13,MDH1
+1,Glycolysis+TCA cycle,M_13,MDH2
+1,Glycolysis+TCA cycle,M_14,PC
+2,Serine metabolism,M_15,PHGDH
+2,Serine metabolism,M_15,PSAT1
+2,Serine metabolism,M_15,PSPH
+2,Serine metabolism,M_16,SDS
+2,Serine metabolism,M_16,SDSL
+2,Serine metabolism,M_17,CBS
+2,Serine metabolism,M_17,CTH
+2,Serine metabolism,M_18,AGXT
+2,Serine metabolism,M_18,SHMT1
+2,Serine metabolism,M_18,SHMT2
+2,Serine metabolism,M_19,GAMT
+2,Serine metabolism,M_19,GATM
+2,Serine metabolism,M_20,AGXT
+2,Serine metabolism,M_20,AGXT2
+2,Serine metabolism,M_20,DAO
+2,Serine metabolism,M_21,ALDH7A1
+2,Serine metabolism,M_21,BHMT
+2,Serine metabolism,M_21,CHDH
+2,Serine metabolism,M_21,DMGDH
+2,Serine metabolism,M_21,PIPOX
+2,Serine metabolism,M_21,SARDH
+2,Serine metabolism,M_22,ALAS1
+2,Serine metabolism,M_22,ALAS2
+2,Serine metabolism,M_22,AOC2
+2,Serine metabolism,M_22,AOC3
+2,Serine metabolism,M_22,GCAT
+2,Serine metabolism,M_22,GLDC
+2,Serine metabolism,M_22,MAOA
+2,Serine metabolism,M_22,MAOB
+2,Serine metabolism,M_23,GSS
+2,Serine metabolism,M_24,ANPEP
+2,Serine metabolism,M_24,GCLC
+2,Serine metabolism,M_24,GGT6
+2,Serine metabolism,M_24,GSS
+2,Serine metabolism,M_24,LAP3
+2,Serine metabolism,M_25,GGCT
+2,Serine metabolism,M_25,GGT1
+2,Serine metabolism,M_25,GGT5
+2,Serine metabolism,M_25,GGT6
+2,Serine metabolism,M_25,GGT7
+2,Serine metabolism,M_25,GSTA1
+2,Serine metabolism,M_25,GSTA2
+2,Serine metabolism,M_25,GSTA3
+2,Serine metabolism,M_25,GSTA4
+2,Serine metabolism,M_25,GSTA5
+2,Serine metabolism,M_25,GSTK1
+2,Serine metabolism,M_25,GSTM1
+2,Serine metabolism,M_25,GSTM2
+2,Serine metabolism,M_25,GSTM3
+2,Serine metabolism,M_25,GSTM4
+2,Serine metabolism,M_25,GSTM5
+2,Serine metabolism,M_25,GSTO1
+2,Serine metabolism,M_25,GSTO2
+2,Serine metabolism,M_25,GSTP1
+2,Serine metabolism,M_25,GSTT2
+2,Serine metabolism,M_25,GSTT2B
+2,Serine metabolism,M_25,MGST1
+2,Serine metabolism,M_25,MGST2
+2,Serine metabolism,M_25,MGST3
+2,Serine metabolism,M_25,OPLAH
+2,Serine metabolism,M_26,GCLC
+2,Serine metabolism,M_26,GSS
+2,Serine metabolism,M_27,SDS
+2,Serine metabolism,M_27,SDSL
+2,Serine metabolism,M_28,BHMT
+2,Serine metabolism,M_28,BHMT2
+2,Serine metabolism,M_28,CBS
+2,Serine metabolism,M_28,KYAT1
+2,Serine metabolism,M_28,KYAT3
+2,Serine metabolism,M_28,MTR
+2,Serine metabolism,M_29,CDO1
+2,Serine metabolism,M_29,CTH
+2,Serine metabolism,M_29,GOT1
+2,Serine metabolism,M_29,GOT2
+2,Serine metabolism,M_29,KYAT1
+2,Serine metabolism,M_29,KYAT3
+2,Serine metabolism,M_29,MPST
+2,Serine metabolism,M_29,TST
+2,Serine metabolism,M_30,AHCY
+2,Serine metabolism,M_30,AHCYL1
+2,Serine metabolism,M_30,AHCYL2
+2,Serine metabolism,M_30,CBS
+2,Serine metabolism,M_30,CTH
+2,Serine metabolism,M_30,DNMT1
+2,Serine metabolism,M_30,DNMT3A
+2,Serine metabolism,M_30,DNMT3B
+2,Serine metabolism,M_30,DNMT3L
+2,Serine metabolism,M_30,MAT1A
+2,Serine metabolism,M_30,MAT2A
+2,Serine metabolism,M_30,MAT2B
+2,Serine metabolism,M_31,ADI1
+2,Serine metabolism,M_31,AMD1
+2,Serine metabolism,M_31,APIP
+2,Serine metabolism,M_31,ENOPH1
+2,Serine metabolism,M_31,IL4I1
+2,Serine metabolism,M_31,MAT1A
+2,Serine metabolism,M_31,MAT2A
+2,Serine metabolism,M_31,MAT2B
+2,Serine metabolism,M_31,MRI1
+2,Serine metabolism,M_31,MTAP
+2,Serine metabolism,M_31,SMS
+2,Serine metabolism,M_31,SRM
+2,Serine metabolism,M_31,TAT
+2,Serine metabolism,M_32,BCKDHA
+2,Serine metabolism,M_32,BCKDHB
+2,Serine metabolism,M_32,DBT
+2,Serine metabolism,M_32,DLAT
+2,Serine metabolism,M_32,DLD
+2,Serine metabolism,M_32,SDS
+2,Serine metabolism,M_32,SDSL
+3,Pentose phosphate,M_33,ALDOA
+3,Pentose phosphate,M_33,ALDOB
+3,Pentose phosphate,M_33,ALDOC
+3,Pentose phosphate,M_33,FBP1
+3,Pentose phosphate,M_33,FBP2
+3,Pentose phosphate,M_33,G6PD
+3,Pentose phosphate,M_33,GPI
+3,Pentose phosphate,M_33,H6PD
+3,Pentose phosphate,M_33,PFKL
+3,Pentose phosphate,M_33,PFKM
+3,Pentose phosphate,M_33,PFKP
+3,Pentose phosphate,M_33,PGD
+3,Pentose phosphate,M_33,PGLS
+3,Pentose phosphate,M_33,PGM1
+3,Pentose phosphate,M_33,PGM2
+3,Pentose phosphate,M_33,PRPS1
+3,Pentose phosphate,M_33,PRPS1L1
+3,Pentose phosphate,M_33,PRPS2
+3,Pentose phosphate,M_33,RBKS
+3,Pentose phosphate,M_33,RPE
+3,Pentose phosphate,M_33,RPEL1
+3,Pentose phosphate,M_33,RPIA
+3,Pentose phosphate,M_33,TALDO1
+3,Pentose phosphate,M_33,TKT
+3,Pentose phosphate,M_33,TKTL1
+3,Pentose phosphate,M_33,TKTL2
+4,Fatty acids metabolism/synthesis,M_34,ACACA
+4,Fatty acids metabolism/synthesis,M_34,ACACB
+4,Fatty acids metabolism/synthesis,M_34,ACSBG1
+4,Fatty acids metabolism/synthesis,M_34,ACSBG2
+4,Fatty acids metabolism/synthesis,M_34,ACSL1
+4,Fatty acids metabolism/synthesis,M_34,ACSL3
+4,Fatty acids metabolism/synthesis,M_34,ACSL4
+4,Fatty acids metabolism/synthesis,M_34,ACSL5
+4,Fatty acids metabolism/synthesis,M_34,ACSL6
+4,Fatty acids metabolism/synthesis,M_34,FASN
+4,Fatty acids metabolism/synthesis,M_34,HSD11B2
+4,Fatty acids metabolism/synthesis,M_34,HSD17B1
+4,Fatty acids metabolism/synthesis,M_34,HSD17B12
+4,Fatty acids metabolism/synthesis,M_34,HSD17B2
+4,Fatty acids metabolism/synthesis,M_34,HSD17B6
+4,Fatty acids metabolism/synthesis,M_34,HSD17B7
+4,Fatty acids metabolism/synthesis,M_34,HSD17B8
+4,Fatty acids metabolism/synthesis,M_34,MAST1
+4,Fatty acids metabolism/synthesis,M_34,MCAT
+4,Fatty acids metabolism/synthesis,M_34,MECR
+4,Fatty acids metabolism/synthesis,M_34,OLAH
+4,Fatty acids metabolism/synthesis,M_34,OXSM
+4,Fatty acids metabolism/synthesis,M_34,PECR
+4,Fatty acids metabolism/synthesis,M_34,RDH10
+4,Fatty acids metabolism/synthesis,M_34,RDH16
+4,Fatty acids metabolism/synthesis,M_34,RDH8
+4,Fatty acids metabolism/synthesis,M_34,RNF2
+4,Fatty acids metabolism/synthesis,M_34,SLC27A2
+4,Fatty acids metabolism/synthesis,M_35,ACAA1
+4,Fatty acids metabolism/synthesis,M_35,ACAA2
+4,Fatty acids metabolism/synthesis,M_35,ACADL
+4,Fatty acids metabolism/synthesis,M_35,ACADM
+4,Fatty acids metabolism/synthesis,M_35,ACADS
+4,Fatty acids metabolism/synthesis,M_35,ACADSB
+4,Fatty acids metabolism/synthesis,M_35,ACADVL
+4,Fatty acids metabolism/synthesis,M_35,ACAT1
+4,Fatty acids metabolism/synthesis,M_35,ACAT2
+4,Fatty acids metabolism/synthesis,M_35,ACOX1
+4,Fatty acids metabolism/synthesis,M_35,ACOX3
+4,Fatty acids metabolism/synthesis,M_35,ACSBG1
+4,Fatty acids metabolism/synthesis,M_35,ACSBG2
+4,Fatty acids metabolism/synthesis,M_35,ACSL1
+4,Fatty acids metabolism/synthesis,M_35,ACSL3
+4,Fatty acids metabolism/synthesis,M_35,ACSL4
+4,Fatty acids metabolism/synthesis,M_35,ACSL5
+4,Fatty acids metabolism/synthesis,M_35,ACSL6
+4,Fatty acids metabolism/synthesis,M_35,CPT1A
+4,Fatty acids metabolism/synthesis,M_35,CPT1B
+4,Fatty acids metabolism/synthesis,M_35,CPT1C
+4,Fatty acids metabolism/synthesis,M_35,CPT2
+4,Fatty acids metabolism/synthesis,M_35,ECHS1
+4,Fatty acids metabolism/synthesis,M_35,EHHADH
+4,Fatty acids metabolism/synthesis,M_35,GCDH
+4,Fatty acids metabolism/synthesis,M_35,HADH
+4,Fatty acids metabolism/synthesis,M_35,HADHA
+4,Fatty acids metabolism/synthesis,M_35,HADHB
+4,Fatty acids metabolism/synthesis,M_35,HSD17B10
+4,Fatty acids metabolism/synthesis,M_35,HSD17B4
+4,Fatty acids metabolism/synthesis,M_35,SLC27A2
+5,Aspartate metabolism,M_36,CAD
+5,Aspartate metabolism,M_36,DHODH
+5,Aspartate metabolism,M_37,ACY3
+5,Aspartate metabolism,M_37,ASPA
+5,Aspartate metabolism,M_37,FOLH1
+5,Aspartate metabolism,M_37,NAALAD2
+5,Aspartate metabolism,M_37,NAALADL1
+5,Aspartate metabolism,M_37,NAT8L
+5,Aspartate metabolism,M_37,RIMKLA
+5,Aspartate metabolism,M_38,ALPP
+5,Aspartate metabolism,M_38,ASNS
+5,Aspartate metabolism,M_38,ASPG
+5,Aspartate metabolism,M_38,ASRGL1
+5,Aspartate metabolism,M_39,ADSL
+5,Aspartate metabolism,M_39,ADSS
+5,Aspartate metabolism,M_39,ADSSL1
+5,Aspartate metabolism,M_39,ASL
+5,Aspartate metabolism,M_39,ASS1
+5,Aspartate metabolism,M_40,GOT1
+5,Aspartate metabolism,M_40,GOT2
+5,Aspartate metabolism,M_40,IL4I1
+6,Beta-alanine metabolism,M_41,AZIN2
+6,Beta-alanine metabolism,M_41,GAD1
+6,Beta-alanine metabolism,M_41,GAD2
+6,Beta-alanine metabolism,M_41,GADL1
+6,Beta-alanine metabolism,M_42,ALDH1A3
+6,Beta-alanine metabolism,M_42,ALDH1B1
+6,Beta-alanine metabolism,M_42,ALDH2
+6,Beta-alanine metabolism,M_42,ALDH3A1
+6,Beta-alanine metabolism,M_42,ALDH3A2
+6,Beta-alanine metabolism,M_42,ALDH3B1
+6,Beta-alanine metabolism,M_42,ALDH3B2
+6,Beta-alanine metabolism,M_42,ALDH7A1
+6,Beta-alanine metabolism,M_42,ALDH9A1
+6,Beta-alanine metabolism,M_42,AOC2
+6,Beta-alanine metabolism,M_42,AOC3
+6,Beta-alanine metabolism,M_42,SMOX
+6,Beta-alanine metabolism,M_43,CARNS1
+6,Beta-alanine metabolism,M_43,CNDP1
+6,Beta-alanine metabolism,M_43,CNDP2
+6,Beta-alanine metabolism,M_44,ABAT
+6,Beta-alanine metabolism,M_44,ALDH6A1
+6,Beta-alanine metabolism,M_45,DPYD
+6,Beta-alanine metabolism,M_45,DPYS
+6,Beta-alanine metabolism,M_45,NT5C
+6,Beta-alanine metabolism,M_45,NT5C1A
+6,Beta-alanine metabolism,M_45,NT5C1B
+6,Beta-alanine metabolism,M_45,NT5C1B-RDH14
+6,Beta-alanine metabolism,M_45,NT5C2
+6,Beta-alanine metabolism,M_45,NT5C3A
+6,Beta-alanine metabolism,M_45,NT5C3B
+6,Beta-alanine metabolism,M_45,NT5E
+6,Beta-alanine metabolism,M_45,NT5M
+6,Beta-alanine metabolism,M_45,PNP
+6,Beta-alanine metabolism,M_45,TK1
+6,Beta-alanine metabolism,M_45,TK2
+6,Beta-alanine metabolism,M_45,TYMP
+6,Beta-alanine metabolism,M_45,UCK1
+6,Beta-alanine metabolism,M_45,UCK2
+6,Beta-alanine metabolism,M_45,UCKL1
+6,Beta-alanine metabolism,M_45,UPB1
+6,Beta-alanine metabolism,M_45,UPP1
+6,Beta-alanine metabolism,M_45,UPP2
+6,Beta-alanine metabolism,M_45,UPRT
+7,Propionyl-CoA metabolism,M_46,ECHDC1
+7,Propionyl-CoA metabolism,M_46,MCEE
+7,Propionyl-CoA metabolism,M_46,MUT
+7,Propionyl-CoA metabolism,M_46,PCCA
+7,Propionyl-CoA metabolism,M_46,PCCB
+7,Propionyl-CoA metabolism,M_46,SUCLA2
+7,Propionyl-CoA metabolism,M_46,SUCLG1
+7,Propionyl-CoA metabolism,M_46,SUCLG2
+7,Propionyl-CoA metabolism,M_47,ACACA
+7,Propionyl-CoA metabolism,M_47,ACACB
+7,Propionyl-CoA metabolism,M_47,ACADS
+7,Propionyl-CoA metabolism,M_47,ACOX1
+7,Propionyl-CoA metabolism,M_47,ACOX3
+7,Propionyl-CoA metabolism,M_47,ECHS1
+7,Propionyl-CoA metabolism,M_47,EHHADH
+7,Propionyl-CoA metabolism,M_47,HADHA
+7,Propionyl-CoA metabolism,M_47,MLYCD
+8,Glutamate metabolism,M_48,GLS
+8,Glutamate metabolism,M_48,GLS2
+8,Glutamate metabolism,M_48,GLUL
+8,Glutamate metabolism,M_49,GAD1
+8,Glutamate metabolism,M_49,GAD2
+8,Glutamate metabolism,M_50,ABAT
+8,Glutamate metabolism,M_50,ALDH5A1
+8,Glutamate metabolism,M_51,GLUD1
+8,Glutamate metabolism,M_51,GLUD2
+8,Glutamate metabolism,M_52,AMDHD1
+8,Glutamate metabolism,M_52,FTCD
+8,Glutamate metabolism,M_52,HAL
+8,Glutamate metabolism,M_52,UROC1
+9,Leucine+valine+isoleucine,M_53,AACS
+9,Leucine+valine+isoleucine,M_53,ACADM
+9,Leucine+valine+isoleucine,M_53,ACAT1
+9,Leucine+valine+isoleucine,M_53,ACAT2
+9,Leucine+valine+isoleucine,M_53,AUH
+9,Leucine+valine+isoleucine,M_53,BCAT1
+9,Leucine+valine+isoleucine,M_53,BCAT2
+9,Leucine+valine+isoleucine,M_53,BCKDHA
+9,Leucine+valine+isoleucine,M_53,BCKDHB
+9,Leucine+valine+isoleucine,M_53,DBT
+9,Leucine+valine+isoleucine,M_53,DLD
+9,Leucine+valine+isoleucine,M_53,ECHS1
+9,Leucine+valine+isoleucine,M_53,EHHADH
+9,Leucine+valine+isoleucine,M_53,HADHA
+9,Leucine+valine+isoleucine,M_53,HMGCL
+9,Leucine+valine+isoleucine,M_53,HMGCS1
+9,Leucine+valine+isoleucine,M_53,HMGCS2
+9,Leucine+valine+isoleucine,M_53,IVD
+9,Leucine+valine+isoleucine,M_53,MCCC1
+9,Leucine+valine+isoleucine,M_53,MCCC2
+9,Leucine+valine+isoleucine,M_53,OXCT1
+9,Leucine+valine+isoleucine,M_53,OXCT2
+9,Leucine+valine+isoleucine,M_54,ABAT
+9,Leucine+valine+isoleucine,M_54,ACAD8
+9,Leucine+valine+isoleucine,M_54,ACADM
+9,Leucine+valine+isoleucine,M_54,ACADS
+9,Leucine+valine+isoleucine,M_54,ACADSB
+9,Leucine+valine+isoleucine,M_54,ACSF3
+9,Leucine+valine+isoleucine,M_54,AGXT2
+9,Leucine+valine+isoleucine,M_54,ALDH1B1
+9,Leucine+valine+isoleucine,M_54,ALDH2
+9,Leucine+valine+isoleucine,M_54,ALDH3A2
+9,Leucine+valine+isoleucine,M_54,ALDH7A1
+9,Leucine+valine+isoleucine,M_54,ALDH9A1
+9,Leucine+valine+isoleucine,M_54,AOX1
+9,Leucine+valine+isoleucine,M_54,BCAT1
+9,Leucine+valine+isoleucine,M_54,BCAT2
+9,Leucine+valine+isoleucine,M_54,BCKDHA
+9,Leucine+valine+isoleucine,M_54,BCKDHB
+9,Leucine+valine+isoleucine,M_54,DBT
+9,Leucine+valine+isoleucine,M_54,DLD
+9,Leucine+valine+isoleucine,M_54,ECHS1
+9,Leucine+valine+isoleucine,M_54,EHHADH
+9,Leucine+valine+isoleucine,M_54,HADH
+9,Leucine+valine+isoleucine,M_54,HADHA
+9,Leucine+valine+isoleucine,M_54,HIBADH
+9,Leucine+valine+isoleucine,M_54,HIBCH
+9,Leucine+valine+isoleucine,M_54,HSD17B10
+9,Leucine+valine+isoleucine,M_54,MUT
+9,Leucine+valine+isoleucine,M_55,ACAA1
+9,Leucine+valine+isoleucine,M_55,ACAA2
+9,Leucine+valine+isoleucine,M_55,ACADM
+9,Leucine+valine+isoleucine,M_55,ACADS
+9,Leucine+valine+isoleucine,M_55,ACADSB
+9,Leucine+valine+isoleucine,M_55,BCAT1
+9,Leucine+valine+isoleucine,M_55,BCAT2
+9,Leucine+valine+isoleucine,M_55,BCKDHA
+9,Leucine+valine+isoleucine,M_55,BCKDHB
+9,Leucine+valine+isoleucine,M_55,DBT
+9,Leucine+valine+isoleucine,M_55,DLD
+9,Leucine+valine+isoleucine,M_55,ECHS1
+9,Leucine+valine+isoleucine,M_55,EHHADH
+9,Leucine+valine+isoleucine,M_55,HADH
+9,Leucine+valine+isoleucine,M_55,HADHA
+9,Leucine+valine+isoleucine,M_55,HADHB
+9,Leucine+valine+isoleucine,M_55,HSD17B10
+9,Leucine+valine+isoleucine,M_55,IL4I1
+9,Leucine+valine+isoleucine,M_55,MCEE
+9,Leucine+valine+isoleucine,M_55,MUT
+9,Leucine+valine+isoleucine,M_55,PCCA
+9,Leucine+valine+isoleucine,M_55,PCCB
+9,Leucine+valine+isoleucine,M_56,ACAA1
+9,Leucine+valine+isoleucine,M_56,ACAA2
+9,Leucine+valine+isoleucine,M_56,ACADM
+9,Leucine+valine+isoleucine,M_56,ACADS
+9,Leucine+valine+isoleucine,M_56,ACADSB
+9,Leucine+valine+isoleucine,M_56,BCAT1
+9,Leucine+valine+isoleucine,M_56,BCAT2
+9,Leucine+valine+isoleucine,M_56,BCKDHA
+9,Leucine+valine+isoleucine,M_56,BCKDHB
+9,Leucine+valine+isoleucine,M_56,DBT
+9,Leucine+valine+isoleucine,M_56,DLD
+9,Leucine+valine+isoleucine,M_56,ECHS1
+9,Leucine+valine+isoleucine,M_56,EHHADH
+9,Leucine+valine+isoleucine,M_56,HADH
+9,Leucine+valine+isoleucine,M_56,HADHA
+9,Leucine+valine+isoleucine,M_56,HADHB
+9,Leucine+valine+isoleucine,M_56,HSD17B10
+9,Leucine+valine+isoleucine,M_56,IL4I1
+9,Leucine+valine+isoleucine,M_57,FAH
+9,Leucine+valine+isoleucine,M_57,GOT1
+9,Leucine+valine+isoleucine,M_57,GOT2
+9,Leucine+valine+isoleucine,M_57,GSTZ1
+9,Leucine+valine+isoleucine,M_57,HGD
+9,Leucine+valine+isoleucine,M_57,HPD
+9,Leucine+valine+isoleucine,M_57,IL4I1
+9,Leucine+valine+isoleucine,M_57,MIF
+9,Leucine+valine+isoleucine,M_57,TAT
+9,Leucine+valine+isoleucine,M_58,ALDH1A3
+9,Leucine+valine+isoleucine,M_58,ALDH3A1
+9,Leucine+valine+isoleucine,M_58,ALDH3B1
+9,Leucine+valine+isoleucine,M_58,ALDH3B2
+9,Leucine+valine+isoleucine,M_58,AOC2
+9,Leucine+valine+isoleucine,M_58,AOC3
+9,Leucine+valine+isoleucine,M_58,DDC
+9,Leucine+valine+isoleucine,M_58,MAOA
+9,Leucine+valine+isoleucine,M_58,MAOB
+9,Leucine+valine+isoleucine,M_58,TH
+9,Leucine+valine+isoleucine,M_58,TPO
+9,Leucine+valine+isoleucine,M_58,TYR
+9,Leucine+valine+isoleucine,M_59,PAH
+9,Leucine+valine+isoleucine,M_60,AADAT
+9,Leucine+valine+isoleucine,M_60,AASS
+9,Leucine+valine+isoleucine,M_60,ACAT1
+9,Leucine+valine+isoleucine,M_60,ACAT2
+9,Leucine+valine+isoleucine,M_60,ALDH7A1
+9,Leucine+valine+isoleucine,M_60,DLD
+9,Leucine+valine+isoleucine,M_60,ECHS1
+9,Leucine+valine+isoleucine,M_60,EHHADH
+9,Leucine+valine+isoleucine,M_60,GCDH
+9,Leucine+valine+isoleucine,M_60,HADH
+9,Leucine+valine+isoleucine,M_60,HADHA
+9,Leucine+valine+isoleucine,M_60,HSD17B10
+9,Leucine+valine+isoleucine,M_60,HSD17B4
+9,Leucine+valine+isoleucine,M_60,HYKK
+9,Leucine+valine+isoleucine,M_60,PHYKPL
+10,Urea cycle,M_61,ALDH1B1
+10,Urea cycle,M_61,ALDH2
+10,Urea cycle,M_61,ALDH3A2
+10,Urea cycle,M_61,ALDH7A1
+10,Urea cycle,M_61,ALDH9A1
+10,Urea cycle,M_61,AOC1
+10,Urea cycle,M_62,ODC1
+10,Urea cycle,M_63,ARG1
+10,Urea cycle,M_63,ARG2
+10,Urea cycle,M_64,AGMAT
+10,Urea cycle,M_64,AZIN2
+10,Urea cycle,M_65,ASL
+10,Urea cycle,M_66,ASS1
+10,Urea cycle,M_67,OAT
+10,Urea cycle,M_67,PRODH
+10,Urea cycle,M_67,PRODH2
+10,Urea cycle,M_67,PYCR1
+10,Urea cycle,M_67,PYCR2
+10,Urea cycle,M_67,PYCR3
+10,Urea cycle,M_68,ALDH4A1
+10,Urea cycle,M_68,GOT1
+10,Urea cycle,M_68,GOT2
+10,Urea cycle,M_68,HOGA1
+10,Urea cycle,M_68,PRODH2
+10,Urea cycle,M_68,PYCR1
+10,Urea cycle,M_68,PYCR2
+10,Urea cycle,M_68,PYCR3
+11,Spermine metabolism,M_69,SMOX
+11,Spermine metabolism,M_69,SMS
+11,Spermine metabolism,M_69,SRM
+11,Spermine metabolism,M_70,AMD1
+11,Spermine metabolism,M_70,MAT1A
+11,Spermine metabolism,M_70,MAT2A
+11,Spermine metabolism,M_70,MAT2B
+11,Spermine metabolism,M_70,SMOX
+11,Spermine metabolism,M_70,SMS
+11,Spermine metabolism,M_70,SRM
+12,Transporters,M_71,SLC2A1
+12,Transporters,M_71,SLC2A2
+12,Transporters,M_71,SLC2A3
+12,Transporters,M_71,SLC2A4
+12,Transporters,M_72,SLC33A1
+12,Transporters,M_73,SLC13A5
+12,Transporters,M_73,SLC25A1
+12,Transporters,M_74,SLC25A11
+12,Transporters,M_75,SLC13A3
+12,Transporters,M_75,SLC25A10
+12,Transporters,M_76,SLC25A10
+12,Transporters,M_76,SLC25A11
+12,Transporters,M_77,SLC25A21
+12,Transporters,M_78,SLC16A1
+12,Transporters,M_78,SLC16A3
+12,Transporters,M_78,SLC16A4
+12,Transporters,M_79,SLC1A4
+12,Transporters,M_79,SLC1A5
+12,Transporters,M_79,SLC38A2
+12,Transporters,M_79,SLC38A4
+12,Transporters,M_79,SLC38A5
+12,Transporters,M_79,SLC7A10
+12,Transporters,M_80,SLC1A4
+12,Transporters,M_80,SLC1A5
+12,Transporters,M_80,SLC38A1
+12,Transporters,M_80,SLC38A2
+12,Transporters,M_80,SLC38A4
+12,Transporters,M_80,SLC7A10
+12,Transporters,M_80,SLC7A11
+12,Transporters,M_80,SLC7A7
+12,Transporters,M_81,SLC6A5
+12,Transporters,M_81,SLC6A9
+12,Transporters,M_83,SLC5A7
+12,Transporters,M_84,SLC1A4
+12,Transporters,M_84,SLC7A8
+12,Transporters,M_85,SLC1A3
+12,Transporters,M_85,SLC1A6
+12,Transporters,M_87,SLC29A1
+12,Transporters,M_87,SLC29A2
+12,Transporters,M_88,SLC15A4
+12,Transporters,M_89,SLC6A6
+12,Transporters,M_90,SLC27A1
+12,Transporters,M_91,SLC17A6
+12,Transporters,M_91,SLC17A7
+12,Transporters,M_91,SLC17A8
+12,Transporters,M_91,SLC1A1
+12,Transporters,M_91,SLC1A2
+12,Transporters,M_91,SLC1A3
+12,Transporters,M_91,SLC1A5
+12,Transporters,M_91,SLC1A6
+12,Transporters,M_91,SLC1A7
+12,Transporters,M_92,SLC1A5
+12,Transporters,M_93,SLC32A1
+12,Transporters,M_93,SLC6A1
+12,Transporters,M_93,SLC6A11
+12,Transporters,M_93,SLC6A12
+12,Transporters,M_93,SLC6A13
+12,Transporters,M_94,SLC7A5
+12,Transporters,M_94,SLC7A8
+12,Transporters,M_95,SLC7A8
+12,Transporters,M_96,SLC6A15
+12,Transporters,M_97,SLC6A15
+12,Transporters,M_98,SLC6A15
+12,Transporters,M_98,SLC7A5
+12,Transporters,M_98,SLC7A6
+12,Transporters,M_99,SLC25A29
+12,Transporters,M_99,SLC38A4
+12,Transporters,M_99,SLC66A1
+12,Transporters,M_100,SLC25A29
+12,Transporters,M_100,SLC7A1
+12,Transporters,M_100,SLC7A2
+12,Transporters,M_101,SLC25A15
+12,Transporters,M_102,SLC25A15
+12,Transporters,M_102,SLC25A15P1
+12,Transporters,M_102,SLC25A2
+12,Transporters,M_102,SLC25A29
+12,Transporters,M_103,SLC36A1
+12,Transporters,M_103,SLC6A20
+12,Transporters,M_103,SLC6A7
+12,Transporters,M_105,SLC27A1
+12,Transporters,M_105,SLC27A2
+12,Transporters,M_105,SLC27A3
+12,Transporters,M_105,SLC27A4
+12,Transporters,M_105,SLC27A5
+12,Transporters,M_105,SLC27A6
+13,Hyaluronic acid synthesis,M_106,GCK
+13,Hyaluronic acid synthesis,M_106,HK1
+13,Hyaluronic acid synthesis,M_106,HK2
+13,Hyaluronic acid synthesis,M_106,HK3
+13,Hyaluronic acid synthesis,M_106,HKDC1
+13,Hyaluronic acid synthesis,M_107,AMDHD2
+13,Hyaluronic acid synthesis,M_107,GFPT1
+13,Hyaluronic acid synthesis,M_107,GFPT2
+13,Hyaluronic acid synthesis,M_107,GNPDA1
+13,Hyaluronic acid synthesis,M_107,GNPDA2
+13,Hyaluronic acid synthesis,M_107,GNPNAT1
+13,Hyaluronic acid synthesis,M_107,GPI
+13,Hyaluronic acid synthesis,M_107,PGM3
+13,Hyaluronic acid synthesis,M_107,UAP1
+13,Hyaluronic acid synthesis,M_107,UAP1L1
+13,Hyaluronic acid synthesis,M_108,PGM1
+13,Hyaluronic acid synthesis,M_108,PGM2
+13,Hyaluronic acid synthesis,M_109,UGDH
+13,Hyaluronic acid synthesis,M_109,UGP2
+13,Hyaluronic acid synthesis,M_110,HAS1
+13,Hyaluronic acid synthesis,M_110,HAS2
+13,Hyaluronic acid synthesis,M_110,HAS3
+14,Glycogen synthesis,M_111,GYS1
+14,Glycogen synthesis,M_111,GYS2
+14,Glycogen synthesis,M_111,PYGB
+15,Glycosaminoglycan synthesis,M_112,CMAS
+15,Glycosaminoglycan synthesis,M_112,GNE
+15,Glycosaminoglycan synthesis,M_112,NANP
+15,Glycosaminoglycan synthesis,M_112,NANS
+15,Glycosaminoglycan synthesis,M_112,TSPAN31
+16,N-linked glycan synthesis,M_113,ACAT1
+16,N-linked glycan synthesis,M_113,ACAT2
+16,N-linked glycan synthesis,M_113,FDPS
+16,N-linked glycan synthesis,M_113,GGPS1
+16,N-linked glycan synthesis,M_113,HMGCR
+16,N-linked glycan synthesis,M_113,HMGCS1
+16,N-linked glycan synthesis,M_113,HMGCS2
+16,N-linked glycan synthesis,M_113,IDI1
+16,N-linked glycan synthesis,M_113,IDI2
+16,N-linked glycan synthesis,M_113,MVD
+16,N-linked glycan synthesis,M_113,MVK
+16,N-linked glycan synthesis,M_113,PMVK
+16,N-linked glycan synthesis,M_114,FDPS
+16,N-linked glycan synthesis,M_114,GGPS1
+16,N-linked glycan synthesis,M_115,FNTA
+16,N-linked glycan synthesis,M_115,FNTB
+16,N-linked glycan synthesis,M_115,ICMT
+16,N-linked glycan synthesis,M_115,PCYOX1
+16,N-linked glycan synthesis,M_115,RCE1
+16,N-linked glycan synthesis,M_115,ZMPSTE24
+16,N-linked glycan synthesis,M_116,CLK1
+16,N-linked glycan synthesis,M_116,COQ2
+16,N-linked glycan synthesis,M_116,COQ3
+16,N-linked glycan synthesis,M_116,COQ5
+16,N-linked glycan synthesis,M_116,COQ6
+16,N-linked glycan synthesis,M_116,COQ7
+16,N-linked glycan synthesis,M_116,PDSS1
+16,N-linked glycan synthesis,M_116,PDSS2
+16,N-linked glycan synthesis,M_116,PHB
+16,N-linked glycan synthesis,M_116,PPT1
+16,N-linked glycan synthesis,M_117,ALG11
+16,N-linked glycan synthesis,M_117,DHDDS
+16,N-linked glycan synthesis,M_117,DOLK
+16,N-linked glycan synthesis,M_117,SRD5A1
+16,N-linked glycan synthesis,M_117,SRD5A2
+16,N-linked glycan synthesis,M_117,SRD5A3
+16,N-linked glycan synthesis,M_118,DPM1
+16,N-linked glycan synthesis,M_119,ALG10
+16,N-linked glycan synthesis,M_119,ALG10B
+16,N-linked glycan synthesis,M_119,ALG5
+16,N-linked glycan synthesis,M_119,ALG6
+16,N-linked glycan synthesis,M_119,ALG8
+16,N-linked glycan synthesis,M_119,GANAB
+16,N-linked glycan synthesis,M_119,MAN1A1
+16,N-linked glycan synthesis,M_119,MAN1A2
+16,N-linked glycan synthesis,M_119,MAN1B1
+16,N-linked glycan synthesis,M_119,MAN1C1
+16,N-linked glycan synthesis,M_119,MAN2A1
+16,N-linked glycan synthesis,M_119,MAN2A2
+16,N-linked glycan synthesis,M_119,MGAT1
+16,N-linked glycan synthesis,M_119,MGAT2
+16,N-linked glycan synthesis,M_119,MOGS
+16,N-linked glycan synthesis,M_119,STT3A
+16,N-linked glycan synthesis,M_119,STT3B
+16,N-linked glycan synthesis,M_120,STT3A
+16,N-linked glycan synthesis,M_120,STT3B
+16,N-linked glycan synthesis,M_121,GANAB
+16,N-linked glycan synthesis,M_121,MAN1A1
+16,N-linked glycan synthesis,M_121,MAN1A2
+16,N-linked glycan synthesis,M_121,MAN1B1
+16,N-linked glycan synthesis,M_121,MAN1C1
+16,N-linked glycan synthesis,M_121,MAN2A1
+16,N-linked glycan synthesis,M_121,MAN2A2
+16,N-linked glycan synthesis,M_121,MGAT1
+16,N-linked glycan synthesis,M_121,MGAT2
+16,N-linked glycan synthesis,M_121,MOGS
+16,N-linked glycan synthesis,M_122,ABO
+16,N-linked glycan synthesis,M_122,B4GALT1
+16,N-linked glycan synthesis,M_122,B4GALT2
+16,N-linked glycan synthesis,M_122,B4GALT3
+16,N-linked glycan synthesis,M_122,FUT8
+16,N-linked glycan synthesis,M_122,ST6GAL1
+16,N-linked glycan synthesis,M_122,ST6GAL2
+16,N-linked glycan synthesis,M_123,MGAT4A
+16,N-linked glycan synthesis,M_123,MGAT4B
+16,N-linked glycan synthesis,M_123,MGAT4C
+16,N-linked glycan synthesis,M_124,MGAT3
+17,O-linked glycan synthesis,M_125,ABO
+17,O-linked glycan synthesis,M_125,B3GLCT
+17,O-linked glycan synthesis,M_125,B4GALT1
+17,O-linked glycan synthesis,M_125,B4GALT2
+17,O-linked glycan synthesis,M_125,B4GALT3
+17,O-linked glycan synthesis,M_125,FUT4
+17,O-linked glycan synthesis,M_125,FUT7
+17,O-linked glycan synthesis,M_125,MGAT5B
+17,O-linked glycan synthesis,M_125,POGLUT1
+17,O-linked glycan synthesis,M_125,POMGNT1
+17,O-linked glycan synthesis,M_125,POMT1
+17,O-linked glycan synthesis,M_125,POMT2
+17,O-linked glycan synthesis,M_126,ST3GAL2
+17,O-linked glycan synthesis,M_126,ST3GAL3
+17,O-linked glycan synthesis,M_126,ST3GAL6
+17,O-linked glycan synthesis,M_127,B3GAT2
+17,O-linked glycan synthesis,M_127,CHST10
+17,O-linked glycan synthesis,M_128,FUT9
+18,Sialic acid synthesis,M_129,B3GALT6
+18,Sialic acid synthesis,M_129,B3GAT3
+18,Sialic acid synthesis,M_129,B4GALT7
+18,Sialic acid synthesis,M_129,XYLT1
+18,Sialic acid synthesis,M_129,XYLT2
+18,Sialic acid synthesis,M_130,CHPF
+18,Sialic acid synthesis,M_130,CHPF2
+18,Sialic acid synthesis,M_130,CHSY1
+18,Sialic acid synthesis,M_130,CHSY3
+18,Sialic acid synthesis,M_130,CSGALNACT1
+18,Sialic acid synthesis,M_130,CSGALNACT2
+18,Sialic acid synthesis,M_130,DSE
+18,Sialic acid synthesis,M_131,DSE
+19,Glycan synthesis,M_132,EXT1
+19,Glycan synthesis,M_132,EXT2
+19,Glycan synthesis,M_132,EXTL1
+19,Glycan synthesis,M_132,EXTL2
+19,Glycan synthesis,M_132,EXTL3
+20,Purine synthesis,M_133,ADSL
+20,Purine synthesis,M_133,ATIC
+20,Purine synthesis,M_133,CANT1
+20,Purine synthesis,M_133,ENTPD1
+20,Purine synthesis,M_133,ENTPD3
+20,Purine synthesis,M_133,ENTPD4
+20,Purine synthesis,M_133,ENTPD5
+20,Purine synthesis,M_133,ENTPD6
+20,Purine synthesis,M_133,ENTPD8
+20,Purine synthesis,M_133,GART
+20,Purine synthesis,M_133,NME1
+20,Purine synthesis,M_133,NME1-NME2
+20,Purine synthesis,M_133,NME2
+20,Purine synthesis,M_133,NME3
+20,Purine synthesis,M_133,NME4
+20,Purine synthesis,M_133,NME5
+20,Purine synthesis,M_133,NME6
+20,Purine synthesis,M_133,NME7
+20,Purine synthesis,M_133,NUDT16
+20,Purine synthesis,M_133,NUDT5
+20,Purine synthesis,M_133,PAICS
+20,Purine synthesis,M_133,PFAS
+20,Purine synthesis,M_133,PPAT
+20,Purine synthesis,M_134,ADSL
+20,Purine synthesis,M_134,GART
+20,Purine synthesis,M_134,PAICS
+20,Purine synthesis,M_134,PFAS
+20,Purine synthesis,M_135,ATIC
+20,Purine synthesis,M_135,CANT1
+20,Purine synthesis,M_135,ENTPD1
+20,Purine synthesis,M_135,ENTPD3
+20,Purine synthesis,M_135,ENTPD4
+20,Purine synthesis,M_135,ENTPD5
+20,Purine synthesis,M_135,ENTPD6
+20,Purine synthesis,M_135,ENTPD8
+20,Purine synthesis,M_135,NME1
+20,Purine synthesis,M_135,NME1-NME2
+20,Purine synthesis,M_135,NME2
+20,Purine synthesis,M_135,NME3
+20,Purine synthesis,M_135,NME4
+20,Purine synthesis,M_135,NME5
+20,Purine synthesis,M_135,NME6
+20,Purine synthesis,M_135,NME7
+20,Purine synthesis,M_135,NUDT16
+20,Purine synthesis,M_135,NUDT5
+20,Purine synthesis,M_136,ADSL
+20,Purine synthesis,M_136,ADSS
+20,Purine synthesis,M_136,ADSSL1
+20,Purine synthesis,M_136,AMPD1
+20,Purine synthesis,M_136,AMPD2
+20,Purine synthesis,M_136,AMPD3
+20,Purine synthesis,M_137,IMPDH1
+20,Purine synthesis,M_137,IMPDH2
+20,Purine synthesis,M_138,AK1
+20,Purine synthesis,M_138,AK2
+20,Purine synthesis,M_138,AK3
+20,Purine synthesis,M_138,AK4
+20,Purine synthesis,M_138,AK5
+20,Purine synthesis,M_138,AK6
+20,Purine synthesis,M_138,AK7
+20,Purine synthesis,M_138,AK8
+20,Purine synthesis,M_138,ENTPD1
+20,Purine synthesis,M_138,ENTPD3
+20,Purine synthesis,M_138,ENTPD8
+20,Purine synthesis,M_138,F9
+20,Purine synthesis,M_138,NME1
+20,Purine synthesis,M_138,NME1-NME2
+20,Purine synthesis,M_138,NME2
+20,Purine synthesis,M_138,NME3
+20,Purine synthesis,M_138,NME4
+20,Purine synthesis,M_138,NME5
+20,Purine synthesis,M_138,NME6
+20,Purine synthesis,M_138,NME7
+20,Purine synthesis,M_138,NT5C
+20,Purine synthesis,M_138,NT5C1A
+20,Purine synthesis,M_138,NT5C1B
+20,Purine synthesis,M_138,NT5C1B-RDH14
+20,Purine synthesis,M_138,NT5C2
+20,Purine synthesis,M_138,NT5C3A
+20,Purine synthesis,M_138,NT5C3B
+20,Purine synthesis,M_138,NT5E
+20,Purine synthesis,M_138,NT5M
+20,Purine synthesis,M_138,PKLR
+20,Purine synthesis,M_138,PKM
+20,Purine synthesis,M_138,RRM1
+20,Purine synthesis,M_138,RRM2
+20,Purine synthesis,M_138,RRM2B
+20,Purine synthesis,M_139,ADK
+20,Purine synthesis,M_139,DCK
+20,Purine synthesis,M_139,NT5C
+20,Purine synthesis,M_139,NT5C1A
+20,Purine synthesis,M_139,NT5C1B
+20,Purine synthesis,M_139,NT5C1B-RDH14
+20,Purine synthesis,M_139,NT5C2
+20,Purine synthesis,M_139,NT5C3A
+20,Purine synthesis,M_139,NT5C3B
+20,Purine synthesis,M_139,NT5E
+20,Purine synthesis,M_139,NT5M
+20,Purine synthesis,M_139,PNP
+20,Purine synthesis,M_140,AK1
+20,Purine synthesis,M_140,AK2
+20,Purine synthesis,M_140,AK4
+20,Purine synthesis,M_140,AK5
+20,Purine synthesis,M_140,AK7
+20,Purine synthesis,M_140,AK8
+20,Purine synthesis,M_140,NME1
+20,Purine synthesis,M_140,NME1-NME2
+20,Purine synthesis,M_140,NME2
+20,Purine synthesis,M_140,NME3
+20,Purine synthesis,M_140,NME4
+20,Purine synthesis,M_140,NME5
+20,Purine synthesis,M_140,NME6
+20,Purine synthesis,M_140,NME7
+20,Purine synthesis,M_140,NT5C
+20,Purine synthesis,M_140,NT5C1A
+20,Purine synthesis,M_140,NT5C1B
+20,Purine synthesis,M_140,NT5C1B-RDH14
+20,Purine synthesis,M_140,NT5C2
+20,Purine synthesis,M_140,NT5C3A
+20,Purine synthesis,M_140,NT5C3B
+20,Purine synthesis,M_140,NT5E
+20,Purine synthesis,M_140,NT5M
+20,Purine synthesis,M_140,PKLR
+20,Purine synthesis,M_140,PKM
+20,Purine synthesis,M_140,RRM1
+20,Purine synthesis,M_140,RRM2
+20,Purine synthesis,M_140,RRM2B
+20,Purine synthesis,M_141,PNP
+20,Purine synthesis,M_142,ADA
+20,Purine synthesis,M_142,PNP
+20,Purine synthesis,M_143,ADA
+20,Purine synthesis,M_143,HPRT1
+20,Purine synthesis,M_143,NT5C
+20,Purine synthesis,M_143,NT5C1A
+20,Purine synthesis,M_143,NT5C1B
+20,Purine synthesis,M_143,NT5C1B-RDH14
+20,Purine synthesis,M_143,NT5C2
+20,Purine synthesis,M_143,NT5C3A
+20,Purine synthesis,M_143,NT5C3B
+20,Purine synthesis,M_143,NT5E
+20,Purine synthesis,M_143,NT5M
+20,Purine synthesis,M_143,PNP
+20,Purine synthesis,M_144,XDH
+20,Purine synthesis,M_145,HPRT1
+20,Purine synthesis,M_145,NT5C
+20,Purine synthesis,M_145,NT5C1A
+20,Purine synthesis,M_145,NT5C1B
+20,Purine synthesis,M_145,NT5C1B-RDH14
+20,Purine synthesis,M_145,NT5C2
+20,Purine synthesis,M_145,NT5C3A
+20,Purine synthesis,M_145,NT5C3B
+20,Purine synthesis,M_145,NT5E
+20,Purine synthesis,M_145,NT5M
+20,Purine synthesis,M_145,NUDT2
+20,Purine synthesis,M_145,NUDT5
+20,Purine synthesis,M_145,PNP
+20,Purine synthesis,M_146,XDH
+20,Purine synthesis,M_147,GDA
+20,Purine synthesis,M_148,APRT
+20,Purine synthesis,M_148,GMPS
+20,Purine synthesis,M_148,HPRT1
+20,Purine synthesis,M_148,NT5C
+20,Purine synthesis,M_148,NT5C1A
+20,Purine synthesis,M_148,NT5C1B
+20,Purine synthesis,M_148,NT5C1B-RDH14
+20,Purine synthesis,M_148,NT5C2
+20,Purine synthesis,M_148,NT5C3A
+20,Purine synthesis,M_148,NT5C3B
+20,Purine synthesis,M_148,NT5E
+20,Purine synthesis,M_148,NT5M
+20,Purine synthesis,M_148,NUDT2
+20,Purine synthesis,M_148,NUDT5
+20,Purine synthesis,M_148,PNP
+20,Purine synthesis,M_149,APRT
+20,Purine synthesis,M_149,HPRT1
+20,Purine synthesis,M_149,NT5C
+20,Purine synthesis,M_149,NT5C1A
+20,Purine synthesis,M_149,NT5C1B
+20,Purine synthesis,M_149,NT5C1B-RDH14
+20,Purine synthesis,M_149,NT5C2
+20,Purine synthesis,M_149,NT5C3A
+20,Purine synthesis,M_149,NT5C3B
+20,Purine synthesis,M_149,NT5E
+20,Purine synthesis,M_149,NT5M
+20,Purine synthesis,M_149,PNP
+20,Purine synthesis,M_170,GMPS
+21,Pyrimidine synthesis,M_150,UMPS
+21,Pyrimidine synthesis,M_151,UMPS
+21,Pyrimidine synthesis,M_152,DPYD
+21,Pyrimidine synthesis,M_152,DPYS
+21,Pyrimidine synthesis,M_152,NT5C
+21,Pyrimidine synthesis,M_152,NT5C1A
+21,Pyrimidine synthesis,M_152,NT5C1B
+21,Pyrimidine synthesis,M_152,NT5C1B-RDH14
+21,Pyrimidine synthesis,M_152,NT5C2
+21,Pyrimidine synthesis,M_152,NT5C3A
+21,Pyrimidine synthesis,M_152,NT5C3B
+21,Pyrimidine synthesis,M_152,NT5E
+21,Pyrimidine synthesis,M_152,NT5M
+21,Pyrimidine synthesis,M_152,UCK1
+21,Pyrimidine synthesis,M_152,UCK2
+21,Pyrimidine synthesis,M_152,UCKL1
+21,Pyrimidine synthesis,M_152,UPB1
+21,Pyrimidine synthesis,M_152,UPP1
+21,Pyrimidine synthesis,M_152,UPP2
+21,Pyrimidine synthesis,M_152,UPRT
+21,Pyrimidine synthesis,M_153,CANT1
+21,Pyrimidine synthesis,M_153,CMPK1
+21,Pyrimidine synthesis,M_153,CMPK2
+21,Pyrimidine synthesis,M_153,CTPS1
+21,Pyrimidine synthesis,M_153,CTPS2
+21,Pyrimidine synthesis,M_153,ENTPD1
+21,Pyrimidine synthesis,M_153,ENTPD3
+21,Pyrimidine synthesis,M_153,ENTPD4
+21,Pyrimidine synthesis,M_153,ENTPD5
+21,Pyrimidine synthesis,M_153,ENTPD6
+21,Pyrimidine synthesis,M_153,ENTPD8
+21,Pyrimidine synthesis,M_153,NME1
+21,Pyrimidine synthesis,M_153,NME1-NME2
+21,Pyrimidine synthesis,M_153,NME2
+21,Pyrimidine synthesis,M_153,NME3
+21,Pyrimidine synthesis,M_153,NME4
+21,Pyrimidine synthesis,M_153,NME5
+21,Pyrimidine synthesis,M_153,NME6
+21,Pyrimidine synthesis,M_153,NME7
+21,Pyrimidine synthesis,M_154,DPYD
+21,Pyrimidine synthesis,M_154,DPYS
+21,Pyrimidine synthesis,M_154,UPB1
+21,Pyrimidine synthesis,M_155,CTPS1
+21,Pyrimidine synthesis,M_155,CTPS2
+21,Pyrimidine synthesis,M_155,ENTPD1
+21,Pyrimidine synthesis,M_155,ENTPD3
+21,Pyrimidine synthesis,M_155,ENTPD8
+21,Pyrimidine synthesis,M_155,NME1
+21,Pyrimidine synthesis,M_155,NME1-NME2
+21,Pyrimidine synthesis,M_155,NME2
+21,Pyrimidine synthesis,M_155,NME3
+21,Pyrimidine synthesis,M_155,NME4
+21,Pyrimidine synthesis,M_155,NME5
+21,Pyrimidine synthesis,M_155,NME6
+21,Pyrimidine synthesis,M_155,NME7
+21,Pyrimidine synthesis,M_156,CMPK1
+21,Pyrimidine synthesis,M_156,CMPK2
+21,Pyrimidine synthesis,M_156,ENTPD1
+21,Pyrimidine synthesis,M_156,ENTPD3
+21,Pyrimidine synthesis,M_156,ENTPD8
+21,Pyrimidine synthesis,M_156,NT5C
+21,Pyrimidine synthesis,M_156,NT5C1A
+21,Pyrimidine synthesis,M_156,NT5C1B
+21,Pyrimidine synthesis,M_156,NT5C1B-RDH14
+21,Pyrimidine synthesis,M_156,NT5C2
+21,Pyrimidine synthesis,M_156,NT5C3A
+21,Pyrimidine synthesis,M_156,NT5C3B
+21,Pyrimidine synthesis,M_156,NT5E
+21,Pyrimidine synthesis,M_156,NT5M
+21,Pyrimidine synthesis,M_156,UCK1
+21,Pyrimidine synthesis,M_156,UCK2
+21,Pyrimidine synthesis,M_156,UCKL1
+21,Pyrimidine synthesis,M_157,RRM1
+21,Pyrimidine synthesis,M_157,RRM2
+21,Pyrimidine synthesis,M_157,RRM2B
+21,Pyrimidine synthesis,M_158,CMPK1
+21,Pyrimidine synthesis,M_158,CMPK2
+21,Pyrimidine synthesis,M_158,DCK
+21,Pyrimidine synthesis,M_158,DCTPP1
+21,Pyrimidine synthesis,M_158,NT5C
+21,Pyrimidine synthesis,M_158,NT5C1A
+21,Pyrimidine synthesis,M_158,NT5C1B
+21,Pyrimidine synthesis,M_158,NT5C1B-RDH14
+21,Pyrimidine synthesis,M_158,NT5C2
+21,Pyrimidine synthesis,M_158,NT5C3A
+21,Pyrimidine synthesis,M_158,NT5C3B
+21,Pyrimidine synthesis,M_158,NT5E
+21,Pyrimidine synthesis,M_158,NT5M
+21,Pyrimidine synthesis,M_159,DCK
+21,Pyrimidine synthesis,M_159,NT5C
+21,Pyrimidine synthesis,M_159,NT5C1A
+21,Pyrimidine synthesis,M_159,NT5C1B
+21,Pyrimidine synthesis,M_159,NT5C1B-RDH14
+21,Pyrimidine synthesis,M_159,NT5C2
+21,Pyrimidine synthesis,M_159,NT5C3A
+21,Pyrimidine synthesis,M_159,NT5C3B
+21,Pyrimidine synthesis,M_159,NT5E
+21,Pyrimidine synthesis,M_159,NT5M
+21,Pyrimidine synthesis,M_160,CMPK1
+21,Pyrimidine synthesis,M_160,CMPK2
+21,Pyrimidine synthesis,M_160,DCTD
+21,Pyrimidine synthesis,M_160,DCTPP1
+21,Pyrimidine synthesis,M_161,NME1
+21,Pyrimidine synthesis,M_161,NME1-NME2
+21,Pyrimidine synthesis,M_161,NME2
+21,Pyrimidine synthesis,M_161,NME3
+21,Pyrimidine synthesis,M_161,NME4
+21,Pyrimidine synthesis,M_161,NME5
+21,Pyrimidine synthesis,M_161,NME6
+21,Pyrimidine synthesis,M_161,NME7
+21,Pyrimidine synthesis,M_162,NT5C
+21,Pyrimidine synthesis,M_162,NT5C1A
+21,Pyrimidine synthesis,M_162,NT5C1B
+21,Pyrimidine synthesis,M_162,NT5C1B-RDH14
+21,Pyrimidine synthesis,M_162,NT5C2
+21,Pyrimidine synthesis,M_162,NT5C3A
+21,Pyrimidine synthesis,M_162,NT5C3B
+21,Pyrimidine synthesis,M_162,NT5E
+21,Pyrimidine synthesis,M_162,NT5M
+21,Pyrimidine synthesis,M_162,TK1
+21,Pyrimidine synthesis,M_162,TK2
+21,Pyrimidine synthesis,M_163,TYMS
+21,Pyrimidine synthesis,M_164,ACSF3
+21,Pyrimidine synthesis,M_164,AGXT2
+21,Pyrimidine synthesis,M_164,ALDH1B1
+21,Pyrimidine synthesis,M_164,ALDH2
+21,Pyrimidine synthesis,M_164,ALDH3A2
+21,Pyrimidine synthesis,M_164,ALDH7A1
+21,Pyrimidine synthesis,M_164,ALDH9A1
+21,Pyrimidine synthesis,M_164,AOX1
+21,Pyrimidine synthesis,M_164,DPYD
+21,Pyrimidine synthesis,M_164,DPYS
+21,Pyrimidine synthesis,M_164,MUT
+21,Pyrimidine synthesis,M_164,NT5C
+21,Pyrimidine synthesis,M_164,NT5C1A
+21,Pyrimidine synthesis,M_164,NT5C1B
+21,Pyrimidine synthesis,M_164,NT5C1B-RDH14
+21,Pyrimidine synthesis,M_164,NT5C2
+21,Pyrimidine synthesis,M_164,NT5C3A
+21,Pyrimidine synthesis,M_164,NT5C3B
+21,Pyrimidine synthesis,M_164,NT5E
+21,Pyrimidine synthesis,M_164,NT5M
+21,Pyrimidine synthesis,M_164,TK1
+21,Pyrimidine synthesis,M_164,TK2
+21,Pyrimidine synthesis,M_164,TYMP
+21,Pyrimidine synthesis,M_164,UPB1
+21,Pyrimidine synthesis,M_165,DTYMK
+21,Pyrimidine synthesis,M_165,ENTPD1
+21,Pyrimidine synthesis,M_165,ENTPD3
+21,Pyrimidine synthesis,M_165,ENTPD8
+21,Pyrimidine synthesis,M_165,NME1
+21,Pyrimidine synthesis,M_165,NME1-NME2
+21,Pyrimidine synthesis,M_165,NME2
+21,Pyrimidine synthesis,M_165,NME3
+21,Pyrimidine synthesis,M_165,NME4
+21,Pyrimidine synthesis,M_165,NME5
+21,Pyrimidine synthesis,M_165,NME6
+21,Pyrimidine synthesis,M_165,NME7
+21,Pyrimidine synthesis,M_166,ACSF3
+21,Pyrimidine synthesis,M_166,AGXT2
+21,Pyrimidine synthesis,M_166,ALDH1B1
+21,Pyrimidine synthesis,M_166,ALDH2
+21,Pyrimidine synthesis,M_166,ALDH3A2
+21,Pyrimidine synthesis,M_166,ALDH7A1
+21,Pyrimidine synthesis,M_166,ALDH9A1
+21,Pyrimidine synthesis,M_166,AOX1
+21,Pyrimidine synthesis,M_166,DPYD
+21,Pyrimidine synthesis,M_166,DPYS
+21,Pyrimidine synthesis,M_166,MUT
+21,Pyrimidine synthesis,M_166,UPB1
+21,Pyrimidine synthesis,M_171,CMPK1
+21,Pyrimidine synthesis,M_171,CMPK2
+21,Pyrimidine synthesis,M_171,DCTPP1
+22,Steroid hormone synthesis,M_167,CYP51A1
+22,Steroid hormone synthesis,M_167,DHCR24
+22,Steroid hormone synthesis,M_167,DHCR7
+22,Steroid hormone synthesis,M_167,EBP
+22,Steroid hormone synthesis,M_167,FDFT1
+22,Steroid hormone synthesis,M_167,HSD17B1
+22,Steroid hormone synthesis,M_167,HSD17B12
+22,Steroid hormone synthesis,M_167,HSD17B2
+22,Steroid hormone synthesis,M_167,HSD17B6
+22,Steroid hormone synthesis,M_167,HSD17B7
+22,Steroid hormone synthesis,M_167,HSD17B8
+22,Steroid hormone synthesis,M_167,LSS
+22,Steroid hormone synthesis,M_167,MSMO1
+22,Steroid hormone synthesis,M_167,NSDHL
+22,Steroid hormone synthesis,M_167,RNF2
+22,Steroid hormone synthesis,M_167,SC5D
+22,Steroid hormone synthesis,M_167,SQLE
+22,Steroid hormone synthesis,M_167,TM7SF2
+22,Steroid hormone synthesis,M_168,ACOT1
+22,Steroid hormone synthesis,M_168,ACOT2
+22,Steroid hormone synthesis,M_168,ACOT4
+22,Steroid hormone synthesis,M_168,ACOT7
+22,Steroid hormone synthesis,M_168,ACOT8
+22,Steroid hormone synthesis,M_168,ACOX2
+22,Steroid hormone synthesis,M_168,AKR1C4
+22,Steroid hormone synthesis,M_168,AKR1D1
+22,Steroid hormone synthesis,M_168,AMACR
+22,Steroid hormone synthesis,M_168,BAAT
+22,Steroid hormone synthesis,M_168,CH25H
+22,Steroid hormone synthesis,M_168,CYP27A1
+22,Steroid hormone synthesis,M_168,CYP39A1
+22,Steroid hormone synthesis,M_168,CYP46A1
+22,Steroid hormone synthesis,M_168,CYP7A1
+22,Steroid hormone synthesis,M_168,CYP7B1
+22,Steroid hormone synthesis,M_168,CYP8B1
+22,Steroid hormone synthesis,M_168,HSD11B2
+22,Steroid hormone synthesis,M_168,HSD17B4
+22,Steroid hormone synthesis,M_168,HSD3B7
+22,Steroid hormone synthesis,M_168,RDH10
+22,Steroid hormone synthesis,M_168,RDH16
+22,Steroid hormone synthesis,M_168,RDH8
+22,Steroid hormone synthesis,M_168,SCP2
+22,Steroid hormone synthesis,M_168,SLC27A5
+22,Steroid hormone synthesis,M_169,AKR1C1
+22,Steroid hormone synthesis,M_169,AKR1C2
+22,Steroid hormone synthesis,M_169,AKR1C3
+22,Steroid hormone synthesis,M_169,AKR1C4
+22,Steroid hormone synthesis,M_169,AKR1D1
+22,Steroid hormone synthesis,M_169,ALG11
+22,Steroid hormone synthesis,M_169,COMT
+22,Steroid hormone synthesis,M_169,CYP11A1
+22,Steroid hormone synthesis,M_169,CYP11B1
+22,Steroid hormone synthesis,M_169,CYP11B2
+22,Steroid hormone synthesis,M_169,CYP17A1
+22,Steroid hormone synthesis,M_169,CYP19A1
+22,Steroid hormone synthesis,M_169,CYP1A1
+22,Steroid hormone synthesis,M_169,CYP1A2
+22,Steroid hormone synthesis,M_169,CYP1B1
+22,Steroid hormone synthesis,M_169,CYP2A13
+22,Steroid hormone synthesis,M_169,CYP2A6
+22,Steroid hormone synthesis,M_169,CYP2A7
+22,Steroid hormone synthesis,M_169,CYP2B6
+22,Steroid hormone synthesis,M_169,CYP2C18
+22,Steroid hormone synthesis,M_169,CYP2C19
+22,Steroid hormone synthesis,M_169,CYP2C8
+22,Steroid hormone synthesis,M_169,CYP2C9
+22,Steroid hormone synthesis,M_169,CYP2D6
+22,Steroid hormone synthesis,M_169,CYP2E1
+22,Steroid hormone synthesis,M_169,CYP2F1
+22,Steroid hormone synthesis,M_169,CYP2J2
+22,Steroid hormone synthesis,M_169,CYP2S1
+22,Steroid hormone synthesis,M_169,CYP3A4
+22,Steroid hormone synthesis,M_169,CYP3A43
+22,Steroid hormone synthesis,M_169,CYP3A5
+22,Steroid hormone synthesis,M_169,CYP3A7
+22,Steroid hormone synthesis,M_169,CYP4B1
+22,Steroid hormone synthesis,M_169,CYP4F8
+22,Steroid hormone synthesis,M_169,CYP4X1
+22,Steroid hormone synthesis,M_169,CYP4Z1
+22,Steroid hormone synthesis,M_169,HSD11B1
+22,Steroid hormone synthesis,M_169,HSD11B2
+22,Steroid hormone synthesis,M_169,HSD17B1
+22,Steroid hormone synthesis,M_169,HSD17B12
+22,Steroid hormone synthesis,M_169,HSD17B2
+22,Steroid hormone synthesis,M_169,HSD17B3
+22,Steroid hormone synthesis,M_169,HSD17B6
+22,Steroid hormone synthesis,M_169,HSD17B7
+22,Steroid hormone synthesis,M_169,HSD17B8
+22,Steroid hormone synthesis,M_169,HSD3B1
+22,Steroid hormone synthesis,M_169,HSD3B2
+22,Steroid hormone synthesis,M_169,RDH10
+22,Steroid hormone synthesis,M_169,RDH16
+22,Steroid hormone synthesis,M_169,RDH8
+22,Steroid hormone synthesis,M_169,RNF2
+22,Steroid hormone synthesis,M_169,SRD5A1
+22,Steroid hormone synthesis,M_169,SRD5A2
+22,Steroid hormone synthesis,M_169,SRD5A3
+22,Steroid hormone synthesis,M_169,STS
+22,Steroid hormone synthesis,M_169,SULT1E1
+22,Steroid hormone synthesis,M_169,SULT2B1
+22,Steroid hormone synthesis,M_169,UGT1A1
+22,Steroid hormone synthesis,M_169,UGT1A10
+22,Steroid hormone synthesis,M_169,UGT1A3
+22,Steroid hormone synthesis,M_169,UGT1A4
+22,Steroid hormone synthesis,M_169,UGT1A5
+22,Steroid hormone synthesis,M_169,UGT1A6
+22,Steroid hormone synthesis,M_169,UGT1A7
+22,Steroid hormone synthesis,M_169,UGT1A8
+22,Steroid hormone synthesis,M_169,UGT1A9
+22,Steroid hormone synthesis,M_169,UGT2A1
+22,Steroid hormone synthesis,M_169,UGT2A2
+22,Steroid hormone synthesis,M_169,UGT2A3
+22,Steroid hormone synthesis,M_169,UGT2B10
+22,Steroid hormone synthesis,M_169,UGT2B11
+22,Steroid hormone synthesis,M_169,UGT2B15
+22,Steroid hormone synthesis,M_169,UGT2B17
+22,Steroid hormone synthesis,M_169,UGT2B28
+22,Steroid hormone synthesis,M_169,UGT2B4
+22,Steroid hormone synthesis,M_169,UGT2B7

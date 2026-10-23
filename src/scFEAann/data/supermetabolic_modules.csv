@@ -1,0 +1,23 @@
+Supermodule ID,Supermodule class,Number of modules,Number of genes
+1,Glycolysis+TCA cycle,14,83
+2,Serine metabolism,18,114
+3,Pentose phosphate,1,28
+4,Fatty acids metabolism/synthesis,2,81
+5,Aspartate metabolism,5,35
+6,Beta-alanine metabolism,5,48
+7,Propionyl-CoA metabolism,2,25
+8,Glutamate metabolism,5,13
+9,Leucine+valine+isoleucine,8,99
+10,Urea cycle,8,30
+11,Spermine metabolism,2,7
+12,Transporters,35,80
+13,Hyaluronic acid synthesis,5,26
+14,Glycogen synthesis,1,4
+15,Glycosaminoglycan synthesis,1,14
+16,N-linked glycan synthesis,12,88
+17,O-linked glycan synthesis,4,17
+18,Sialic acid synthesis,3,12
+19,Glycan synthesis,1,5
+20,Purine synthesis,17,67
+21,Pyrimidine synthesis,17,49
+22,Steroid hormone synthesis,3,177

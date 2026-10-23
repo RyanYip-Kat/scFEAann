@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scFEAann"
+version = "0.1.0"
+description = "AnnData API for the scFEA metabolic flux and gradient algorithms"
+readme = "README_scFEAann.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "anndata>=0.10",
+    "matplotlib>=3.8",
+    "networkx>=3.0",
+    "numpy>=1.24",
+    "openpyxl>=3.1",
+    "pandas>=2.0",
+    "pillow>=10.0",
+    "scikit-learn>=1.4",
+    "scipy>=1.10",
+    "seaborn>=0.13",
+    "torch>=2.0",
+    "tqdm>=4.65",
+    "umap-learn>=0.5.7",
+]
+
+[project.optional-dependencies]
+magic = ["magic-impute>=3.0"]
+
+[dependency-groups]
+dev = [
+    "pypdf>=4.0",
+    "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+scFEAann = ["data/*.csv"]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

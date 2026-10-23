@@ -1,0 +1,133 @@
+group,supermodule_id,class_label,n_cells,mean_flux,sum_flux
+D1 | corneal basal epithelium,1,SM01 Glycolysis+TCA cycle,34,0.001896642829866751,0.02655299972085392
+D1 | corneal basal epithelium,2,SM02 Serine metabolism,34,0.0013355967513395146,0.02404074157204698
+D1 | corneal basal epithelium,3,SM03 Pentose phosphate,34,-8.375603048240438e-07,-8.375603048240438e-07
+D1 | corneal basal epithelium,4,SM04 Fatty acids metabolism/synthesis,34,1.2345064212294186e-05,2.4690128424588373e-05
+D1 | corneal basal epithelium,5,SM05 Aspartate metabolism,34,-0.0005838421228177407,-0.002919210586696863
+D1 | corneal basal epithelium,6,SM06 Beta-alanine metabolism,34,-0.0005837709690882441,-0.0029188548488652006
+D1 | corneal basal epithelium,7,SM07 Propionyl-CoA metabolism,34,1.2307509999064838e-05,2.4615019998129675e-05
+D1 | corneal basal epithelium,8,SM08 Glutamate metabolism,34,-0.0005838629628723377,-0.002919314812649699
+D1 | corneal basal epithelium,9,SM09 Leucine+valine+isoleucine,34,0.0009965104845297687,0.00797208387623815
+D1 | corneal basal epithelium,10,SM10 Urea cycle,34,0.0009950991473434603,0.007960793178747682
+D1 | corneal basal epithelium,11,SM11 Spermine metabolism,34,1.233202569624957e-05,2.466405139249914e-05
+D1 | corneal basal epithelium,12,SM12 Transporters,34,-0.00028043459443485033,-0.00897390702191521
+D1 | corneal basal epithelium,13,SM13 Hyaluronic acid synthesis,34,-0.0005838696242255323,-0.0029193481211276617
+D1 | corneal basal epithelium,14,SM14 Glycogen synthesis,34,-9.377048734356375e-07,-9.377048734356375e-07
+D1 | corneal basal epithelium,15,SM15 Glycosaminoglycan synthesis,34,-9.330208687221303e-07,-9.330208687221303e-07
+D1 | corneal basal epithelium,16,SM16 N-linked glycan synthesis,34,-0.000196056386544917,-0.002352676628267064
+D1 | corneal basal epithelium,17,SM17 O-linked glycan synthesis,34,-0.0007173809263964786,-0.0028695237055859145
+D1 | corneal basal epithelium,18,SM18 Sialic acid synthesis,34,-2.9217415270549655e-05,-8.765224586514865e-05
+D1 | corneal basal epithelium,19,SM19 Glycan synthesis,34,-9.34527419945773e-07,-9.34527419945773e-07
+D1 | corneal basal epithelium,20,SM20 Purine synthesis,34,0.0013328833978020532,0.023991901098805314
+D1 | corneal basal epithelium,21,SM21 Pyrimidine synthesis,34,0.0013311465531039763,0.023960637914783815
+D1 | corneal basal epithelium,22,SM22 Steroid hormone synthesis,34,-5.804191288702628e-05,-0.00017412573866107885
+D1 | corneal superficial epithelium,1,SM01 Glycolysis+TCA cycle,34,0.001895653607789427,0.02653915057068362
+D1 | corneal superficial epithelium,2,SM02 Serine metabolism,34,0.001333364169113338,0.024000555112519684
+D1 | corneal superficial epithelium,3,SM03 Pentose phosphate,34,-8.965897209504072e-07,-8.965897209504072e-07
+D1 | corneal superficial epithelium,4,SM04 Fatty acids metabolism/synthesis,34,1.2385631527970819e-05,2.4771263055941637e-05
+D1 | corneal superficial epithelium,5,SM05 Aspartate metabolism,34,-0.0005838576813831049,-0.0029192884069155246
+D1 | corneal superficial epithelium,6,SM06 Beta-alanine metabolism,34,-0.0005837526336750563,-0.0029187631409834415
+D1 | corneal superficial epithelium,7,SM07 Propionyl-CoA metabolism,34,1.2313193805954035e-05,2.462638761190807e-05
+D1 | corneal superficial epithelium,8,SM08 Glutamate metabolism,34,-0.0005838645618710228,-0.002919322783675264
+D1 | corneal superficial epithelium,9,SM09 Leucine+valine+isoleucine,34,0.0009956377222860122,0.007965101778288098
+D1 | corneal superficial epithelium,10,SM10 Urea cycle,34,0.0009950645617209375,0.0079605164937675
+D1 | corneal superficial epithelium,11,SM11 Spermine metabolism,34,1.2307112817378606e-05,2.461422563475721e-05
+D1 | corneal superficial epithelium,12,SM12 Transporters,34,-0.00028044160674600043,-0.008974131415872014
+D1 | corneal superficial epithelium,13,SM13 Hyaluronic acid synthesis,34,-0.0005838684189845534,-0.002919342094922767
+D1 | corneal superficial epithelium,14,SM14 Glycogen synthesis,34,-9.377870489569272e-07,-9.377870489569272e-07
+D1 | corneal superficial epithelium,15,SM15 Glycosaminoglycan synthesis,34,-9.241459124228533e-07,-9.241459124228533e-07
+D1 | corneal superficial epithelium,16,SM16 N-linked glycan synthesis,34,-0.00019632679280167555,-0.0023559215204680666
+D1 | corneal superficial epithelium,17,SM17 O-linked glycan synthesis,34,-0.000717381138683242,-0.002869524554732968
+D1 | corneal superficial epithelium,18,SM18 Sialic acid synthesis,34,-2.9218109215007108e-05,-8.765432764502133e-05
+D1 | corneal superficial epithelium,19,SM19 Glycan synthesis,34,-9.3718442846747e-07,-9.3718442846747e-07
+D1 | corneal superficial epithelium,20,SM20 Purine synthesis,34,0.0013312701040002354,0.023962861803524634
+D1 | corneal superficial epithelium,21,SM21 Pyrimidine synthesis,34,0.0013304877005900968,0.023948778672253385
+D1 | corneal superficial epithelium,22,SM22 Steroid hormone synthesis,34,-5.744169378458002e-05,-0.00017232508124674067
+D1 | corneal suprabasal epithelial cells,1,SM01 Glycolysis+TCA cycle,33,0.0018955340827674124,0.026537477179910198
+D1 | corneal suprabasal epithelial cells,2,SM02 Serine metabolism,33,0.0013317792521168788,0.023972026777989937
+D1 | corneal suprabasal epithelial cells,3,SM03 Pentose phosphate,33,-9.193282687302792e-07,-9.193282687302792e-07
+D1 | corneal suprabasal epithelial cells,4,SM04 Fatty acids metabolism/synthesis,33,1.2368500006921364e-05,2.4737000013842728e-05
+D1 | corneal suprabasal epithelial cells,5,SM05 Aspartate metabolism,33,-0.0005838451677735782,-0.0029192258406317596
+D1 | corneal suprabasal epithelial cells,6,SM06 Beta-alanine metabolism,33,-0.0005837058027585348,-0.0029185290137926736
+D1 | corneal suprabasal epithelial cells,7,SM07 Propionyl-CoA metabolism,33,1.231170344081792e-05,2.462340688163584e-05
+D1 | corneal suprabasal epithelial cells,8,SM08 Glutamate metabolism,33,-0.0005838604217084745,-0.0029193020961952934
+D1 | corneal suprabasal epithelial cells,9,SM09 Leucine+valine+isoleucine,33,0.000995623607498904,0.007964988859991232
+D1 | corneal suprabasal epithelial cells,10,SM10 Urea cycle,33,0.0009950928241861138,0.00796074259348891
+D1 | corneal suprabasal epithelial cells,11,SM11 Spermine metabolism,33,1.2308457922754865e-05,2.461691584550973e-05
+D1 | corneal suprabasal epithelial cells,12,SM12 Transporters,33,-0.0002803838155655698,-0.008972282098098234
+D1 | corneal suprabasal epithelial cells,13,SM13 Hyaluronic acid synthesis,33,-0.0005838731444920554,-0.002919365708349329
+D1 | corneal suprabasal epithelial cells,14,SM14 Glycogen synthesis,33,-9.377571669491854e-07,-9.377571669491854e-07
+D1 | corneal suprabasal epithelial cells,15,SM15 Glycosaminoglycan synthesis,33,-9.36346072139162e-07,-9.36346072139162e-07
+D1 | corneal suprabasal epithelial cells,16,SM16 N-linked glycan synthesis,33,-0.00019614874900346905,-0.0023537849950971026
+D1 | corneal suprabasal epithelial cells,17,SM17 O-linked glycan synthesis,33,-0.0007173785177821463,-0.0028695140711285853
+D1 | corneal suprabasal epithelial cells,18,SM18 Sialic acid synthesis,33,-2.9217592865196902e-05,-8.765277876095338e-05
+D1 | corneal suprabasal epithelial cells,19,SM19 Glycan synthesis,33,-9.301090330788584e-07,-9.301090330788584e-07
+D1 | corneal suprabasal epithelial cells,20,SM20 Purine synthesis,33,0.0013309025741887815,0.023956246335398067
+D1 | corneal suprabasal epithelial cells,21,SM21 Pyrimidine synthesis,33,0.0013305108930746262,0.023949196167064434
+D1 | corneal suprabasal epithelial cells,22,SM22 Steroid hormone synthesis,33,-5.7642517662536577e-05,-0.00017292755232615903
+D2 | corneal basal epithelium,1,SM01 Glycolysis+TCA cycle,33,0.0018971039010494044,0.02655945469935735
+D2 | corneal basal epithelium,2,SM02 Serine metabolism,33,0.0013437982909663608,0.024188369343226605
+D2 | corneal basal epithelium,3,SM03 Pentose phosphate,33,-8.197331970388239e-07,-8.197331970388239e-07
+D2 | corneal basal epithelium,4,SM04 Fatty acids metabolism/synthesis,33,1.2495159877069069e-05,2.4990319754138138e-05
+D2 | corneal basal epithelium,5,SM05 Aspartate metabolism,33,-0.0005837065259446249,-0.0029185326261953874
+D2 | corneal basal epithelium,6,SM06 Beta-alanine metabolism,33,-0.00058380810889613,-0.0029190405356613073
+D2 | corneal basal epithelium,7,SM07 Propionyl-CoA metabolism,33,1.2329511457320416e-05,2.4659022914640833e-05
+D2 | corneal basal epithelium,8,SM08 Glutamate metabolism,33,-0.0005838645914936382,-0.0029193229803984814
+D2 | corneal basal epithelium,9,SM09 Leucine+valine+isoleucine,33,0.0009975550399923866,0.007980440319939093
+D2 | corneal basal epithelium,10,SM10 Urea cycle,33,0.0009951217763238783,0.007960974210591026
+D2 | corneal basal epithelium,11,SM11 Spermine metabolism,33,1.2358283680496793e-05,2.4716567360993587e-05
+D2 | corneal basal epithelium,12,SM12 Transporters,33,-0.00028033675555365556,-0.008970776177716978
+D2 | corneal basal epithelium,13,SM13 Hyaluronic acid synthesis,33,-0.0005838702570393004,-0.0029193512869603705
+D2 | corneal basal epithelium,14,SM14 Glycogen synthesis,33,-9.373056166099779e-07,-9.373056166099779e-07
+D2 | corneal basal epithelium,15,SM15 Glycosaminoglycan synthesis,33,-9.255370858943823e-07,-9.255370858943823e-07
+D2 | corneal basal epithelium,16,SM16 N-linked glycan synthesis,33,-0.00019525365231939676,-0.0023430438260688925
+D2 | corneal basal epithelium,17,SM17 O-linked glycan synthesis,33,-0.0007173786024478349,-0.0028695144097913394
+D2 | corneal basal epithelium,18,SM18 Sialic acid synthesis,33,-2.9217733974677905e-05,-8.765320208939639e-05
+D2 | corneal basal epithelium,19,SM19 Glycan synthesis,33,-9.369105100631714e-07,-9.369105100631714e-07
+D2 | corneal basal epithelium,20,SM20 Purine synthesis,33,0.001334568824280392,0.02402223889349085
+D2 | corneal basal epithelium,21,SM21 Pyrimidine synthesis,33,0.001332106449725953,0.023977916010401466
+D2 | corneal basal epithelium,22,SM22 Steroid hormone synthesis,33,-5.861582482766332e-05,-0.00017584747437274817
+D2 | corneal superficial epithelium,1,SM01 Glycolysis+TCA cycle,33,0.0018967985683544116,0.026555180154515034
+D2 | corneal superficial epithelium,2,SM02 Serine metabolism,33,0.001339596184676118,0.02411273116189422
+D2 | corneal superficial epithelium,3,SM03 Pentose phosphate,33,-8.377387668147231e-07,-8.377387668147231e-07
+D2 | corneal superficial epithelium,4,SM04 Fatty acids metabolism/synthesis,33,1.2566744716781558e-05,2.5133489433563117e-05
+D2 | corneal superficial epithelium,5,SM05 Aspartate metabolism,33,-0.0005837447084063156,-0.0029187235191012874
+D2 | corneal superficial epithelium,6,SM06 Beta-alanine metabolism,33,-0.0005837520655018814,-0.0029187603204539328
+D2 | corneal superficial epithelium,7,SM07 Propionyl-CoA metabolism,33,1.2326054275035858e-05,2.4652108550071716e-05
+D2 | corneal superficial epithelium,8,SM08 Glutamate metabolism,33,-0.0005838619051218936,-0.0029193095185539937
+D2 | corneal superficial epithelium,9,SM09 Leucine+valine+isoleucine,33,0.0009968909399696822,0.007975127519757458
+D2 | corneal superficial epithelium,10,SM10 Urea cycle,33,0.0009950877548280087,0.00796070203862407
+D2 | corneal superficial epithelium,11,SM11 Spermine metabolism,33,1.2356675032413367e-05,2.4713350064826734e-05
+D2 | corneal superficial epithelium,12,SM12 Transporters,33,-0.0002803937461452954,-0.008972599876649452
+D2 | corneal superficial epithelium,13,SM13 Hyaluronic acid synthesis,33,-0.0005838662019055901,-0.002919331023638899
+D2 | corneal superficial epithelium,14,SM14 Glycogen synthesis,33,-9.373902822985793e-07,-9.373902822985793e-07
+D2 | corneal superficial epithelium,15,SM15 Glycosaminoglycan synthesis,33,-9.218117955959204e-07,-9.218117955959204e-07
+D2 | corneal superficial epithelium,16,SM16 N-linked glycan synthesis,33,-0.00019573093176762941,-0.002348771177683816
+D2 | corneal superficial epithelium,17,SM17 O-linked glycan synthesis,33,-0.0007173792938842918,-0.002869517175537167
+D2 | corneal superficial epithelium,18,SM18 Sialic acid synthesis,33,-2.9218862905646816e-05,-8.765658871694045e-05
+D2 | corneal superficial epithelium,19,SM19 Glycan synthesis,33,-9.367694005821691e-07,-9.367694005821691e-07
+D2 | corneal superficial epithelium,20,SM20 Purine synthesis,33,0.0013344561166101785,0.02402021007781679
+D2 | corneal superficial epithelium,21,SM21 Pyrimidine synthesis,33,0.001332022249698639,0.0239764004945755
+D2 | corneal superficial epithelium,22,SM22 Steroid hormone synthesis,33,-5.8351771396260254e-05,-0.0001750553139682972
+D2 | corneal suprabasal epithelial cells,1,SM01 Glycolysis+TCA cycle,33,0.0018968664349592996,0.02655613010354114
+D2 | corneal suprabasal epithelial cells,2,SM02 Serine metabolism,33,0.001342274096907314,0.02416093387838566
+D2 | corneal suprabasal epithelial cells,3,SM03 Pentose phosphate,33,-7.741548346750664e-07,-7.741548346750664e-07
+D2 | corneal suprabasal epithelial cells,4,SM04 Fatty acids metabolism/synthesis,33,1.2637059571165027e-05,2.5274119142330054e-05
+D2 | corneal suprabasal epithelial cells,5,SM05 Aspartate metabolism,33,-0.0005837326206153992,-0.0029186631242434182
+D2 | corneal suprabasal epithelial cells,6,SM06 Beta-alanine metabolism,33,-0.0005837679738319958,-0.002918839877979322
+D2 | corneal suprabasal epithelial cells,7,SM07 Propionyl-CoA metabolism,33,1.2326364715894064e-05,2.4652729431788128e-05
+D2 | corneal suprabasal epithelial cells,8,SM08 Glutamate metabolism,33,-0.0005838653975815484,-0.002919326987907742
+D2 | corneal suprabasal epithelial cells,9,SM09 Leucine+valine+isoleucine,33,0.0009977735480237188,0.00798218838418975
+D2 | corneal suprabasal epithelial cells,10,SM10 Urea cycle,33,0.000995130295808794,0.007961042366470352
+D2 | corneal suprabasal epithelial cells,11,SM11 Spermine metabolism,33,1.234538627393318e-05,2.469077254786636e-05
+D2 | corneal suprabasal epithelial cells,12,SM12 Transporters,33,-0.0002803893717513843,-0.008972459896044298
+D2 | corneal suprabasal epithelial cells,13,SM13 Hyaluronic acid synthesis,33,-0.00058387322210227,-0.002919366103455876
+D2 | corneal suprabasal epithelial cells,14,SM14 Glycogen synthesis,33,-9.360920750733578e-07,-9.360920750733578e-07
+D2 | corneal suprabasal epithelial cells,15,SM15 Glycosaminoglycan synthesis,33,-9.14022552244591e-07,-9.14022552244591e-07
+D2 | corneal suprabasal epithelial cells,16,SM16 N-linked glycan synthesis,33,-0.00019531882593803334,-0.0023438259112564
+D2 | corneal suprabasal epithelial cells,17,SM17 O-linked glycan synthesis,33,-0.0007173779674551704,-0.0028695118698206816
+D2 | corneal suprabasal epithelial cells,18,SM18 Sialic acid synthesis,33,-2.9217084871065296e-05,-8.765125477855855e-05
+D2 | corneal suprabasal epithelial cells,19,SM19 Glycan synthesis,33,-9.36346072139162e-07,-9.36346072139162e-07
+D2 | corneal suprabasal epithelial cells,20,SM20 Purine synthesis,33,0.0013346446635709567,0.02402360404305386
+D2 | corneal suprabasal epithelial cells,21,SM21 Pyrimidine synthesis,33,0.001332490782563885,0.023984834213148464
+D2 | corneal suprabasal epithelial cells,22,SM22 Steroid hormone synthesis,33,-5.8552438338555284e-05,-0.0001756573152361494

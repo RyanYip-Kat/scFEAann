@@ -1,0 +1,157 @@
+{
+  "input": {
+    "n_obs": 17492,
+    "n_vars": 36612
+  },
+  "grouping": {
+    "dataset_key": "dataset",
+    "cluster_key": "cluster",
+    "n_datasets": 2,
+    "n_clusters": 3,
+    "n_nested_groups": 6
+  },
+  "features": {
+    "n_modules": 168,
+    "n_compounds": 70,
+    "module_annotation_available": true,
+    "top_n": 30,
+    "selected_modules": [
+      "M_48",
+      "M_113",
+      "M_169",
+      "M_54",
+      "M_60",
+      "M_56",
+      "M_13",
+      "M_61",
+      "M_55",
+      "M_4",
+      "M_33",
+      "M_35",
+      "M_47",
+      "M_42",
+      "M_161",
+      "M_152",
+      "M_31",
+      "M_171",
+      "M_160",
+      "M_153",
+      "M_46",
+      "M_8",
+      "M_21",
+      "M_116",
+      "M_34",
+      "M_53",
+      "M_165",
+      "M_135",
+      "M_5",
+      "M_6"
+    ],
+    "selected_compounds": [
+      "Glutamine",
+      "Cholesterol",
+      "Valine",
+      "lysine",
+      "Glutamate",
+      "Isoleucine",
+      "Putrescine",
+      "3PD",
+      "GABA",
+      "Malate",
+      "Propanoyl-CoA",
+      "Oxaloacetate",
+      "Succinyl-CoA",
+      "Spermine",
+      "Pyruvate",
+      "Methionine",
+      "dUMP",
+      "Succinate",
+      "UMP",
+      "Choline",
+      "PRPP",
+      "Citrate",
+      "dCDP",
+      "Cysteine",
+      "Glutathione",
+      "Dolichyl phosphate",
+      "AICAR",
+      "2OG",
+      "GMP",
+      "B-Alanine"
+    ]
+  },
+  "embeddings": {
+    "transcriptome": {
+      "method": "X_umap",
+      "fallback_reason": null
+    },
+    "flux": {
+      "requested_method": "umap",
+      "method": "umap",
+      "standardized": true,
+      "explained_variance_2d": 0.11321943367647597,
+      "fallback_reason": null
+    }
+  },
+  "figures": {
+    "Fig1": [
+      "Fig1.pdf",
+      "Fig1.svg",
+      "Fig1.png",
+      "Fig1_grayscale.png"
+    ],
+    "Fig2": [
+      "Fig2.pdf",
+      "Fig2.svg",
+      "Fig2.png",
+      "Fig2_grayscale.png"
+    ],
+    "Fig3": [
+      "Fig3.pdf",
+      "Fig3.svg",
+      "Fig3.png",
+      "Fig3_grayscale.png"
+    ],
+    "Supp_Fig_loss": [
+      "Supp_Fig_loss.pdf",
+      "Supp_Fig_loss.svg",
+      "Supp_Fig_loss.png",
+      "Supp_Fig_loss_grayscale.png"
+    ]
+  },
+  "tables": {
+    "workbook": "report_tables.xlsx",
+    "module_annotation": "module_annotation.csv",
+    "figure_legends": "figure_legends.md",
+    "cell_metadata": "cell_metadata.csv.gz",
+    "cell_flux": "cell_flux.csv.gz",
+    "cell_balance": "cell_balance.csv.gz"
+  },
+  "figure_source_data": {
+    "Fig1a_group_counts": "figure_source_data/Fig1a_group_counts.csv",
+    "Fig1b_dataset_consistency": "figure_source_data/Fig1b_dataset_consistency.csv",
+    "Fig1c_module_heatmap": "figure_source_data/Fig1c_module_heatmap.csv",
+    "Fig1d_top_modules": "figure_source_data/Fig1d_top_modules.csv",
+    "Fig2a_balance_heatmap": "figure_source_data/Fig2a_balance_heatmap.csv",
+    "Fig2b_top_compounds": "figure_source_data/Fig2b_top_compounds.csv",
+    "Fig2c_module_effects": "figure_source_data/Fig2c_module_effects.csv",
+    "Fig2d_compound_effects": "figure_source_data/Fig2d_compound_effects.csv",
+    "Fig3a_transcriptome_embedding": "figure_source_data/Fig3a_transcriptome_embedding.csv",
+    "Fig3b_flux_embedding": "figure_source_data/Fig3b_flux_embedding.csv",
+    "Supp_loss_history": "figure_source_data/Supp_loss_history.csv"
+  },
+  "gradient_tables": {},
+  "software": {
+    "scfeaann": "0.1.0",
+    "anndata": "0.13.4",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.9.1"
+  },
+  "warnings": [
+    "No cell-level p-values are calculated; cells are not independent biological replicates.",
+    "Heatmaps show group z-scores; raw group means are in the workbook."
+  ]
+}

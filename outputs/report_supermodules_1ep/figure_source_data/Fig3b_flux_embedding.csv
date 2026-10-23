@@ -1,0 +1,201 @@
+cell_id,dataset,cluster,dataset_cluster,Flux1,Flux2
+D1_KC1_AATGGAAAGGTTACAA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.410982608795166,-0.6988456845283508
+D1_KC1_ACAGAAAGTTCGGGTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-8.262916564941406,-0.809687614440918
+D1_KC1_ACCATTTTCATCGCTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.687543869018555,-0.18912258744239807
+D1_KC1_ACTTTGTCAAGGCGTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-8.080597877502441,0.10706942528486252
+D1_KC1_AGACAGGAGTCTGCAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.888725757598877,0.01778070442378521
+D1_KC1_AGGAAATGTGATGAAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.033043384552002,0.30985090136528015
+D1_KC1_CGCCAGACAATTCTCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-8.233420372009277,-0.007075923029333353
+D1_KC1_CTGTAGATCTACGGTA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-8.342096328735352,-0.32955336570739746
+D1_KC1_GTAGAAAGTAGCTGTT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-6.048716068267822,-1.9917759895324707
+D1_KC1_GTCGTTCAGCACCAGA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.290881633758545,0.8811403512954712
+D1_KC1_GTTACGAGTTAAGCAA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-6.210819721221924,-1.4688879251480103
+D1_KC1_TCAGGTATCTCACGAA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.5782365798950195,-0.24588026106357574
+D1_KC1_TCGACCTCAGGACGAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.501888751983643,-0.19447489082813263
+D1_KC1_TGGAGAGCACACAGAG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.251780033111572,0.14840981364250183
+D1_KC1_TGGGATTAGATTTGCC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-8.261849403381348,0.09158892929553986
+D1_KC1_TGTAACGTCTAACACG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.812498569488525,0.40626442432403564
+D1_KC1_TTCCACGTCCTCTCTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.310975551605225,1.034231185913086
+D1_KC1_TTGCATTAGAAGCGGG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.781775951385498,0.543097972869873
+D1_KC2_AAACCCATCAAAGCCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.772634506225586,-0.6141771078109741
+D1_KC2_AGCGCCATCGTCTACC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.386281967163086,-1.075738787651062
+D1_KC2_AGTAGTCCAGAATGTA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.711857318878174,-2.323516607284546
+D1_KC2_ATGAGTCAGGTAAGAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-5.059980392456055,-1.77826726436615
+D1_KC2_CATCCCATCCTAAGTG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-5.991312503814697,-0.4127298891544342
+D1_KC2_GCATGATGTTGACTAC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-6.725635051727295,-0.9439080953598022
+D1_KC2_GGGTGTCGTTGCCGAC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-5.9577836990356445,-1.7504080533981323
+D1_KC2_GTTGAACAGAGCAAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.619818210601807,-1.5751973390579224
+D1_KC2_TGCGGGTGTGGCTAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.575663089752197,-2.1774353981018066
+D1_KC3_AAGCCATGTCTGGTTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.891757488250732,0.6007810235023499
+D1_KC3_AAGTACCTCTTGCAGA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.750586986541748,0.14355358481407166
+D1_KC3_AATAGAGGTCAGGAGT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-5.170320510864258,-2.326521873474121
+D1_KC3_ACAAGCTCATGAGATA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.975369453430176,-1.2619431018829346
+D1_KC3_ACCCTCAGTCCACAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-8.22115707397461,-0.3918173015117645
+D1_KC3_ACCTGAACAACCACGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-6.611987113952637,-1.9749233722686768
+D1_KC3_ACCTGAAGTGCGAACA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-5.860901355743408,-0.05644378811120987
+D1_KC3_ACTCTCGTCAGCTTGA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.102492332458496,-0.12256171554327011
+D1_KC3_ATCGTCCGTGAGTAAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.366624355316162,-1.7648024559020996
+D1_KC3_CACAGATCAACAGAGC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.231293201446533,-1.831589937210083
+D1_KC3_CATCCACAGGTCGTAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-5.220053195953369,-2.039417266845703
+D1_KC3_CCTCCTCGTAGGATAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.585973739624023,0.6050700545310974
+D1_KC3_CGTGCTTAGACCAGCA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.72727108001709,0.7831398248672485
+D1_KC3_CTAACTTCACAATCTG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.086568832397461,-0.7248705625534058
+D1_KC3_CTACGGGCAAATTAGG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.065427780151367,-0.9999398589134216
+D1_KC3_GAACACTTCCGGTAAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-5.16642427444458,-0.8235127925872803
+D1_KC3_GCCGATGTCTTGGATG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.639532566070557,-1.0424154996871948
+D1_KC3_GTCGCGAAGGGAGGAC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.199930667877197,-0.8357132077217102
+D1_KC3_GTCTACCGTGCACGCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-8.469656944274902,-0.33372434973716736
+D1_KC3_GTTCTATTCAAGCGTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.184076309204102,0.5339235067367554
+D1_KC3_GTTTGGAGTGTTCAGT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.768266677856445,1.0755773782730103
+D1_KC3_TAGGAGGTCTCGGCTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.23508882522583,0.8517905473709106
+D1_KC3_TCATATCTCATCTATC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-6.688792705535889,-1.2253150939941406
+D1_KC3_TCATCCGGTCGCCTAG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-7.680155277252197,-0.37139564752578735
+D1_KC3_TCGGGCAAGACCAAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.510828495025635,-1.0501748323440552
+D1_KC3_TGAGCGCTCAGCTGAT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-8.318011283874512,0.506537675857544
+D1_KC3_TGCCGAGAGTGAGTGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.427349090576172,-0.357150673866272
+D1_KC3_TGCTTCGAGTATTGCC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.3786163330078125,-0.17727400362491608
+D1_KC3_TTTACTGCACTCCTGT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-8.24152660369873,0.15539821982383728
+D1_KC3_TTTGTTGGTACCTAAC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-6.784447193145752,-0.03945654630661011
+D1_NC1_AATCACGAGCGTCAAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-6.576211452484131,0.07481876015663147
+D1_NC1_AATGACCAGCAAGTCG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.2621564865112305,-2.047301769256592
+D1_NC1_ACGGTTATCAAAGACA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-3.5397708415985107,-1.1989010572433472
+D1_NC1_ACTATTCGTGTAAACA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-6.9418792724609375,-0.9835778474807739
+D1_NC1_CATTCATCATTGAAAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.063113689422607,-2.2089316844940186
+D1_NC1_CGGTCAGTCATACGGT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.404819488525391,-2.2214951515197754
+D1_NC1_GAACGTTAGCACAAAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-5.62933349609375,-1.2357341051101685
+D1_NC1_GCTCAAAAGACCTCCG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.833592891693115,-1.0391302108764648
+D1_NC1_GGCTTTCTCATTGTTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-5.928888320922852,0.012166539207100868
+D1_NC1_GGGTAGAGTCGGTGTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-3.914747953414917,-1.6644152402877808
+D1_NC1_TCAGTTTAGCGCCTAC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-6.371635913848877,0.24817118048667908
+D1_NC1_TCCTTCTCATCATTTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-5.280616283416748,-1.2689670324325562
+D1_NC1_TGCTCGTTCGCGAAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.176733016967773,-1.1663271188735962
+D1_NC1_TGGATCAAGCACTTTG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.667517185211182,-0.7552819848060608
+D1_NC1_TTTACTGTCACACCGG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.262010097503662,-2.1043026447296143
+D1_NC2_AGCCACGAGCGTGTCC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.447385787963867,-2.2185165882110596
+D1_NC2_AGGACGATCCACTTCG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.252803802490234,-1.4520200490951538
+D1_NC2_ATGCATGTCGGAATTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.1535234451293945,-1.5068436861038208
+D1_NC2_CTTCTAACACCTATCC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.479259014129639,-0.8859743475914001
+D1_NC2_GAACTGTTCGCTCATC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-5.66999626159668,-0.5265102386474609
+D1_NC2_GAGGCAAGTATTCCGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.787882328033447,-1.3911936283111572
+D1_NC2_TACACCCTCTTCCAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.470404624938965,-1.6257314682006836
+D1_NC2_TCATCATAGTGACACG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-4.873161792755127,-1.9449323415756226
+D1_NC2_TGCTTGCAGATAACGT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-6.005269527435303,-1.2482974529266357
+D1_NC2_TGTTCCGGTTTCTTAC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-5.307363033294678,-0.8405942916870117
+D1_NC2_TTTACGTGTACTGGGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-3.772883176803589,-1.3716658353805542
+D1_NC3_AACAAGAAGATCACTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-6.306816101074219,-2.382169485092163
+D1_NC3_AGAAGTATCGCGGACT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.2324748039245605,0.44937774538993835
+D1_NC3_AGTCATGTCGGCTTCT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.729918003082275,-1.655816674232483
+D1_NC3_CAGTTAGAGTTTAGGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-6.231753349304199,-1.9302449226379395
+D1_NC3_CATTCATAGCCGCACT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.849782466888428,-0.9529247879981995
+D1_NC3_CCACAAAGTCGTCGGT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.504910469055176,-0.6426811814308167
+D1_NC3_CTTGATTTCGTCAGAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-6.107058525085449,-0.3132755160331726
+D1_NC3_GAGCCTGCAGCATACT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.91172981262207,0.29153361916542053
+D1_NC3_GTCACGGAGGAAGTGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-5.785454750061035,-2.045494794845581
+D1_NC3_TATCAGGCACGTACTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.405879497528076,0.8788402676582336
+D1_NC3_TATTGGGTCCATTGCC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-7.282124996185303,-1.5076918601989746
+D1_NC3_TGGGATTCAATCCTAG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-5.77742338180542,-1.1801702976226807
+D1_NC4_CCGAACGTCTGTCGTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,-6.896692752838135,-2.389404535293579
+D1_NC4_GAGGCAAGTCAAGTTC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.7471923828125,-0.535078763961792
+D1_NC4_GCACATAAGCCTCACG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-6.630343437194824,-2.533982038497925
+D1_NC4_TCAAGACCATTCCTCG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-7.458260536193848,-0.8370073437690735
+D1_NC4_TCAAGTGCACACAGAG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,-7.188222885131836,-0.6108191013336182
+D1_NC4_TCTATCAGTCTTCATT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,-6.539167404174805,0.733038604259491
+D2_ACGTACATCAGCGCAC_1,D2,corneal basal epithelium,D2 | corneal basal epithelium,-4.591611385345459,0.5823248028755188
+D2_GGAGGTATCGGTGAAG_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-2.710313320159912,1.4365767240524292
+D2_GTCACTCCAGAAGCTG_1,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-2.8883955478668213,0.7954675555229187
+D2_GTGGGAAGTCCAGTTA_1,D2,corneal basal epithelium,D2 | corneal basal epithelium,-5.364139556884766,0.4531925320625305
+D2_TACACCCTCACGGTCG_1,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-2.5383076667785645,0.4302615523338318
+D2_TGGAGGAAGAGGTTAT_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-2.5887179374694824,0.007830189540982246
+D2_TTCCAATAGGACACTG_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-3.0005664825439453,0.7908108830451965
+D2_AAGAACAAGAGTGACC_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.106492280960083,1.3342406749725342
+D2_ACATCCCAGACGGTTG_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-4.553600311279297,1.6200881004333496
+D2_ATCGCCTTCCCGGTAG_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,-2.6607048511505127,1.5701438188552856
+D2_ATTCCTATCCGATAAC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-3.0024783611297607,2.2291054725646973
+D2_CGGAGAAAGCCGAACA_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,-4.619174480438232,1.2430294752120972
+D2_CTATAGGCAGATGCGA_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-2.73606014251709,1.8731476068496704
+D2_GATGACTAGTAGATCA_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-2.955378532409668,-0.19380830228328705
+D2_TACGCTCTCACTTATC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-2.4955079555511475,1.1721245050430298
+D2_TCTGTCGCAGTCTGGC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-5.853048801422119,0.3298238217830658
+D2_TGCATGAGTGAAGCTG_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,-2.565558671951294,0.7691913843154907
+D2_TTCATGTAGTTGCCTA_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-2.99316143989563,2.2642908096313477
+D2_GAGAAATCAAGCAATA_3,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-5.543266296386719,1.4974274635314941
+D2_TACGGTAAGGCCTAAG_3,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-4.782365798950195,-1.293579339981079
+D2_TTCAATCTCTCACCCA_3,D2,corneal basal epithelium,D2 | corneal basal epithelium,-6.23708963394165,0.24001140892505646
+D2_AAACCCAAGGGAGGCA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-4.1360297203063965,1.0517168045043945
+D2_AACAACCGTCATTCCC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-4.109437465667725,1.9051332473754883
+D2_AATAGAGCAACTTCTT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-4.711056709289551,2.087618589401245
+D2_ACCCTCAGTAGGGTAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.5085842609405518,-1.2245179414749146
+D2_ACCCTCATCGGTAGAG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-5.028254508972168,0.1476147323846817
+D2_ACCGTTCCAGTCGCTG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-4.28579568862915,0.7858177423477173
+D2_ACGTACACATACTGAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.8102335929870605,0.8358032703399658
+D2_ACTTATCGTGTAACGG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.2345480918884277,1.9894715547561646
+D2_AGGAGGTGTAGCTTGT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.7905890941619873,2.2037646770477295
+D2_AGGCTGCGTGATACTC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.6149582862854004,0.10445533692836761
+D2_AGTGTTGTCGCAGTGC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.5856411457061768,0.7296003699302673
+D2_ATACCGAAGACGCTCC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-3.378511905670166,0.9893298745155334
+D2_ATAGAGACACCTCAGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-1.9298696517944336,0.5886813402175903
+D2_ATCTCTAAGCACTCGC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.2715704441070557,1.6438294649124146
+D2_ATGAGGGAGTCTGGTT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-4.286110877990723,2.1066503524780273
+D2_ATGAGTCTCTTGAACG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-4.203740119934082,0.07693362981081009
+D2_ATGGGTTCAATTGCCA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-1.848901629447937,1.18588125705719
+D2_ATTCCATCAGACCATT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.912719964981079,0.20963791012763977
+D2_ATTCGTTGTAGCTTAC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-3.40047025680542,1.0056284666061401
+D2_CACACAACAATTCTCT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-2.7187271118164062,-0.289698988199234
+D2_CACGGGTAGAAATCCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-4.0393171310424805,-0.22199827432632446
+D2_CACTGAAGTATAGGAT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-4.167118072509766,1.5728309154510498
+D2_CACTGTCGTACTGGGA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-2.722066640853882,0.9538097977638245
+D2_CATGCCTGTTCACGAT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.0255379676818848,0.39017483592033386
+D2_CATTGCCGTTAGTTCG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.571974039077759,1.6344231367111206
+D2_CCGATGGTCTGTGTGA_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-5.064008712768555,0.6815384030342102
+D2_CCTCCAATCCTTCTTC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.7471837997436523,2.075550079345703
+D2_CGATGCGAGGAGTCTG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-4.2344818115234375,0.7605751156806946
+D2_CGCGTGATCCGCGATG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-5.117378234863281,1.5056235790252686
+D2_CGTTGGGCAAACCATC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-5.177198886871338,1.0773682594299316
+D2_CTACCTGTCACCACAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-2.1559040546417236,0.14121092855930328
+D2_CTCAACCAGCATAGGC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.9510743618011475,0.8867239952087402
+D2_CTGAGCGTCAAATAGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.9264090061187744,1.8135194778442383
+D2_CTTGATTAGTCGTCTA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-2.983023166656494,-0.905197024345398
+D2_GAACACTTCATATGGC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-4.314399719238281,1.8813523054122925
+D2_GAACGTTCACTTGGCG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-2.2746543884277344,1.2772163152694702
+D2_GATCCCTAGAATCCCT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-4.364508152008057,-0.2008959949016571
+D2_GCACTAATCTCTTCAA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.1793079376220703,0.19142821431159973
+D2_GCAGGCTGTATCGAAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-4.116733074188232,0.4675542116165161
+D2_GCTGAATCAGTCCGTG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-4.07573127746582,1.478302001953125
+D2_GCTTGGGAGATGTAGT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.2096478939056396,0.45257368683815
+D2_GGGAAGTCAGGACAGT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-5.683521270751953,1.0697252750396729
+D2_GGGACAACAAATGGAT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-2.4565868377685547,1.776859998703003
+D2_GGGACAAGTTACTCAG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-4.111259460449219,2.34196138381958
+D2_GTAGAAAAGACTACGG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-2.905688762664795,-0.12266278266906738
+D2_GTAGATCGTGTTGATC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-3.5732827186584473,1.9378888607025146
+D2_GTATTTCGTCGCTGCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-4.714588165283203,1.0740649700164795
+D2_GTCCCATGTCTTTCTA_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-3.1213245391845703,2.2059504985809326
+D2_GTGCTTCTCAACTACG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.3097565174102783,-0.5575999021530151
+D2_GTTACCCAGTTTCGAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.4645886421203613,-0.296022891998291
+D2_TAACGACTCATGAGGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-5.516093730926514,0.8314175009727478
+D2_TACTTGTGTAAGATTG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-3.554741144180298,1.1213090419769287
+D2_TAGACCATCCAATCCC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.0067503452301025,-0.28964748978614807
+D2_TATCAGGGTCGTCAGC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-3.2565386295318604,1.5340198278427124
+D2_TATGTTCAGATACGAT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-4.057514667510986,0.2360050529241562
+D2_TATTCCAGTCCTTGTC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-3.650801181793213,1.325838327407837
+D2_TCATTGTTCAATCGGT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-2.1768181324005127,0.018925558775663376
+D2_TCCTCTTCATACACCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.4619619846343994,0.21420349180698395
+D2_TGATCAGAGACCTTTG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.5085065364837646,2.522090435028076
+D2_TGCAGATCATAAGCAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.7707788944244385,1.2299554347991943
+D2_TGCTGAACAGGAGGTT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-5.217705249786377,1.4259933233261108
+D2_TGCTTCGCATAATGAG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-4.955236911773682,0.46985897421836853
+D2_TGGTTAGCATTCACAG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-4.9105682373046875,0.8779333829879761
+D2_TGTCAGAGTTGCATAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-3.0086638927459717,1.283445119857788
+D2_TGTGTGATCTCTCAAT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-3.1357123851776123,0.9849948883056641
+D2_TTCCTAACACGACGAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.176513671875,-1.0804945230484009
+D2_TTCTAACTCCGTCACT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-3.7811026573181152,-0.27839916944503784
+D2_TTTCAGTAGCGATCGA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,-2.812727689743042,-0.6899241209030151
+D2_CCACGTTTCAGCTGAT,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,-1.9068002700805664,1.0133169889450073
+D2_CTCAGAAGTTCCAGGC,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-1.9091523885726929,0.787080705165863
+D2_CTGTAGAAGGTCACAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-5.300357341766357,1.2278618812561035
+D2_TCGGATAGTTAAACAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-2.259915828704834,0.6453045606613159
+D2_CTCAGTCGTACGACTT,D2,corneal basal epithelium,D2 | corneal basal epithelium,-2.5256073474884033,0.7942550182342529
+D2_GACTGATGTCACGTGC,D2,corneal basal epithelium,D2 | corneal basal epithelium,-2.0373640060424805,1.3683077096939087
+D2_TACTTGTGTGGTAACG,D2,corneal basal epithelium,D2 | corneal basal epithelium,-7.42904806137085,-2.174161434173584
+D2_ACTTTCATCTACGGGC,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-1.5068583488464355,0.7004592418670654
+D2_CCCAACTTCTCTTCAA,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-1.6495403051376343,0.9453312754631042
+D2_CTATCTATCATCGTAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,-1.813559651374817,1.302293300628662

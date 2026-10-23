@@ -1,0 +1,169 @@
+module_id,module_number,reaction,input_names,input_kegg_ids,output_names,output_kegg_ids,supermodule_id,module_genes,n_genes,stoichiometry_inputs,stoichiometry_outputs,unmodeled_reference_ids,external_input,external_output,modeled_in_balance,stoichiometry_match
+M_1,1,Glucose -> G6P,Glucose,C00267,G6P,C00668,1,ADPGK;G6PC;G6PC2;G6PC3;GALM;GCK;HK1;HK2;HK3;HKDC1,10,Glucose,G6P,,False,False,True,True
+M_2,2,G6P -> G3P,G6P,C00668,G3P,C00118,1,ALDOA;ALDOB;ALDOC;FBP1;FBP2;GPI;PFKL;PFKM;PFKP;TPI1,10,G6P,G3P,,False,False,True,True
+M_3,3,G3P -> 3PD,G3P,C00118,3PD,C00197,1,BPGM;COQ2;GAPDH;GAPDHS;PGAM1;PGAM2;PGAM4;PGK1;PGK2;PHB;PPT1,11,G3P,3PD,,False,False,True,True
+M_4,4,3PD -> Pyruvate,3PD,C00197,Pyruvate,C00022,1,BPGM;COQ2;ENO1;ENO2;ENO3;MINPP1;PCK1;PCK2;PGAM1;PGAM2;PGAM4;PHB;PKLR;PKM;PPT1,15,3PD,Pyruvate,,False,False,True,True
+M_5,5,Pyruvate -> Acetyl-Coa,Pyruvate,C00022,Acetyl-Coa,C00024,1,DLAT;DLD;PDHA1;PDHA2;PDHB,5,Pyruvate,Acetyl-CoA,,False,False,True,True
+M_6,6,Pyruvate -> Lactate,Pyruvate,C00022,Lactate,C00256,1,LDHA;LDHAL6A;LDHAL6B;LDHB;LDHC;LDHD,6,Pyruvate,Lactate,,False,False,True,True
+M_7,7,Acetyl-CoA + Oxaloacetate -> Citrate,Acetyl-CoA + Oxaloacetate,C00024+C00036,Citrate,C00158,1,ACLY;CS,2,Acetyl-CoA;Oxaloacetate,Citrate,,False,False,True,True
+M_8,8,Citrate -> 2OG,Citrate,C00158,2OG,C00026,1,ACO1;ACO2;IDH1;IDH2;IDH3A;IDH3B;IDH3G,7,Citrate,2OG,,False,False,True,True
+M_9,9,2OG -> Succinyl-CoA,2OG,C00026,Succinyl-CoA,C00091,1,DLD;DLST;OGDH;OGDHL,4,2OG,Succinyl-CoA,,False,False,True,True
+M_10,10,Succinyl-CoA -> Succinate,Succinyl-CoA,C00091,Succinate,C00042,1,SUCLA2;SUCLG1;SUCLG2,3,Succinyl-CoA,Succinate,,False,False,True,True
+M_11,11,Succinate -> Fumarate,Succinate,C00042,Fumarate,C00122,1,SDHA;SDHB,2,Succinate,Fumarate,,False,False,True,True
+M_12,12,Fumarate -> Malate,Fumarate,C00122,Malate,C00149,1,FH,1,Fumarate,Malate,,False,False,True,True
+M_13,13,Malate -> Oxaloacetate,Malate,C00149,Oxaloacetate,C00036,1,MDH1;MDH2,2,Malate,Oxaloacetate,,False,False,True,True
+M_14,14,Pyruvate -> Oxaloacetate,Pyruvate,C00022,Oxaloacetate,C00036,1,PC,1,Pyruvate,Oxaloacetate,,False,False,True,True
+M_15,15,3PD -> Serine,3PD,C00197,Serine,C00065,2,PHGDH;PSAT1;PSPH,3,3PD,Serine,,False,False,True,True
+M_16,16,Serine -> Pyruvate,Serine,C00065,Pyruvate,C00022,2,SDS;SDSL,2,Serine,Pyruvate,,False,False,True,True
+M_17,17,Serine -> Cysteine,Serine,C00065,Cysteine,C00097,2,CBS;CTH,2,Serine,Cysteine,,False,False,True,True
+M_18,18,Serine -> Glycine,Serine,C00065,Glycine,C00037,2,AGXT;SHMT1;SHMT2,3,Serine,Glycine,,False,False,True,True
+M_19,19,Glycine -> Creatine,Glycine,C00037,Creatine,C00300,2,GAMT;GATM,2,Glycine,,output:C00300,False,False,True,True
+M_20,20,Glycine -> Glyoxylate,Glycine,C00037,Glyoxylate,C00048,2,AGXT;AGXT2;DAO,3,Glycine,,output:C00048,False,False,True,True
+M_21,21,Choline -> Glycine,Choline,C00114,Glycine,C00037,2,ALDH7A1;BHMT;CHDH;DMGDH;PIPOX;SARDH,6,Choline,Glycine,,False,False,True,True
+M_22,22,Glycine -> Glycine-OUT,Glycine,C00037,Glycine-OUT,C00000,2,ALAS1;ALAS2;AOC2;AOC3;GCAT;GLDC;MAOA;MAOB,8,Glycine,,output:C00000,False,True,True,True
+M_23,23,Glycine -> Glutathione,Glycine,C00037,Glutathione,C00051,2,GSS,1,Glycine,Glutathione,,False,False,True,True
+M_24,24,Glutathione -> Glycine + Cysteine,Glutathione,C00051,Glycine + Cysteine,C00037+C00097,2,ANPEP;GCLC;GGT6;GSS;LAP3,5,Glutathione,Glycine;Cysteine,,False,False,True,True
+M_25,25,Glutathione -> glutamate,Glutathione,C00051,glutamate,C00025,2,GGCT;GGT1;GGT5;GGT6;GGT7;GSTA1;GSTA2;GSTA3;GSTA4;GSTA5;GSTK1;GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTO2;GSTP1;GSTT2;GSTT2B;MGST1;MGST2;MGST3;OPLAH,25,Glutathione,Glutamate,,False,False,True,True
+M_26,26,Glutamate + Cysteine -> Glutathione,Glutamate + Cysteine,C00025+C00097,Glutathione,C00051,2,GCLC;GSS,2,Glutamate;Cysteine,Glutathione,,False,False,True,True
+M_27,27,Serine -> 2-Aminoacrylate,Serine,C00065,2-Aminoacrylate,C02218,2,SDS;SDSL,2,Serine,,output:C02218,False,False,True,True
+M_28,28,Serine -> Methionine,Serine,C00065,Methionine,C00073,2,BHMT;BHMT2;CBS;KYAT1;KYAT3;MTR,6,Serine,Methionine,,False,False,True,True
+M_29,29,Cysteine -> Pyruvate,Cysteine,C00097,Pyruvate,C00022,2,CDO1;CTH;GOT1;GOT2;KYAT1;KYAT3;MPST;TST,8,Cysteine,Pyruvate,,False,False,True,True
+M_30,30,Methionine -> Cysteine,Methionine,C00073,Cysteine,C00097,2,AHCY;AHCYL1;AHCYL2;CBS;CTH;DNMT1;DNMT3A;DNMT3B;DNMT3L;MAT1A;MAT2A;MAT2B,12,Methionine,Cysteine,,False,False,True,True
+M_31,31,Methionine -> Methionine-OUT,Methionine,C00073,Methionine-OUT,C00000,2,ADI1;AMD1;APIP;ENOPH1;IL4I1;MAT1A;MAT2A;MAT2B;MRI1;MTAP;SMS;SRM;TAT,13,Methionine,,output:C00000,False,True,True,True
+M_32,32,Threonine -> Propanoyl-CoA,Threonine,C00188,Propanoyl-CoA,C00100,2,BCKDHA;BCKDHB;DBT;DLAT;DLD;SDS;SDSL,7,Threonine,Propanoyl-CoA,,False,False,True,True
+M_33,33,G3P -> PRPP,G3P,C00118,PRPP,C00119,3,ALDOA;ALDOB;ALDOC;FBP1;FBP2;G6PD;GPI;H6PD;PFKL;PFKM;PFKP;PGD;PGLS;PGM1;PGM2;PRPS1;PRPS1L1;PRPS2;RBKS;RPE;RPEL1;RPIA;TALDO1;TKT;TKTL1;TKTL2,26,G3P,PRPP,,False,False,True,True
+M_34,34,Acetyl-CoA -> Fatty Acid,Acetyl-CoA,C00024,Fatty Acid,CC0001,4,ACACA;ACACB;ACSBG1;ACSBG2;ACSL1;ACSL3;ACSL4;ACSL5;ACSL6;FASN;HSD11B2;HSD17B1;HSD17B12;HSD17B2;HSD17B6;HSD17B7;HSD17B8;MAST1;MCAT;MECR;OLAH;OXSM;PECR;RDH10;RDH16;RDH8;RNF2;SLC27A2,28,Acetyl-CoA,Fatty Acid,,False,False,True,True
+M_35,35,Fatty Acid -> Acetyl-CoA,Fatty Acid,CC0001,Acetyl-CoA,C00024,4,ACAA1;ACAA2;ACADL;ACADM;ACADS;ACADSB;ACADVL;ACAT1;ACAT2;ACOX1;ACOX3;ACSBG1;ACSBG2;ACSL1;ACSL3;ACSL4;ACSL5;ACSL6;CPT1A;CPT1B;CPT1C;CPT2;ECHS1;EHHADH;GCDH;HADH;HADHA;HADHB;HSD17B10;HSD17B4;SLC27A2,31,Fatty Acid,Acetyl-CoA,,False,False,True,True
+M_36,36,Aspartate -> Pyrimidine,Aspartate,C00049,Pyrimidine,CC0002,5,CAD;DHODH,2,Aspartate,Pyrimidine,,False,False,True,True
+M_37,37,Aspartate -> Aspartate-OUT,Aspartate,C00049,Aspartate-OUT,C00000,5,ACY3;ASPA;FOLH1;NAALAD2;NAALADL1;NAT8L;RIMKLA,7,Aspartate,,output:C00000,False,True,True,True
+M_38,38,Aspartate -> Asparagine,Aspartate,C00049,Asparagine,C00152,5,ALPP;ASNS;ASPG;ASRGL1,4,Aspartate,,output:C00152,False,False,True,True
+M_39,39,Aspartate -> Fumarate,Aspartate,C00049,Fumarate,C00122,5,ADSL;ADSS;ADSSL1;ASL;ASS1,5,Aspartate,Fumarate,,False,False,True,True
+M_40,40,Aspartate -> Oxaloacetate,Aspartate,C00049,Oxaloacetate,C00036,5,GOT1;GOT2;IL4I1,3,Aspartate,Oxaloacetate,,False,False,True,True
+M_41,41,Aspartate -> B-Alanine,Aspartate,C00049,B-Alanine,C00099,6,AZIN2;GAD1;GAD2;GADL1,4,Aspartate,B-Alanine,,False,False,True,True
+M_42,42,Spermine -> B-Alanine,Spermine,C00750,B-Alanine,C00099,6,ALDH1A3;ALDH1B1;ALDH2;ALDH3A1;ALDH3A2;ALDH3B1;ALDH3B2;ALDH7A1;ALDH9A1;AOC2;AOC3;SMOX,12,Spermine,B-Alanine,,False,False,True,True
+M_43,43,Histidine -> B-Alanine,Histidine,C00135,B-Alanine,C00099,6,CARNS1;CNDP1;CNDP2,3,Histidine,B-Alanine,,False,False,True,True
+M_44,44,B-Alanine -> Acetyl-CoA,B-Alanine,C00099,Acetyl-CoA,C00024,6,ABAT;ALDH6A1,2,B-Alanine,Acetyl-CoA,,False,False,True,True
+M_45,45,Pyrimidine -> B-Alanine,Pyrimidine,CC0002,B-Alanine,C00099,6,DPYD;DPYS;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PNP;TK1;TK2;TYMP;UCK1;UCK2;UCKL1;UPB1;UPP1;UPP2;UPRT,22,Pyrimidine,B-Alanine,,False,False,True,True
+M_46,46,Propanoyl-CoA -> Succinate,Propanoyl-CoA,C00100,Succinate,C00042,7,ECHDC1;MCEE;MUT;PCCA;PCCB;SUCLA2;SUCLG1;SUCLG2,8,Propanoyl-CoA,Succinate,,False,False,True,True
+M_47,47,Propanoyl-CoA -> Acetyl-CoA,Propanoyl-CoA,C00100,Acetyl-CoA,C00024,7,ACACA;ACACB;ACADS;ACOX1;ACOX3;ECHS1;EHHADH;HADHA;MLYCD,9,Propanoyl-CoA,Acetyl-CoA,,False,False,True,True
+M_48,48,Glutamate -> Glutamine,Glutamate,C00025,Glutamine,C00064,8,GLS;GLS2;GLUL,3,Glutamate,Glutamine,,False,False,True,True
+M_49,49,Glutamate -> GABA,Glutamate,C00025,GABA,C00334,8,GAD1;GAD2,2,Glutamate,GABA,,False,False,True,True
+M_50,50,GABA -> Succinate,GABA,C00334,Succinate,C00042,8,ABAT;ALDH5A1,2,GABA,Succinate,,False,False,True,True
+M_51,51,Glutamate -> 2OG,Glutamate,C00025,2OG,C00026,8,GLUD1;GLUD2,2,Glutamate,2OG,,False,False,True,True
+M_52,52,Histidine -> glutamate,Histidine,C00135,glutamate,C00025,8,AMDHD1;FTCD;HAL;UROC1,4,Histidine,Glutamate,,False,False,True,True
+M_53,53,Leucine -> Acetyl-CoA,Leucine,C00123,Acetyl-CoA,C00024,9,AACS;ACADM;ACAT1;ACAT2;AUH;BCAT1;BCAT2;BCKDHA;BCKDHB;DBT;DLD;ECHS1;EHHADH;HADHA;HMGCL;HMGCS1;HMGCS2;IVD;MCCC1;MCCC2;OXCT1;OXCT2,22,Leucine,Acetyl-CoA,,False,False,True,True
+M_54,54,Valine -> Succinyl-CoA,Valine,C00183,Succinyl-CoA,C00091,9,ABAT;ACAD8;ACADM;ACADS;ACADSB;ACSF3;AGXT2;ALDH1B1;ALDH2;ALDH3A2;ALDH7A1;ALDH9A1;AOX1;BCAT1;BCAT2;BCKDHA;BCKDHB;DBT;DLD;ECHS1;EHHADH;HADH;HADHA;HIBADH;HIBCH;HSD17B10;MUT,27,Valine,Succinyl-CoA,,False,False,True,True
+M_55,55,Isoleucine -> Succinyl-CoA,Isoleucine,C00407,Succinyl-CoA,C00091,9,ACAA1;ACAA2;ACADM;ACADS;ACADSB;BCAT1;BCAT2;BCKDHA;BCKDHB;DBT;DLD;ECHS1;EHHADH;HADH;HADHA;HADHB;HSD17B10;IL4I1;MCEE;MUT;PCCA;PCCB,22,Isoleucine,Succinyl-CoA,,False,False,True,True
+M_56,56,Isoleucine -> Acetyl-CoA,Isoleucine,C00407,Acetyl-CoA,C00024,9,ACAA1;ACAA2;ACADM;ACADS;ACADSB;BCAT1;BCAT2;BCKDHA;BCKDHB;DBT;DLD;ECHS1;EHHADH;HADH;HADHA;HADHB;HSD17B10;IL4I1,18,Isoleucine,Acetyl-CoA,,False,False,True,True
+M_57,57,Tyrosine -> Fumarate,Tyrosine,C00082,Fumarate,C00122,9,FAH;GOT1;GOT2;GSTZ1;HGD;HPD;IL4I1;MIF;TAT,9,Tyrosine,Fumarate,,False,False,True,True
+M_58,58,Tyrosine -> Tyrosine-OUT,Tyrosine,C00082,Tyrosine-OUT,C00000,9,ALDH1A3;ALDH3A1;ALDH3B1;ALDH3B2;AOC2;AOC3;DDC;MAOA;MAOB;TH;TPO;TYR,12,Tyrosine,,output:C00000,False,True,True,True
+M_59,59,Phenylalanine -> Tyrosine,Phenylalanine,C00079,Tyrosine,C00082,9,PAH,1,Phenylalanine,Tyrosine,,False,False,True,True
+M_60,60,lysine -> Acetyl-CoA,lysine,C00047,Acetyl-CoA,C00024,9,AADAT;AASS;ACAT1;ACAT2;ALDH7A1;DLD;ECHS1;EHHADH;GCDH;HADH;HADHA;HSD17B10;HSD17B4;HYKK;PHYKPL,15,lysine,Acetyl-CoA,,False,False,True,True
+M_61,61,Putrescine -> GABA,Putrescine,C00134,GABA,C00334,10,ALDH1B1;ALDH2;ALDH3A2;ALDH7A1;ALDH9A1;AOC1,6,Putrescine,GABA,,False,False,True,True
+M_62,62,Ornithine -> Putrescine,Ornithine,C00077,Putrescine,C00134,10,ODC1,1,Ornithine,Putrescine,,False,False,True,True
+M_63,63,Arginine -> Ornithine,Arginine,C00062,Ornithine,C00077,10,ARG1;ARG2,2,Arginine,Ornithine,,False,False,True,True
+M_64,64,Arginine -> Putrescine,Arginine,C00062,Putrescine,C00134,10,AGMAT;AZIN2,2,Arginine,Putrescine,,False,False,True,True
+M_65,65,Argininosuccinate -> Arginine + Fumarate,Argininosuccinate,C03406,Arginine + Fumarate,C00062+C00122,10,ASL,1,Argininosuccinate,Arginine;Fumarate,,False,False,True,True
+M_66,66,Citruline + Aspartate -> Argininosuccinate,Citruline + Aspartate,C00327+C00049,Argininosuccinate,C03406,10,ASS1,1,Aspartate;Citrulline,Argininosuccinate,,False,False,True,True
+M_67,67,Ornithine -> Proline,Ornithine,C00077,Proline,C00148,10,OAT;PRODH;PRODH2;PYCR1;PYCR2;PYCR3,6,Ornithine,Proline,,False,False,True,True
+M_68,68,Proline -> Glyoxylate + pyruvate,Proline,C00148,Glyoxylate + pyruvate,C00048+C00022,10,ALDH4A1;GOT1;GOT2;HOGA1;PRODH2;PYCR1;PYCR2;PYCR3,8,Proline,Pyruvate,output:C00048,False,False,True,True
+M_69,69,Putresine -> Spermine,Putresine,C00134,Spermine,C00750,11,SMOX;SMS;SRM,3,Putrescine,Spermine,,False,False,True,True
+M_70,70,Methionine -> Spermine,Methionine,C00073,Spermine,C00750,11,AMD1;MAT1A;MAT2A;MAT2B;SMOX;SMS;SRM,7,Methionine,Spermine,,False,False,True,True
+M_71,71,Glucose_in -> Glucose,Glucose_in,C00000,Glucose,C00267,12,SLC2A1;SLC2A2;SLC2A3;SLC2A4,4,,Glucose,input:C00000,True,False,True,True
+M_72,72,Acetyl-CoA_in -> Acetyl-CoA,Acetyl-CoA_in,C00000,Acetyl-CoA,C00024,12,SLC33A1,1,,Acetyl-CoA,input:C00000,True,False,True,True
+M_73,73,Citrate_in -> Citrate,Citrate_in,C00000,Citrate,C00158,12,SLC13A5;SLC25A1,2,,Citrate,input:C00000,True,False,True,True
+M_74,74,2OG_in -> 2OG,2OG_in,C00000,2OG,C00026,12,SLC25A11,1,,2OG,input:C00000,True,False,True,True
+M_75,75,Succinate_in -> Succinate,Succinate_in,C00000,Succinate,C00042,12,SLC13A3;SLC25A10,2,,Succinate,input:C00000,True,False,True,True
+M_76,76,Malate_in -> Malate,Malate_in,C00000,Malate,C00149,12,SLC25A10;SLC25A11,2,,Malate,input:C00000,True,False,True,True
+M_77,77,Oxaloacetate_in -> Oxaloacetate,Oxaloacetate_in,C00000,Oxaloacetate,C00036,12,SLC25A21,1,,Oxaloacetate,input:C00000,True,False,True,True
+M_78,78,Lactate -> Lactate_out,Lactate,C00256,Lactate_out,C00000,12,SLC16A1;SLC16A3;SLC16A4,3,Lactate,,output:C00000,False,True,True,True
+M_79,79,serine_in -> serine,serine_in,C00000,serine,C00065,12,SLC1A4;SLC1A5;SLC38A2;SLC38A4;SLC38A5;SLC7A10,6,,Serine,input:C00000,True,False,True,True
+M_80,80,Cysteine_in -> Cysteine,Cysteine_in,C00000,Cysteine,C00097,12,SLC1A4;SLC1A5;SLC38A1;SLC38A2;SLC38A4;SLC7A10;SLC7A11;SLC7A7,8,,Cysteine,input:C00000,True,False,True,True
+M_81,81,Glycine_in -> Glycine,Glycine_in,C00000,Glycine,C00037,12,SLC6A5;SLC6A9,2,,Glycine,input:C00000,True,False,True,True
+M_83,83,Choline_in -> Choline,Choline_in,C00000,Choline,C00114,12,SLC5A7,1,,Choline,input:C00000,True,False,True,True
+M_84,84,Threonine_in -> Threonine,Threonine_in,C00000,Threonine,C00188,12,SLC1A4;SLC7A8,2,,Threonine,input:C00000,True,False,True,True
+M_85,85,Aspartate_in -> Aspartate,Aspartate_in,C00000,Aspartate,C00049,12,SLC1A3;SLC1A6,2,,Aspartate,input:C00000,True,False,True,True
+M_87,87,Pyrimidine_in -> Pyrimidine,Pyrimidine_in,C00000,Pyrimidine,CC0002,12,SLC29A1;SLC29A2,2,,Pyrimidine,input:C00000,True,False,True,True
+M_88,88,Histidine_in -> Histidine,Histidine_in,C00000,Histidine,C00135,12,SLC15A4,1,,Histidine,input:C00000,True,False,True,True
+M_89,89,B-Alanine_in -> B-Alanine,B-Alanine_in,C00000,B-Alanine,C00099,12,SLC6A6,1,,B-Alanine,input:C00000,True,False,True,True
+M_90,90,Propanoyl-CoA_in -> Propanoyl-CoA,Propanoyl-CoA_in,C00000,Propanoyl-CoA,C00100,12,SLC27A1,1,,Propanoyl-CoA,input:C00000,True,False,True,True
+M_91,91,glutamate_in -> glutamate,glutamate_in,C00000,glutamate,C00025,12,SLC17A6;SLC17A7;SLC17A8;SLC1A1;SLC1A2;SLC1A3;SLC1A5;SLC1A6;SLC1A7,9,,Glutamate,input:C00000,True,False,True,True
+M_92,92,Glutamine_in -> Glutamine,Glutamine_in,C00000,Glutamine,C00064,12,SLC1A5,1,,Glutamine,input:C00000,True,False,True,True
+M_93,93,GABA_in -> GABA,GABA_in,C00000,GABA,C00334,12,SLC32A1;SLC6A1;SLC6A11;SLC6A12;SLC6A13,5,,GABA,input:C00000,True,False,True,True
+M_94,94,Tyrosine_in -> Tyrosine,Tyrosine_in,C00000,Tyrosine,C00082,12,SLC7A5;SLC7A8,2,,Tyrosine,input:C00000,True,False,True,True
+M_95,95,phenylalanine_in -> phenylalanine,phenylalanine_in,C00000,phenylalanine,C00079,12,SLC7A8,1,,Phenylalanine,input:C00000,True,False,True,True
+M_96,96,Valine_in -> Valine,Valine_in,C00000,Valine,C00183,12,SLC6A15,1,,Valine,input:C00000,True,False,True,True
+M_97,97,Isoleucine_in -> Isoleucine,Isoleucine_in,C00000,Isoleucine,C00407,12,SLC6A15,1,,Isoleucine,input:C00000,True,False,True,True
+M_98,98,Leucine_in -> Leucine,Leucine_in,C00000,Leucine,C00123,12,SLC6A15;SLC7A5;SLC7A6,3,,Leucine,input:C00000,True,False,True,True
+M_99,99,Lysine_in -> Lysine,Lysine_in,C00000,Lysine,C00047,12,SLC25A29;SLC38A4;SLC66A1,3,,lysine,input:C00000,True,False,True,True
+M_100,100,Arginine -> Arginine,Arginine,C00000,Arginine,C00062,12,SLC25A29;SLC7A1;SLC7A2,3,,Arginine,input:C00000,True,False,True,True
+M_101,101,Citrulline_in -> Citrulline,Citrulline_in,C00000,Citrulline,C00327,12,SLC25A15,1,,Citrulline,input:C00000,True,False,True,True
+M_102,102,Ornithine_in -> Ornithine,Ornithine_in,C00000,Ornithine,C00077,12,SLC25A15;SLC25A15P1;SLC25A2;SLC25A29,4,,Ornithine,input:C00000,True,False,True,True
+M_103,103,Proline_in -> Proline,Proline_in,C00000,Proline,C00148,12,SLC36A1;SLC6A20;SLC6A7,3,,Proline,input:C00000,True,False,True,True
+M_105,105,Fatty Acid_in -> Fatty Acid,Fatty Acid_in,C00000,Fatty Acid,CC0001,12,SLC27A1;SLC27A2;SLC27A3;SLC27A4;SLC27A5;SLC27A6,6,,Fatty Acid,input:C00000,True,False,True,True
+M_106,106,Glucose -> Glucose-6-phosphate,Glucose,C00267,Glucose-6-phosphate,C00668,13,GCK;HK1;HK2;HK3;HKDC1,5,Glucose,G6P,,False,False,True,True
+M_107,107,Glucose-6-phosphate -> UDP-N-acetylglucosamine,Glucose-6-phosphate,C00668,UDP-N-acetylglucosamine,C00043,13,AMDHD2;GFPT1;GFPT2;GNPDA1;GNPDA2;GNPNAT1;GPI;PGM3;UAP1;UAP1L1,10,G6P,UDP-N-acetylglucosamine,,False,False,True,True
+M_108,108,Glucose-6-phosphate -> Glucose-1-phosphate,Glucose-6-phosphate,C00668,Glucose-1-phosphate,C00103,13,PGM1;PGM2,2,G6P,Glucose-1-phosphate,,False,False,True,True
+M_109,109,Glucose-1-phosphate -> UDP-glucuronic acid,Glucose-1-phosphate,C00103,UDP-glucuronic acid,C00167,13,UGDH;UGP2,2,Glucose-1-phosphate,UDP-glucuronic acid,,False,False,True,True
+M_110,110,UDP-glucuronic acid + UDP-N-acetylglucosamine -> Hyaluronic acid,UDP-glucuronic acid + UDP-N-acetylglucosamine,C00167+C00043,Hyaluronic acid,C00518,13,HAS1;HAS2;HAS3,3,UDP-N-acetylglucosamine;UDP-glucuronic acid,,output:C00518,False,False,True,True
+M_111,111,Glucose-1-phosphate -> Glycogen,Glucose-1-phosphate,C00103,Glycogen,C00182,14,GYS1;GYS2;PYGB,3,Glucose-1-phosphate,,output:C00182,False,False,True,True
+M_112,112,UDP-N-acetylglucosamine -> CMP-N-acetylneuraminate,UDP-N-acetylglucosamine,C00043,CMP-N-acetylneuraminate,C00128,15,CMAS;GNE;NANP;NANS;TSPAN31,5,UDP-N-acetylglucosamine,,output:C00128,False,False,True,True
+M_113,113,"Acetyl-CoA -> (E,E)-Farnesyl-PP",Acetyl-CoA,C00024,"(E,E)-Farnesyl-PP",C00448,16,ACAT1;ACAT2;FDPS;GGPS1;HMGCR;HMGCS1;HMGCS2;IDI1;IDI2;MVD;MVK;PMVK,12,Acetyl-CoA,"(E,E)-Farnesyl-PP",,False,False,True,True
+M_114,114,"(E,E)-Farnesyl-PP -> Geranylgeranyl-PP","(E,E)-Farnesyl-PP",C00448,Geranylgeranyl-PP,C00353,16,FDPS;GGPS1,2,"(E,E)-Farnesyl-PP",,output:C00353,False,False,True,True
+M_115,115,"(E,E)-Farnesyl-PP -> Farnesal","(E,E)-Farnesyl-PP",C00448,Farnesal,C03461,16,FNTA;FNTB;ICMT;PCYOX1;RCE1;ZMPSTE24,6,"(E,E)-Farnesyl-PP",,output:C03461,False,False,True,True
+M_116,116,"(E,E)-Farnesyl-PP -> Ubiquinone","(E,E)-Farnesyl-PP",C00448,Ubiquinone,C00399,16,CLK1;COQ2;COQ3;COQ5;COQ6;COQ7;PDSS1;PDSS2;PHB;PPT1,10,"(E,E)-Farnesyl-PP",,output:C00399,False,False,True,True
+M_117,117,"(E,E)-Farnesyl-PP -> Dolichyl phosphate","(E,E)-Farnesyl-PP",C00448,Dolichyl phosphate,C00110,16,ALG11;DHDDS;DOLK;SRD5A1;SRD5A2;SRD5A3,6,"(E,E)-Farnesyl-PP",Dolichyl phosphate,,False,False,True,True
+M_118,118,Dolichyl phosphate -> Dolichyl phosphate D-mannose,Dolichyl phosphate,C00110,Dolichyl phosphate D-mannose,C03862,16,DPM1,1,Dolichyl phosphate,Dolichyl phosphate D-mannose,,False,False,True,True
+M_119,119,Dolichyl phosphate -> (GlcNAc)4 (Man)3 (Asn)1,Dolichyl phosphate,C00110,(GlcNAc)4 (Man)3 (Asn)1,G00015,16,ALG10;ALG10B;ALG5;ALG6;ALG8;GANAB;MAN1A1;MAN1A2;MAN1B1;MAN1C1;MAN2A1;MAN2A2;MGAT1;MGAT2;MOGS;STT3A;STT3B,17,Dolichyl phosphate,(GlcNAc)4 (Man)3 (Asn)1,,False,False,True,True
+M_120,120,(Glc)3 (GlcNAc)2 (Man)9 (PP-Dol)1 + Protein asparagine -> (Glc)3 (GlcNAc)2 (Man)9 (Asn)1,(Glc)3 (GlcNAc)2 (Man)9 (PP-Dol)1 + Protein asparagine,G00008+C03021,(Glc)3 (GlcNAc)2 (Man)9 (Asn)1,G00009,16,STT3A;STT3B,2,,(Glc)3 (GlcNAc)2 (Man)9 (Asn)1,input:G00008;input:C03021,False,False,True,True
+M_121,121,(Glc)3 (GlcNAc)2 (Man)9 (Asn)1 -> (GlcNAc)4 (Man)3 (Asn)1,(Glc)3 (GlcNAc)2 (Man)9 (Asn)1,G00009,(GlcNAc)4 (Man)3 (Asn)1,G00015,16,GANAB;MAN1A1;MAN1A2;MAN1B1;MAN1C1;MAN2A1;MAN2A2;MGAT1;MGAT2;MOGS,10,(Glc)3 (GlcNAc)2 (Man)9 (Asn)1,(GlcNAc)4 (Man)3 (Asn)1,,False,False,True,True
+M_122,122,(GlcNAc)4 (Man)3 (Asn)1 -> (Gal)2 (GlcNAc)4 (LFuc)1 (Man)3 (Neu5Ac)2 (Asn)1,(GlcNAc)4 (Man)3 (Asn)1,G00015,(Gal)2 (GlcNAc)4 (LFuc)1 (Man)3 (Neu5Ac)2 (Asn)1,G00018,16,ABO;B4GALT1;B4GALT2;B4GALT3;FUT8;ST6GAL1;ST6GAL2,7,(GlcNAc)4 (Man)3 (Asn)1,,output:G00018,False,False,True,True
+M_123,123,(GlcNAc)4 (Man)3 (Asn)1 -> (GlcNAc)7 (Man)3 (Asn)1,(GlcNAc)4 (Man)3 (Asn)1,G00015,(GlcNAc)7 (Man)3 (Asn)1,G00022,16,MGAT4A;MGAT4B;MGAT4C,3,(GlcNAc)4 (Man)3 (Asn)1,,output:G00022,False,False,True,True
+M_124,124,(GlcNAc)4 (Man)3 (Asn)1 -> (GlcNAc)5 (Man)3 (Asn)1,(GlcNAc)4 (Man)3 (Asn)1,G00015,(GlcNAc)5 (Man)3 (Asn)1,G00019,16,MGAT3,1,(GlcNAc)4 (Man)3 (Asn)1,,output:G00019,False,False,True,True
+M_125,125,Dolichyl phosphate D-mannose + Protein serine -> (Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,Dolichyl phosphate D-mannose + Protein serine,C03862+C02189,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,G13084,17,ABO;B3GLCT;B4GALT1;B4GALT2;B4GALT3;FUT4;FUT7;MGAT5B;POGLUT1;POMGNT1;POMT1;POMT2,12,Dolichyl phosphate D-mannose,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,input:C02189,False,False,True,True
+M_126,126,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1 -> (Gal)1 (GlcNAc)1 (Man)1 (Neu5Ac)1 (Ser/Thr)1,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,G13084,(Gal)1 (GlcNAc)1 (Man)1 (Neu5Ac)1 (Ser/Thr)1,G13085,17,ST3GAL2;ST3GAL3;ST3GAL6,3,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,,output:G13085,False,False,True,True
+M_127,127,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1 -> (Gal)1 (GlcA)1 (GlcNAc)1 (Man)1 (S)1 (Ser/Thr)1,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,G13084,(Gal)1 (GlcA)1 (GlcNAc)1 (Man)1 (S)1 (Ser/Thr)1,G13088,17,B3GAT2;CHST10,2,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,,output:G13088,False,False,True,True
+M_128,128,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1 -> (Gal)1 (GlcNAc)1 (LFuc)1 (Man)1 (Ser/Thr)1,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,G13084,(Gal)1 (GlcNAc)1 (LFuc)1 (Man)1 (Ser/Thr)1,G13100,17,FUT9,1,(Gal)1 (GlcNAc)1 (Man)1 (Ser/Thr)1,,output:G13100,False,False,True,True
+M_129,129,Protein serine -> (Gal)2 (GlcA)1 (Xyl)1 (Ser)1,Protein serine,C02189,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,G00157,18,B3GALT6;B3GAT3;B4GALT7;XYLT1;XYLT2,5,,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,input:C02189,False,False,True,True
+M_130,130,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1 -> Chondroitin,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,G00157,Chondroitin,C00401,18,CHPF;CHPF2;CHSY1;CHSY3;CSGALNACT1;CSGALNACT2;DSE,7,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,Chondroitin,,False,False,True,True
+M_131,131,Chondroitin -> Dermatan,Chondroitin,C00401,Dermatan,C01490,18,DSE,1,Chondroitin,,output:C01490,False,False,True,True
+M_132,132,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1 -> (Gal)2 (GlcA)2 (GlcNAc)2 (Xyl)1 (Ser)1,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,G00157,(Gal)2 (GlcA)2 (GlcNAc)2 (Xyl)1 (Ser)1,G00164,19,EXT1;EXT2;EXTL1;EXTL2;EXTL3,5,(Gal)2 (GlcA)1 (Xyl)1 (Ser)1,,output:G00164,False,False,True,True
+M_133,133,PRPP + Glutamine -> IMP,PRPP + Glutamine,C00119+C00064,IMP,C00130,20,ADSL;ATIC;CANT1;ENTPD1;ENTPD3;ENTPD4;ENTPD5;ENTPD6;ENTPD8;GART;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7;NUDT16;NUDT5;PAICS;PFAS;PPAT,23,Glutamine;PRPP,IMP,,False,False,True,True
+M_134,134,5-Phosphoribosylamine -> AICAR,5-Phosphoribosylamine,C03090,AICAR,C04677,20,ADSL;GART;PAICS;PFAS,4,,AICAR,input:C03090,False,False,True,True
+M_135,135,AICAR -> IMP,AICAR,C04677,IMP,C00130,20,ATIC;CANT1;ENTPD1;ENTPD3;ENTPD4;ENTPD5;ENTPD6;ENTPD8;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7;NUDT16;NUDT5,18,AICAR,IMP,,False,False,True,True
+M_136,136,IMP -> AMP,IMP,C00130,AMP,C00020,20,ADSL;ADSS;ADSSL1;AMPD1;AMPD2;AMPD3,6,IMP,AMP,,False,False,True,True
+M_137,137,IMP -> XMP,IMP,C00130,XMP,C00655,20,IMPDH1;IMPDH2,2,IMP,XMP,,False,False,True,True
+M_138,138,AMP -> Deoxyadenosine,AMP,C00020,Deoxyadenosine,C00559,20,AK1;AK2;AK3;AK4;AK5;AK6;AK7;AK8;ENTPD1;ENTPD3;ENTPD8;F9;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PKLR;PKM;RRM1;RRM2;RRM2B,34,AMP,Deoxyadenosine,,False,False,True,True
+M_139,139,AMP -> Adenine,AMP,C00020,Adenine,C00147,20,ADK;DCK;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PNP,12,AMP,,output:C00147,False,False,True,True
+M_140,140,ADP -> Deoxyadenosine,ADP,C00008,Deoxyadenosine,C00559,20,AK1;AK2;AK4;AK5;AK7;AK8;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PKLR;PKM;RRM1;RRM2;RRM2B,28,,Deoxyadenosine,input:C00008,False,False,True,True
+M_141,141,Deoxyadenosine -> Adenine,Deoxyadenosine,C00559,Adenine,C00147,20,PNP,1,Deoxyadenosine,,output:C00147,False,False,True,True
+M_142,142,Deoxyadenosine -> Hypoxanthine,Deoxyadenosine,C00559,Hypoxanthine,C00262,20,ADA;PNP,2,Deoxyadenosine,Hypoxanthine,,False,False,True,True
+M_143,143,IMP -> Hypoxanthine,IMP,C00130,Hypoxanthine,C00262,20,ADA;HPRT1;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PNP,12,IMP,Hypoxanthine,,False,False,True,True
+M_144,144,Hypoxanthine -> Xanthine,Hypoxanthine,C00262,Xanthine,C00385,20,XDH,1,Hypoxanthine,Xanthine,,False,False,True,True
+M_145,145,XMP -> Xanthine,XMP,C00655,Xanthine,C00385,20,HPRT1;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;NUDT2;NUDT5;PNP,13,XMP,Xanthine,,False,False,True,True
+M_146,146,Xanthine -> Uric acid,Xanthine,C00385,Uric acid,C00366,20,XDH,1,Xanthine,,output:C00366,False,False,True,True
+M_147,147,Xanthine -> Guanine,Xanthine,C00385,Guanine,C00242,20,GDA,1,Xanthine,,output:C00242,False,False,True,True
+M_148,148,XMP -> Guanine,XMP,C00655,Guanine,C00242,20,APRT;GMPS;HPRT1;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;NUDT2;NUDT5;PNP,15,XMP,,output:C00242,False,False,True,True
+M_149,149,GMP -> Guanine,GMP,C00144,Guanine,C00242,20,APRT;HPRT1;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;PNP,12,GMP,,output:C00242,False,False,True,True
+M_150,150,PRPP -> UMP,PRPP,C00119,UMP,C00105,21,UMPS,1,PRPP,UMP,,False,False,True,True
+M_151,151,Orotidylic acid -> UMP,Orotidylic acid,C01103,UMP,C00105,21,UMPS,1,,UMP,input:C01103,False,False,True,True
+M_152,152,UMP -> B-Alanine,UMP,C00105,B-Alanine,C00099,21,DPYD;DPYS;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;UCK1;UCK2;UCKL1;UPB1;UPP1;UPP2;UPRT,18,UMP,B-Alanine,,False,False,True,True
+M_153,153,UMP -> CDP,UMP,C00105,CDP,C00112,21,CANT1;CMPK1;CMPK2;CTPS1;CTPS2;ENTPD1;ENTPD3;ENTPD4;ENTPD5;ENTPD6;ENTPD8;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7,19,UMP,CDP,,False,False,True,True
+M_154,154,Uracil -> B-Alanine,Uracil,C00106,B-Alanine,C00099,21,DPYD;DPYS;UPB1,3,,B-Alanine,input:C00106,False,False,True,True
+M_155,155,UTP -> CDP,UTP,C00075,CDP,C00112,21,CTPS1;CTPS2;ENTPD1;ENTPD3;ENTPD8;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7,13,,CDP,input:C00075,False,False,True,True
+M_156,156,CDP -> Cytidine,CDP,C00112,Cytidine,C00475,21,CMPK1;CMPK2;ENTPD1;ENTPD3;ENTPD8;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;UCK1;UCK2;UCKL1,17,CDP,,output:C00475,False,False,True,True
+M_157,157,CDP -> dCDP,CDP,C00112,dCDP,C00705,21,RRM1;RRM2;RRM2B,3,CDP,dCDP,,False,False,True,True
+M_158,158,dCDP -> Deoxycytidine,dCDP,C00705,Deoxycytidine,C00881,21,CMPK1;CMPK2;DCK;DCTPP1;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M,13,dCDP,,output:C00881,False,False,True,True
+M_159,159,dCMP -> Deoxycytidine,dCMP,C00239,Deoxycytidine,C00881,21,DCK;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M,10,dCMP,,output:C00881,False,False,True,True
+M_160,160,dCDP -> dUMP,dCDP,C00705,dUMP,C00365,21,CMPK1;CMPK2;DCTD;DCTPP1,4,dCDP,dUMP,,False,False,True,True
+M_161,161,dCDP -> dCTP,dCDP,C00705,dCTP,C00458,21,NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7,8,dCDP,,output:C00458,False,False,True,True
+M_162,162,dUMP -> Deoxyuridine,dUMP,C00365,Deoxyuridine,C00526,21,NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;TK1;TK2,11,dUMP,,output:C00526,False,False,True,True
+M_163,163,dUMP -> dTMP,dUMP,C00365,dTMP,C00364,21,TYMS,1,dUMP,dTMP,,False,False,True,True
+M_164,164,dTMP -> Succinyl-CoA,dTMP,C00364,Succinyl-CoA,C00091,21,ACSF3;AGXT2;ALDH1B1;ALDH2;ALDH3A2;ALDH7A1;ALDH9A1;AOX1;DPYD;DPYS;MUT;NT5C;NT5C1A;NT5C1B;NT5C1B-RDH14;NT5C2;NT5C3A;NT5C3B;NT5E;NT5M;TK1;TK2;TYMP;UPB1,24,dTMP,Succinyl-CoA,,False,False,True,True
+M_165,165,dTMP -> dTTP,dTMP,C00364,dTTP,C00459,21,DTYMK;ENTPD1;ENTPD3;ENTPD8;NME1;NME1-NME2;NME2;NME3;NME4;NME5;NME6;NME7,12,dTMP,,output:C00459,False,False,True,True
+M_166,166,Thymine -> Succinyl-CoA,Thymine,C00178,Succinyl-CoA,C00091,21,ACSF3;AGXT2;ALDH1B1;ALDH2;ALDH3A2;ALDH7A1;ALDH9A1;AOX1;DPYD;DPYS;MUT;UPB1,12,,Succinyl-CoA,input:C00178,False,False,True,True
+M_167,167,"(E,E)-Farnesyl-PP -> Cholesterol","(E,E)-Farnesyl-PP",C00448,Cholesterol,C00187,22,CYP51A1;DHCR24;DHCR7;EBP;FDFT1;HSD17B1;HSD17B12;HSD17B2;HSD17B6;HSD17B7;HSD17B8;LSS;MSMO1;NSDHL;RNF2;SC5D;SQLE;TM7SF2,18,"(E,E)-Farnesyl-PP",Cholesterol,,False,False,True,True
+M_168,168,Cholesterol -> Chenodeoxycholate,Cholesterol,C00187,Chenodeoxycholate,C02528,22,ACOT1;ACOT2;ACOT4;ACOT7;ACOT8;ACOX2;AKR1C4;AKR1D1;AMACR;BAAT;CH25H;CYP27A1;CYP39A1;CYP46A1;CYP7A1;CYP7B1;CYP8B1;HSD11B2;HSD17B4;HSD3B7;RDH10;RDH16;RDH8;SCP2;SLC27A5,25,Cholesterol,,output:C02528,False,False,True,True
+M_169,169,Cholesterol -> Steroid_hormone,Cholesterol,C00187,Steroid_hormone,CC0003,22,AKR1C1;AKR1C2;AKR1C3;AKR1C4;AKR1D1;ALG11;COMT;CYP11A1;CYP11B1;CYP11B2;CYP17A1;CYP19A1;CYP1A1;CYP1A2;CYP1B1;CYP2A13;CYP2A6;CYP2A7;CYP2B6;CYP2C18;CYP2C19;CYP2C8;CYP2C9;CYP2D6;CYP2E1;CYP2F1;CYP2J2;CYP2S1;CYP3A4;CYP3A43;CYP3A5;CYP3A7;CYP4B1;CYP4F8;CYP4X1;CYP4Z1;HSD11B1;HSD11B2;HSD17B1;HSD17B12;HSD17B2;HSD17B3;HSD17B6;HSD17B7;HSD17B8;HSD3B1;HSD3B2;RDH10;RDH16;RDH8;RNF2;SRD5A1;SRD5A2;SRD5A3;STS;SULT1E1;SULT2B1;UGT1A1;UGT1A10;UGT1A3;UGT1A4;UGT1A5;UGT1A6;UGT1A7;UGT1A8;UGT1A9;UGT2A1;UGT2A2;UGT2A3;UGT2B10;UGT2B11;UGT2B15;UGT2B17;UGT2B28;UGT2B4;UGT2B7,76,Cholesterol,,output:CC0003,False,False,True,True
+M_170,170,XMP -> GMP,XMP,C00655,GMP,C00144,20,GMPS,1,XMP,GMP,,False,False,True,True
+M_171,171,dCDP -> dCMP,dCDP,C00705,dCMP,C00239,21,CMPK1;CMPK2;DCTPP1,3,dCDP,dCMP,,False,False,True,True

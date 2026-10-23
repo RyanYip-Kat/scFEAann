@@ -1,0 +1,271 @@
+{
+  "input": {
+    "n_obs": 200,
+    "n_vars": 36612
+  },
+  "grouping": {
+    "dataset_key": "dataset",
+    "cluster_key": "cluster",
+    "n_datasets": 2,
+    "n_clusters": 3,
+    "n_nested_groups": 6
+  },
+  "features": {
+    "n_modules": 168,
+    "n_compounds": 70,
+    "module_annotation_available": true,
+    "top_n": 30,
+    "selected_modules": [
+      "M_54",
+      "M_166",
+      "M_4",
+      "M_164",
+      "M_60",
+      "M_53",
+      "M_31",
+      "M_42",
+      "M_148",
+      "M_61",
+      "M_58",
+      "M_35",
+      "M_33",
+      "M_168",
+      "M_56",
+      "M_116",
+      "M_8",
+      "M_167",
+      "M_135",
+      "M_55",
+      "M_70",
+      "M_25",
+      "M_133",
+      "M_46",
+      "M_149",
+      "M_121",
+      "M_132",
+      "M_152",
+      "M_145",
+      "M_162"
+    ],
+    "selected_compounds": [
+      "Succinyl-CoA",
+      "Valine",
+      "Pyruvate",
+      "dTMP",
+      "lysine",
+      "Leucine",
+      "3PD",
+      "Methionine",
+      "Spermine",
+      "XMP",
+      "Isoleucine",
+      "Tyrosine",
+      "Fumarate",
+      "Aspartate",
+      "Cholesterol",
+      "Glutamine",
+      "AICAR",
+      "Glutathione",
+      "Fatty Acid",
+      "PRPP",
+      "Glutamate",
+      "GMP",
+      "CDP",
+      "(Glc)3 (GlcNAc)2 (Man)9 (Asn)1",
+      "Acetyl-CoA",
+      "G3P",
+      "Xanthine",
+      "Propanoyl-CoA",
+      "dCDP",
+      "(E,E)-Farnesyl-PP"
+    ]
+  },
+  "embeddings": {
+    "transcriptome": {
+      "method": "X_umap",
+      "fallback_reason": null
+    },
+    "flux": {
+      "requested_method": "umap",
+      "method": "umap",
+      "standardized": true,
+      "explained_variance_2d": 0.13842777414045107,
+      "fallback_reason": null
+    }
+  },
+  "figures": {
+    "Fig1": [
+      "Fig1.pdf",
+      "Fig1.svg",
+      "Fig1.png",
+      "Fig1_grayscale.png"
+    ],
+    "Fig2": [
+      "Fig2.pdf",
+      "Fig2.svg",
+      "Fig2.png",
+      "Fig2_grayscale.png"
+    ],
+    "Fig3": [
+      "Fig3.pdf",
+      "Fig3.svg",
+      "Fig3.png",
+      "Fig3_grayscale.png"
+    ],
+    "Supp_Fig_loss": [
+      "Supp_Fig_loss.pdf",
+      "Supp_Fig_loss.svg",
+      "Supp_Fig_loss.png",
+      "Supp_Fig_loss_grayscale.png"
+    ],
+    "Fig4": [
+      "Fig4.pdf",
+      "Fig4.svg",
+      "Fig4.png",
+      "Fig4_grayscale.png"
+    ],
+    "Supp_Fig2_supermodules": [
+      "Supp_Fig2_supermodules.pdf",
+      "Supp_Fig2_supermodules.svg",
+      "Supp_Fig2_supermodules.png",
+      "Supp_Fig2_supermodules_grayscale.png"
+    ],
+    "Fig5": [
+      "Fig5.pdf",
+      "Fig5.svg",
+      "Fig5.png",
+      "Fig5_grayscale.png"
+    ],
+    "Supp_Fig3_metabolic_network": [
+      "Supp_Fig3_metabolic_network.pdf",
+      "Supp_Fig3_metabolic_network.svg",
+      "Supp_Fig3_metabolic_network.png",
+      "Supp_Fig3_metabolic_network_grayscale.png"
+    ]
+  },
+  "tables": {
+    "workbook": "report_tables.xlsx",
+    "module_annotation": "module_annotation.csv",
+    "figure_legends": "figure_legends.md",
+    "cell_metadata": "cell_metadata.csv.gz",
+    "cell_flux": "cell_flux.csv.gz",
+    "cell_balance": "cell_balance.csv.gz",
+    "supermodule_node_features_by_cell": "supermodule_node_features_by_cell.csv.gz",
+    "supermodule_node_features_by_group": "supermodule_node_features_by_group.csv",
+    "supermodule_annotation": "supermodule_annotation.csv",
+    "supermodule_correlation": "supermodule_correlation.csv",
+    "network_nodes": "network_nodes.csv",
+    "network_edges": "network_edges.csv",
+    "network_layout": "network_layout.csv",
+    "network_supermodule_summary": "network_supermodule_summary.csv",
+    "factor_graph_nodes": "factor_graph_nodes.csv",
+    "factor_graph_edges": "factor_graph_edges.csv",
+    "factor_graph_layout": "factor_graph_layout.csv",
+    "factor_graph_supermodule_labels": "factor_graph_supermodule_labels.csv"
+  },
+  "figure_source_data": {
+    "Fig1a_group_counts": "figure_source_data/Fig1a_group_counts.csv",
+    "Fig1b_dataset_consistency": "figure_source_data/Fig1b_dataset_consistency.csv",
+    "Fig1c_module_heatmap": "figure_source_data/Fig1c_module_heatmap.csv",
+    "Fig1d_top_modules": "figure_source_data/Fig1d_top_modules.csv",
+    "Fig2a_balance_heatmap": "figure_source_data/Fig2a_balance_heatmap.csv",
+    "Fig2b_top_compounds": "figure_source_data/Fig2b_top_compounds.csv",
+    "Fig2c_module_effects": "figure_source_data/Fig2c_module_effects.csv",
+    "Fig2d_compound_effects": "figure_source_data/Fig2d_compound_effects.csv",
+    "Fig3a_transcriptome_embedding": "figure_source_data/Fig3a_transcriptome_embedding.csv",
+    "Fig3b_flux_embedding": "figure_source_data/Fig3b_flux_embedding.csv",
+    "Supp_loss_history": "figure_source_data/Supp_loss_history.csv",
+    "Fig4a_group_heatmap": "figure_source_data/Fig4a_group_heatmap.csv",
+    "Fig4b_top_class_distributions": "figure_source_data/Fig4b_top_class_distributions.csv",
+    "Fig4c_class_correlation": "figure_source_data/Fig4c_class_correlation.csv",
+    "Fig4d_model_agreement": "figure_source_data/Fig4d_model_agreement.csv",
+    "SuppFig2a_class_embedding": "figure_source_data/SuppFig2a_class_embedding.csv",
+    "SuppFig2c_global_class_scatter": "figure_source_data/SuppFig2c_global_class_scatter.csv",
+    "SuppFig2d_effect_ranking": "figure_source_data/SuppFig2d_effect_ranking.csv",
+    "SuppFig2_group_means_raw": "figure_source_data/SuppFig2_group_means_raw.csv"
+  },
+  "gradient_tables": {},
+  "software": {
+    "scfeaann": "0.1.0",
+    "anndata": "0.13.4",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.9.1"
+  },
+  "warnings": [
+    "No cell-level p-values are calculated; cells are not independent biological replicates.",
+    "Heatmaps show group z-scores; raw group means are in the workbook."
+  ],
+  "supermodule_report": {
+    "n_classes": 22,
+    "class_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "class_names": [
+      "Glycolysis+TCA cycle",
+      "Serine metabolism",
+      "Pentose phosphate",
+      "Fatty acids metabolism/synthesis",
+      "Aspartate metabolism",
+      "Beta-alanine metabolism",
+      "Propionyl-CoA metabolism",
+      "Glutamate metabolism",
+      "Leucine+valine+isoleucine",
+      "Urea cycle",
+      "Spermine metabolism",
+      "Transporters",
+      "Hyaluronic acid synthesis",
+      "Glycogen synthesis",
+      "Glycosaminoglycan synthesis",
+      "N-linked glycan synthesis",
+      "O-linked glycan synthesis",
+      "Sialic acid synthesis",
+      "Glycan synthesis",
+      "Purine synthesis",
+      "Pyrimidine synthesis",
+      "Steroid hormone synthesis"
+    ],
+    "primary_feature": "flux_mean",
+    "sum_feature_role": "tables_and_network_nodes",
+    "top_effect_classes": [
+      "SM02 Serine metabolism",
+      "SM22 Steroid hormone synthesis",
+      "SM16 N-linked glycan synthesis",
+      "SM21 Pyrimidine synthesis",
+      "SM03 Pentose phosphate",
+      "SM09 Leucine+valine+isoleucine"
+    ]
+  },
+  "networks": {
+    "contrast_key": "dataset",
+    "contrast_reference": "D1",
+    "contrast_target": "D2",
+    "n_supermodule_nodes": 22,
+    "n_supermodule_edges": 60,
+    "n_factor_graph_nodes": 319,
+    "n_factor_graph_edges": 346
+  }
+}

@@ -1,0 +1,801 @@
+cell_id,dataset,cluster,dataset_cluster,feature,value,module_reaction
+D1_KC1_AATGGAAAGGTTACAA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC1_ACAGAAAGTTCGGGTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC1_ACCATTTTCATCGCTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC1_ACTTTGTCAAGGCGTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004547387361526489,Valine -> Succinyl-CoA
+D1_KC1_AGACAGGAGTCTGCAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004552319645881653,Valine -> Succinyl-CoA
+D1_KC1_AGGAAATGTGATGAAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004548028111457825,Valine -> Succinyl-CoA
+D1_KC1_CGCCAGACAATTCTCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC1_CTGTAGATCTACGGTA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004548698663711548,Valine -> Succinyl-CoA
+D1_KC1_GTAGAAAGTAGCTGTT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC1_GTCGTTCAGCACCAGA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004548326134681702,Valine -> Succinyl-CoA
+D1_KC1_GTTACGAGTTAAGCAA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004548162221908569,Valine -> Succinyl-CoA
+D1_KC1_TCAGGTATCTCACGAA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC1_TCGACCTCAGGACGAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004548847675323486,Valine -> Succinyl-CoA
+D1_KC1_TGGAGAGCACACAGAG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004548579454421997,Valine -> Succinyl-CoA
+D1_KC1_TGGGATTAGATTTGCC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004549190402030945,Valine -> Succinyl-CoA
+D1_KC1_TGTAACGTCTAACACG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC1_TTCCACGTCCTCTCTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004554763436317444,Valine -> Succinyl-CoA
+D1_KC1_TTGCATTAGAAGCGGG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004550635814666748,Valine -> Succinyl-CoA
+D1_KC2_AAACCCATCAAAGCCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004549145698547363,Valine -> Succinyl-CoA
+D1_KC2_AGCGCCATCGTCTACC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004547193646430969,Valine -> Succinyl-CoA
+D1_KC2_AGTAGTCCAGAATGTA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004550814628601074,Valine -> Succinyl-CoA
+D1_KC2_ATGAGTCAGGTAAGAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004558384418487549,Valine -> Succinyl-CoA
+D1_KC2_CATCCCATCCTAAGTG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004548460245132446,Valine -> Succinyl-CoA
+D1_KC2_GCATGATGTTGACTAC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC2_GGGTGTCGTTGCCGAC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.0045490562915802,Valine -> Succinyl-CoA
+D1_KC2_GTTGAACAGAGCAAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004569396376609802,Valine -> Succinyl-CoA
+D1_KC2_TGCGGGTGTGGCTAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004552721977233887,Valine -> Succinyl-CoA
+D1_KC3_AAGCCATGTCTGGTTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004554867744445801,Valine -> Succinyl-CoA
+D1_KC3_AAGTACCTCTTGCAGA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC3_AATAGAGGTCAGGAGT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.0045585036277771,Valine -> Succinyl-CoA
+D1_KC3_ACAAGCTCATGAGATA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC3_ACCCTCAGTCCACAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004564106464385986,Valine -> Succinyl-CoA
+D1_KC3_ACCTGAACAACCACGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.00455021858215332,Valine -> Succinyl-CoA
+D1_KC3_ACCTGAAGTGCGAACA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.00457686185836792,Valine -> Succinyl-CoA
+D1_KC3_ACTCTCGTCAGCTTGA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004552528262138367,Valine -> Succinyl-CoA
+D1_KC3_ATCGTCCGTGAGTAAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004565566778182983,Valine -> Succinyl-CoA
+D1_KC3_CACAGATCAACAGAGC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.0045487284660339355,Valine -> Succinyl-CoA
+D1_KC3_CATCCACAGGTCGTAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004548802971839905,Valine -> Succinyl-CoA
+D1_KC3_CCTCCTCGTAGGATAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004553258419036865,Valine -> Succinyl-CoA
+D1_KC3_CGTGCTTAGACCAGCA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004547834396362305,Valine -> Succinyl-CoA
+D1_KC3_CTAACTTCACAATCTG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547551274299622,Valine -> Succinyl-CoA
+D1_KC3_CTACGGGCAAATTAGG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004551813006401062,Valine -> Succinyl-CoA
+D1_KC3_GAACACTTCCGGTAAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004548564553260803,Valine -> Succinyl-CoA
+D1_KC3_GCCGATGTCTTGGATG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004548802971839905,Valine -> Succinyl-CoA
+D1_KC3_GTCGCGAAGGGAGGAC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004547864198684692,Valine -> Succinyl-CoA
+D1_KC3_GTCTACCGTGCACGCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC3_GTTCTATTCAAGCGTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004557609558105469,Valine -> Succinyl-CoA
+D1_KC3_GTTTGGAGTGTTCAGT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004553079605102539,Valine -> Succinyl-CoA
+D1_KC3_TAGGAGGTCTCGGCTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004560813307762146,Valine -> Succinyl-CoA
+D1_KC3_TCATATCTCATCTATC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004548326134681702,Valine -> Succinyl-CoA
+D1_KC3_TCATCCGGTCGCCTAG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC3_TCGGGCAAGACCAAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004548519849777222,Valine -> Succinyl-CoA
+D1_KC3_TGAGCGCTCAGCTGAT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547342658042908,Valine -> Succinyl-CoA
+D1_KC3_TGCCGAGAGTGAGTGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC3_TGCTTCGAGTATTGCC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC3_TTTACTGCACTCCTGT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_KC3_TTTGTTGGTACCTAAC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004551425576210022,Valine -> Succinyl-CoA
+D1_NC1_AATCACGAGCGTCAAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_NC1_AATGACCAGCAAGTCG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.00455881655216217,Valine -> Succinyl-CoA
+D1_NC1_ACGGTTATCAAAGACA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004571154713630676,Valine -> Succinyl-CoA
+D1_NC1_ACTATTCGTGTAAACA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_NC1_CATTCATCATTGAAAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004567384719848633,Valine -> Succinyl-CoA
+D1_NC1_CGGTCAGTCATACGGT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004557088017463684,Valine -> Succinyl-CoA
+D1_NC1_GAACGTTAGCACAAAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.00455513596534729,Valine -> Succinyl-CoA
+D1_NC1_GCTCAAAAGACCTCCG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004576534032821655,Valine -> Succinyl-CoA
+D1_NC1_GGCTTTCTCATTGTTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004555433988571167,Valine -> Succinyl-CoA
+D1_NC1_GGGTAGAGTCGGTGTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004559755325317383,Valine -> Succinyl-CoA
+D1_NC1_TCAGTTTAGCGCCTAC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004601329565048218,Valine -> Succinyl-CoA
+D1_NC1_TCCTTCTCATCATTTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004570305347442627,Valine -> Succinyl-CoA
+D1_NC1_TGCTCGTTCGCGAAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004560917615890503,Valine -> Succinyl-CoA
+D1_NC1_TGGATCAAGCACTTTG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004550248384475708,Valine -> Succinyl-CoA
+D1_NC1_TTTACTGTCACACCGG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004580959677696228,Valine -> Succinyl-CoA
+D1_NC2_AGCCACGAGCGTGTCC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004573449492454529,Valine -> Succinyl-CoA
+D1_NC2_AGGACGATCCACTTCG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004554808139801025,Valine -> Succinyl-CoA
+D1_NC2_ATGCATGTCGGAATTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004583373665809631,Valine -> Succinyl-CoA
+D1_NC2_CTTCTAACACCTATCC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004557818174362183,Valine -> Succinyl-CoA
+D1_NC2_GAACTGTTCGCTCATC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004552721977233887,Valine -> Succinyl-CoA
+D1_NC2_GAGGCAAGTATTCCGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.00457356870174408,Valine -> Succinyl-CoA
+D1_NC2_TACACCCTCTTCCAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004558175802230835,Valine -> Succinyl-CoA
+D1_NC2_TCATCATAGTGACACG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004548713564872742,Valine -> Succinyl-CoA
+D1_NC2_TGCTTGCAGATAACGT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.0045682936906814575,Valine -> Succinyl-CoA
+D1_NC2_TGTTCCGGTTTCTTAC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.0045483410358428955,Valine -> Succinyl-CoA
+D1_NC2_TTTACGTGTACTGGGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004552602767944336,Valine -> Succinyl-CoA
+D1_NC3_AACAAGAAGATCACTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004550322890281677,Valine -> Succinyl-CoA
+D1_NC3_AGAAGTATCGCGGACT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004549130797386169,Valine -> Succinyl-CoA
+D1_NC3_AGTCATGTCGGCTTCT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004548117518424988,Valine -> Succinyl-CoA
+D1_NC3_CAGTTAGAGTTTAGGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004552468657493591,Valine -> Succinyl-CoA
+D1_NC3_CATTCATAGCCGCACT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004568055272102356,Valine -> Succinyl-CoA
+D1_NC3_CCACAAAGTCGTCGGT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.00455087423324585,Valine -> Succinyl-CoA
+D1_NC3_CTTGATTTCGTCAGAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004557996988296509,Valine -> Succinyl-CoA
+D1_NC3_GAGCCTGCAGCATACT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004549667239189148,Valine -> Succinyl-CoA
+D1_NC3_GTCACGGAGGAAGTGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004548773169517517,Valine -> Succinyl-CoA
+D1_NC3_TATCAGGCACGTACTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004558458924293518,Valine -> Succinyl-CoA
+D1_NC3_TATTGGGTCCATTGCC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004547148942947388,Valine -> Succinyl-CoA
+D1_NC3_TGGGATTCAATCCTAG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004551321268081665,Valine -> Succinyl-CoA
+D1_NC4_CCGAACGTCTGTCGTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_54,0.004549428820610046,Valine -> Succinyl-CoA
+D1_NC4_GAGGCAAGTCAAGTTC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004549860954284668,Valine -> Succinyl-CoA
+D1_NC4_GCACATAAGCCTCACG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.004547432065010071,Valine -> Succinyl-CoA
+D1_NC4_TCAAGACCATTCCTCG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.004552528262138367,Valine -> Succinyl-CoA
+D1_NC4_TCAAGTGCACACAGAG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_54,0.0045566558837890625,Valine -> Succinyl-CoA
+D1_NC4_TCTATCAGTCTTCATT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_54,0.00457841157913208,Valine -> Succinyl-CoA
+D2_ACGTACATCAGCGCAC_1,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004624098539352417,Valine -> Succinyl-CoA
+D2_GGAGGTATCGGTGAAG_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004780873656272888,Valine -> Succinyl-CoA
+D2_GTCACTCCAGAAGCTG_1,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004607200622558594,Valine -> Succinyl-CoA
+D2_GTGGGAAGTCCAGTTA_1,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.00456315279006958,Valine -> Succinyl-CoA
+D2_TACACCCTCACGGTCG_1,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004588142037391663,Valine -> Succinyl-CoA
+D2_TGGAGGAAGAGGTTAT_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004791527986526489,Valine -> Succinyl-CoA
+D2_TTCCAATAGGACACTG_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.0046356916427612305,Valine -> Succinyl-CoA
+D2_AAGAACAAGAGTGACC_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004658952355384827,Valine -> Succinyl-CoA
+D2_ACATCCCAGACGGTTG_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004616975784301758,Valine -> Succinyl-CoA
+D2_ATCGCCTTCCCGGTAG_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004712268710136414,Valine -> Succinyl-CoA
+D2_ATTCCTATCCGATAAC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004749923944473267,Valine -> Succinyl-CoA
+D2_CGGAGAAAGCCGAACA_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.0046551525592803955,Valine -> Succinyl-CoA
+D2_CTATAGGCAGATGCGA_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.0046582818031311035,Valine -> Succinyl-CoA
+D2_GATGACTAGTAGATCA_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004583448171615601,Valine -> Succinyl-CoA
+D2_TACGCTCTCACTTATC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004686698317527771,Valine -> Succinyl-CoA
+D2_TCTGTCGCAGTCTGGC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004552602767944336,Valine -> Succinyl-CoA
+D2_TGCATGAGTGAAGCTG_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004604056477546692,Valine -> Succinyl-CoA
+D2_TTCATGTAGTTGCCTA_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004641145467758179,Valine -> Succinyl-CoA
+D2_GAGAAATCAAGCAATA_3,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004586398601531982,Valine -> Succinyl-CoA
+D2_TACGGTAAGGCCTAAG_3,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004582896828651428,Valine -> Succinyl-CoA
+D2_TTCAATCTCTCACCCA_3,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.0045726001262664795,Valine -> Succinyl-CoA
+D2_AAACCCAAGGGAGGCA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004607081413269043,Valine -> Succinyl-CoA
+D2_AACAACCGTCATTCCC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004598736763000488,Valine -> Succinyl-CoA
+D2_AATAGAGCAACTTCTT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004591420292854309,Valine -> Succinyl-CoA
+D2_ACCCTCAGTAGGGTAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004554450511932373,Valine -> Succinyl-CoA
+D2_ACCCTCATCGGTAGAG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004552066326141357,Valine -> Succinyl-CoA
+D2_ACCGTTCCAGTCGCTG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.00464203953742981,Valine -> Succinyl-CoA
+D2_ACGTACACATACTGAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.00458487868309021,Valine -> Succinyl-CoA
+D2_ACTTATCGTGTAACGG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004652038216590881,Valine -> Succinyl-CoA
+D2_AGGAGGTGTAGCTTGT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.00466570258140564,Valine -> Succinyl-CoA
+D2_AGGCTGCGTGATACTC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004677116870880127,Valine -> Succinyl-CoA
+D2_AGTGTTGTCGCAGTGC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004638180136680603,Valine -> Succinyl-CoA
+D2_ATACCGAAGACGCTCC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.00460796058177948,Valine -> Succinyl-CoA
+D2_ATAGAGACACCTCAGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004646748304367065,Valine -> Succinyl-CoA
+D2_ATCTCTAAGCACTCGC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004718601703643799,Valine -> Succinyl-CoA
+D2_ATGAGGGAGTCTGGTT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.00467430055141449,Valine -> Succinyl-CoA
+D2_ATGAGTCTCTTGAACG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004598662257194519,Valine -> Succinyl-CoA
+D2_ATGGGTTCAATTGCCA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004696711897850037,Valine -> Succinyl-CoA
+D2_ATTCCATCAGACCATT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.0045812129974365234,Valine -> Succinyl-CoA
+D2_ATTCGTTGTAGCTTAC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004598960280418396,Valine -> Succinyl-CoA
+D2_CACACAACAATTCTCT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004695579409599304,Valine -> Succinyl-CoA
+D2_CACGGGTAGAAATCCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.0045656561851501465,Valine -> Succinyl-CoA
+D2_CACTGAAGTATAGGAT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004606679081916809,Valine -> Succinyl-CoA
+D2_CACTGTCGTACTGGGA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.0046612173318862915,Valine -> Succinyl-CoA
+D2_CATGCCTGTTCACGAT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004570379853248596,Valine -> Succinyl-CoA
+D2_CATTGCCGTTAGTTCG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.0046845972537994385,Valine -> Succinyl-CoA
+D2_CCGATGGTCTGTGTGA_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.0045667290687561035,Valine -> Succinyl-CoA
+D2_CCTCCAATCCTTCTTC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.00458371639251709,Valine -> Succinyl-CoA
+D2_CGATGCGAGGAGTCTG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004773929715156555,Valine -> Succinyl-CoA
+D2_CGCGTGATCCGCGATG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004558101296424866,Valine -> Succinyl-CoA
+D2_CGTTGGGCAAACCATC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004591330885887146,Valine -> Succinyl-CoA
+D2_CTACCTGTCACCACAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004574820399284363,Valine -> Succinyl-CoA
+D2_CTCAACCAGCATAGGC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004754707217216492,Valine -> Succinyl-CoA
+D2_CTGAGCGTCAAATAGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004566207528114319,Valine -> Succinyl-CoA
+D2_CTTGATTAGTCGTCTA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.0046403855085372925,Valine -> Succinyl-CoA
+D2_GAACACTTCATATGGC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004630327224731445,Valine -> Succinyl-CoA
+D2_GAACGTTCACTTGGCG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004702821373939514,Valine -> Succinyl-CoA
+D2_GATCCCTAGAATCCCT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004600495100021362,Valine -> Succinyl-CoA
+D2_GCACTAATCTCTTCAA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004597380757331848,Valine -> Succinyl-CoA
+D2_GCAGGCTGTATCGAAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004569888114929199,Valine -> Succinyl-CoA
+D2_GCTGAATCAGTCCGTG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004620760679244995,Valine -> Succinyl-CoA
+D2_GCTTGGGAGATGTAGT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.0046180784702301025,Valine -> Succinyl-CoA
+D2_GGGAAGTCAGGACAGT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.0045781731605529785,Valine -> Succinyl-CoA
+D2_GGGACAACAAATGGAT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004692256450653076,Valine -> Succinyl-CoA
+D2_GGGACAAGTTACTCAG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004667297005653381,Valine -> Succinyl-CoA
+D2_GTAGAAAAGACTACGG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004566848278045654,Valine -> Succinyl-CoA
+D2_GTAGATCGTGTTGATC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004582136869430542,Valine -> Succinyl-CoA
+D2_GTATTTCGTCGCTGCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004598021507263184,Valine -> Succinyl-CoA
+D2_GTCCCATGTCTTTCTA_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.00469285249710083,Valine -> Succinyl-CoA
+D2_GTGCTTCTCAACTACG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004555985331535339,Valine -> Succinyl-CoA
+D2_GTTACCCAGTTTCGAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004649370908737183,Valine -> Succinyl-CoA
+D2_TAACGACTCATGAGGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.00460931658744812,Valine -> Succinyl-CoA
+D2_TACTTGTGTAAGATTG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004647940397262573,Valine -> Succinyl-CoA
+D2_TAGACCATCCAATCCC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004615426063537598,Valine -> Succinyl-CoA
+D2_TATCAGGGTCGTCAGC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004593521356582642,Valine -> Succinyl-CoA
+D2_TATGTTCAGATACGAT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004691809415817261,Valine -> Succinyl-CoA
+D2_TATTCCAGTCCTTGTC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004638493061065674,Valine -> Succinyl-CoA
+D2_TCATTGTTCAATCGGT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004655942320823669,Valine -> Succinyl-CoA
+D2_TCCTCTTCATACACCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004610076546669006,Valine -> Succinyl-CoA
+D2_TGATCAGAGACCTTTG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004600495100021362,Valine -> Succinyl-CoA
+D2_TGCAGATCATAAGCAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004626721143722534,Valine -> Succinyl-CoA
+D2_TGCTGAACAGGAGGTT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004598140716552734,Valine -> Succinyl-CoA
+D2_TGCTTCGCATAATGAG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004559338092803955,Valine -> Succinyl-CoA
+D2_TGGTTAGCATTCACAG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.0045699626207351685,Valine -> Succinyl-CoA
+D2_TGTCAGAGTTGCATAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004644304513931274,Valine -> Succinyl-CoA
+D2_TGTGTGATCTCTCAAT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004563376307487488,Valine -> Succinyl-CoA
+D2_TTCCTAACACGACGAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004558667540550232,Valine -> Succinyl-CoA
+D2_TTCTAACTCCGTCACT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004562556743621826,Valine -> Succinyl-CoA
+D2_TTTCAGTAGCGATCGA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004595577716827393,Valine -> Succinyl-CoA
+D2_CCACGTTTCAGCTGAT,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_54,0.004690691828727722,Valine -> Succinyl-CoA
+D2_CTCAGAAGTTCCAGGC,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.00465567409992218,Valine -> Succinyl-CoA
+D2_CTGTAGAAGGTCACAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004616156220436096,Valine -> Succinyl-CoA
+D2_TCGGATAGTTAAACAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004650682210922241,Valine -> Succinyl-CoA
+D2_CTCAGTCGTACGACTT,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.0046110600233078,Valine -> Succinyl-CoA
+D2_GACTGATGTCACGTGC,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.004636481404304504,Valine -> Succinyl-CoA
+D2_TACTTGTGTGGTAACG,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_54,0.00456729531288147,Valine -> Succinyl-CoA
+D2_ACTTTCATCTACGGGC,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004689708352088928,Valine -> Succinyl-CoA
+D2_CCCAACTTCTCTTCAA,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.0046615153551101685,Valine -> Succinyl-CoA
+D2_CTATCTATCATCGTAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_54,0.004747718572616577,Valine -> Succinyl-CoA
+D1_KC1_AATGGAAAGGTTACAA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_ACAGAAAGTTCGGGTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_ACCATTTTCATCGCTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_ACTTTGTCAAGGCGTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4794211387634277e-06,Thymine -> Succinyl-CoA
+D1_KC1_AGACAGGAGTCTGCAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_AGGAAATGTGATGAAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.473833203315735e-06,Thymine -> Succinyl-CoA
+D1_KC1_CGCCAGACAATTCTCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_CTGTAGATCTACGGTA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_GTAGAAAGTAGCTGTT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_GTCGTTCAGCACCAGA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.471970558166504e-06,Thymine -> Succinyl-CoA
+D1_KC1_GTTACGAGTTAAGCAA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_TCAGGTATCTCACGAA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_TCGACCTCAGGACGAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_TGGAGAGCACACAGAG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.468245267868042e-06,Thymine -> Succinyl-CoA
+D1_KC1_TGGGATTAGATTTGCC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_TGTAACGTCTAACACG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_TTCCACGTCCTCTCTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC1_TTGCATTAGAAGCGGG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.475695848464966e-06,Thymine -> Succinyl-CoA
+D1_KC2_AAACCCATCAAAGCCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC2_AGCGCCATCGTCTACC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC2_AGTAGTCCAGAATGTA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.421679139137268e-06,Thymine -> Succinyl-CoA
+D1_KC2_ATGAGTCAGGTAAGAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC2_CATCCCATCCTAAGTG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC2_GCATGATGTTGACTAC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC2_GGGTGTCGTTGCCGAC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC2_GTTGAACAGAGCAAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.471970558166504e-06,Thymine -> Succinyl-CoA
+D1_KC2_TGCGGGTGTGGCTAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4794211387634277e-06,Thymine -> Succinyl-CoA
+D1_KC3_AAGCCATGTCTGGTTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_AAGTACCTCTTGCAGA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_AATAGAGGTCAGGAGT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_ACAAGCTCATGAGATA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_ACCCTCAGTCCACAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.473833203315735e-06,Thymine -> Succinyl-CoA
+D1_KC3_ACCTGAACAACCACGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.475695848464966e-06,Thymine -> Succinyl-CoA
+D1_KC3_ACCTGAAGTGCGAACA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.458932042121887e-06,Thymine -> Succinyl-CoA
+D1_KC3_ACTCTCGTCAGCTTGA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4775584936141968e-06,Thymine -> Succinyl-CoA
+D1_KC3_ATCGTCCGTGAGTAAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.468245267868042e-06,Thymine -> Succinyl-CoA
+D1_KC3_CACAGATCAACAGAGC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_CATCCACAGGTCGTAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_CCTCCTCGTAGGATAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4794211387634277e-06,Thymine -> Succinyl-CoA
+D1_KC3_CGTGCTTAGACCAGCA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_CTAACTTCACAATCTG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_CTACGGGCAAATTAGG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.468245267868042e-06,Thymine -> Succinyl-CoA
+D1_KC3_GAACACTTCCGGTAAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_GCCGATGTCTTGGATG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4794211387634277e-06,Thymine -> Succinyl-CoA
+D1_KC3_GTCGCGAAGGGAGGAC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_GTCTACCGTGCACGCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_GTTCTATTCAAGCGTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.475695848464966e-06,Thymine -> Succinyl-CoA
+D1_KC3_GTTTGGAGTGTTCAGT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_TAGGAGGTCTCGGCTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_TCATATCTCATCTATC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_TCATCCGGTCGCCTAG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_TCGGGCAAGACCAAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_TGAGCGCTCAGCTGAT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_TGCCGAGAGTGAGTGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_TGCTTCGAGTATTGCC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_TTTACTGCACTCCTGT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_KC3_TTTGTTGGTACCTAAC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC1_AATCACGAGCGTCAAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC1_AATGACCAGCAAGTCG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.473833203315735e-06,Thymine -> Succinyl-CoA
+D1_NC1_ACGGTTATCAAAGACA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.46451997756958e-06,Thymine -> Succinyl-CoA
+D1_NC1_ACTATTCGTGTAAACA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC1_CATTCATCATTGAAAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC1_CGGTCAGTCATACGGT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4794211387634277e-06,Thymine -> Succinyl-CoA
+D1_NC1_GAACGTTAGCACAAAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC1_GCTCAAAAGACCTCCG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.471970558166504e-06,Thymine -> Succinyl-CoA
+D1_NC1_GGCTTTCTCATTGTTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC1_GGGTAGAGTCGGTGTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.471970558166504e-06,Thymine -> Succinyl-CoA
+D1_NC1_TCAGTTTAGCGCCTAC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.470107913017273e-06,Thymine -> Succinyl-CoA
+D1_NC1_TCCTTCTCATCATTTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.466382622718811e-06,Thymine -> Succinyl-CoA
+D1_NC1_TGCTCGTTCGCGAAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.475695848464966e-06,Thymine -> Succinyl-CoA
+D1_NC1_TGGATCAAGCACTTTG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4794211387634277e-06,Thymine -> Succinyl-CoA
+D1_NC1_TTTACTGTCACACCGG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.473833203315735e-06,Thymine -> Succinyl-CoA
+D1_NC2_AGCCACGAGCGTGTCC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.416091203689575e-06,Thymine -> Succinyl-CoA
+D1_NC2_AGGACGATCCACTTCG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.473833203315735e-06,Thymine -> Succinyl-CoA
+D1_NC2_ATGCATGTCGGAATTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.473833203315735e-06,Thymine -> Succinyl-CoA
+D1_NC2_CTTCTAACACCTATCC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4775584936141968e-06,Thymine -> Succinyl-CoA
+D1_NC2_GAACTGTTCGCTCATC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC2_GAGGCAAGTATTCCGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.458932042121887e-06,Thymine -> Succinyl-CoA
+D1_NC2_TACACCCTCTTCCAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.460794687271118e-06,Thymine -> Succinyl-CoA
+D1_NC2_TCATCATAGTGACACG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4775584936141968e-06,Thymine -> Succinyl-CoA
+D1_NC2_TGCTTGCAGATAACGT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.471970558166504e-06,Thymine -> Succinyl-CoA
+D1_NC2_TGTTCCGGTTTCTTAC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC2_TTTACGTGTACTGGGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4775584936141968e-06,Thymine -> Succinyl-CoA
+D1_NC3_AACAAGAAGATCACTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC3_AGAAGTATCGCGGACT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC3_AGTCATGTCGGCTTCT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC3_CAGTTAGAGTTTAGGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.475695848464966e-06,Thymine -> Succinyl-CoA
+D1_NC3_CATTCATAGCCGCACT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4775584936141968e-06,Thymine -> Succinyl-CoA
+D1_NC3_CCACAAAGTCGTCGGT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4794211387634277e-06,Thymine -> Succinyl-CoA
+D1_NC3_CTTGATTTCGTCAGAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.475695848464966e-06,Thymine -> Succinyl-CoA
+D1_NC3_GAGCCTGCAGCATACT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC3_GTCACGGAGGAAGTGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC3_TATCAGGCACGTACTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC3_TATTGGGTCCATTGCC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC3_TGGGATTCAATCCTAG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC4_CCGAACGTCTGTCGTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_166,-3.4794211387634277e-06,Thymine -> Succinyl-CoA
+D1_NC4_GAGGCAAGTCAAGTTC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4794211387634277e-06,Thymine -> Succinyl-CoA
+D1_NC4_GCACATAAGCCTCACG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC4_TCAAGACCATTCCTCG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D1_NC4_TCAAGTGCACACAGAG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_166,-3.475695848464966e-06,Thymine -> Succinyl-CoA
+D1_NC4_TCTATCAGTCTTCATT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_166,-3.471970558166504e-06,Thymine -> Succinyl-CoA
+D2_ACGTACATCAGCGCAC_1,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.4123659133911133e-06,Thymine -> Succinyl-CoA
+D2_GGAGGTATCGGTGAAG_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.3155083656311035e-06,Thymine -> Succinyl-CoA
+D2_GTCACTCCAGAAGCTG_1,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.471970558166504e-06,Thymine -> Succinyl-CoA
+D2_GTGGGAAGTCCAGTTA_1,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.473833203315735e-06,Thymine -> Succinyl-CoA
+D2_TACACCCTCACGGTCG_1,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.46451997756958e-06,Thymine -> Succinyl-CoA
+D2_TGGAGGAAGAGGTTAT_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.341585397720337e-06,Thymine -> Succinyl-CoA
+D2_TTCCAATAGGACACTG_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.3602118492126465e-06,Thymine -> Succinyl-CoA
+D2_AAGAACAAGAGTGACC_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.376975655555725e-06,Thymine -> Succinyl-CoA
+D2_ACATCCCAGACGGTTG_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4105032682418823e-06,Thymine -> Succinyl-CoA
+D2_ATCGCCTTCCCGGTAG_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.291293978691101e-06,Thymine -> Succinyl-CoA
+D2_ATTCCTATCCGATAAC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.423541784286499e-06,Thymine -> Succinyl-CoA
+D2_CGGAGAAAGCCGAACA_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.3676624298095703e-06,Thymine -> Succinyl-CoA
+D2_CTATAGGCAGATGCGA_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.380700945854187e-06,Thymine -> Succinyl-CoA
+D2_GATGACTAGTAGATCA_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.423541784286499e-06,Thymine -> Succinyl-CoA
+D2_TACGCTCTCACTTATC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.1050294637680054e-06,Thymine -> Succinyl-CoA
+D2_TCTGTCGCAGTCTGGC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.470107913017273e-06,Thymine -> Succinyl-CoA
+D2_TGCATGAGTGAAGCTG_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.4365803003311157e-06,Thymine -> Succinyl-CoA
+D2_TTCATGTAGTTGCCTA_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4496188163757324e-06,Thymine -> Succinyl-CoA
+D2_GAGAAATCAAGCAATA_3,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.427267074584961e-06,Thymine -> Succinyl-CoA
+D2_TACGGTAAGGCCTAAG_3,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.4347176551818848e-06,Thymine -> Succinyl-CoA
+D2_TTCAATCTCTCACCCA_3,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D2_AAACCCAAGGGAGGCA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.343448042869568e-06,Thymine -> Succinyl-CoA
+D2_AACAACCGTCATTCCC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.462657332420349e-06,Thymine -> Succinyl-CoA
+D2_AATAGAGCAACTTCTT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.468245267868042e-06,Thymine -> Succinyl-CoA
+D2_ACCCTCAGTAGGGTAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.4496188163757324e-06,Thymine -> Succinyl-CoA
+D2_ACCCTCATCGGTAGAG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4030526876449585e-06,Thymine -> Succinyl-CoA
+D2_ACCGTTCCAGTCGCTG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.3192336559295654e-06,Thymine -> Succinyl-CoA
+D2_ACGTACACATACTGAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.259629011154175e-06,Thymine -> Succinyl-CoA
+D2_ACTTATCGTGTAACGG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.4477561712265015e-06,Thymine -> Succinyl-CoA
+D2_AGGAGGTGTAGCTTGT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.3657997846603394e-06,Thymine -> Succinyl-CoA
+D2_AGGCTGCGTGATACTC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.417953848838806e-06,Thymine -> Succinyl-CoA
+D2_AGTGTTGTCGCAGTGC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4049153327941895e-06,Thymine -> Succinyl-CoA
+D2_ATACCGAAGACGCTCC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.390014171600342e-06,Thymine -> Succinyl-CoA
+D2_ATAGAGACACCTCAGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.3061951398849487e-06,Thymine -> Succinyl-CoA
+D2_ATCTCTAAGCACTCGC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.2335519790649414e-06,Thymine -> Succinyl-CoA
+D2_ATGAGGGAGTCTGGTT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.390014171600342e-06,Thymine -> Succinyl-CoA
+D2_ATGAGTCTCTTGAACG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.376975655555725e-06,Thymine -> Succinyl-CoA
+D2_ATGGGTTCAATTGCCA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.471970558166504e-06,Thymine -> Succinyl-CoA
+D2_ATTCCATCAGACCATT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4440308809280396e-06,Thymine -> Succinyl-CoA
+D2_ATTCGTTGTAGCTTAC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.3061951398849487e-06,Thymine -> Succinyl-CoA
+D2_CACACAACAATTCTCT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.3676624298095703e-06,Thymine -> Succinyl-CoA
+D2_CACGGGTAGAAATCCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.473833203315735e-06,Thymine -> Succinyl-CoA
+D2_CACTGAAGTATAGGAT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4421682357788086e-06,Thymine -> Succinyl-CoA
+D2_CACTGTCGTACTGGGA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.332272171974182e-06,Thymine -> Succinyl-CoA
+D2_CATGCCTGTTCACGAT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.380700945854187e-06,Thymine -> Succinyl-CoA
+D2_CATTGCCGTTAGTTCG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.475695848464966e-06,Thymine -> Succinyl-CoA
+D2_CCGATGGTCTGTGTGA_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.423541784286499e-06,Thymine -> Succinyl-CoA
+D2_CCTCCAATCCTTCTTC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.3229589462280273e-06,Thymine -> Succinyl-CoA
+D2_CGATGCGAGGAGTCTG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.2633543014526367e-06,Thymine -> Succinyl-CoA
+D2_CGCGTGATCCGCGATG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.4496188163757324e-06,Thymine -> Succinyl-CoA
+D2_CGTTGGGCAAACCATC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4552067518234253e-06,Thymine -> Succinyl-CoA
+D2_CTACCTGTCACCACAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4514814615249634e-06,Thymine -> Succinyl-CoA
+D2_CTCAACCAGCATAGGC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.254041075706482e-06,Thymine -> Succinyl-CoA
+D2_CTGAGCGTCAAATAGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4440308809280396e-06,Thymine -> Succinyl-CoA
+D2_CTTGATTAGTCGTCTA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.4384429454803467e-06,Thymine -> Succinyl-CoA
+D2_GAACACTTCATATGGC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.3136457204818726e-06,Thymine -> Succinyl-CoA
+D2_GAACGTTCACTTGGCG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.3695250749588013e-06,Thymine -> Succinyl-CoA
+D2_GATCCCTAGAATCCCT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.427267074584961e-06,Thymine -> Succinyl-CoA
+D2_GCACTAATCTCTTCAA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.473833203315735e-06,Thymine -> Succinyl-CoA
+D2_GCAGGCTGTATCGAAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.3527612686157227e-06,Thymine -> Succinyl-CoA
+D2_GCTGAATCAGTCCGTG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4384429454803467e-06,Thymine -> Succinyl-CoA
+D2_GCTTGGGAGATGTAGT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.4421682357788086e-06,Thymine -> Succinyl-CoA
+D2_GGGAAGTCAGGACAGT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4440308809280396e-06,Thymine -> Succinyl-CoA
+D2_GGGACAACAAATGGAT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.3695250749588013e-06,Thymine -> Succinyl-CoA
+D2_GGGACAAGTTACTCAG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.341585397720337e-06,Thymine -> Succinyl-CoA
+D2_GTAGAAAAGACTACGG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.4552067518234253e-06,Thymine -> Succinyl-CoA
+D2_GTAGATCGTGTTGATC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.3490359783172607e-06,Thymine -> Succinyl-CoA
+D2_GTATTTCGTCGCTGCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.2261013984680176e-06,Thymine -> Succinyl-CoA
+D2_GTCCCATGTCTTTCTA_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.255903720855713e-06,Thymine -> Succinyl-CoA
+D2_GTGCTTCTCAACTACG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4384429454803467e-06,Thymine -> Succinyl-CoA
+D2_GTTACCCAGTTTCGAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.3527612686157227e-06,Thymine -> Succinyl-CoA
+D2_TAACGACTCATGAGGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4105032682418823e-06,Thymine -> Succinyl-CoA
+D2_TACTTGTGTAAGATTG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.291293978691101e-06,Thymine -> Succinyl-CoA
+D2_TAGACCATCCAATCCC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.4123659133911133e-06,Thymine -> Succinyl-CoA
+D2_TATCAGGGTCGTCAGC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.0547380447387695e-06,Thymine -> Succinyl-CoA
+D2_TATGTTCAGATACGAT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.376975655555725e-06,Thymine -> Succinyl-CoA
+D2_TATTCCAGTCCTTGTC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.1311064958572388e-06,Thymine -> Succinyl-CoA
+D2_TCATTGTTCAATCGGT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.388151526451111e-06,Thymine -> Succinyl-CoA
+D2_TCCTCTTCATACACCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.3993273973464966e-06,Thymine -> Succinyl-CoA
+D2_TGATCAGAGACCTTTG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.332272171974182e-06,Thymine -> Succinyl-CoA
+D2_TGCAGATCATAAGCAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.332272171974182e-06,Thymine -> Succinyl-CoA
+D2_TGCTGAACAGGAGGTT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.3546239137649536e-06,Thymine -> Succinyl-CoA
+D2_TGCTTCGCATAATGAG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.259629011154175e-06,Thymine -> Succinyl-CoA
+D2_TGGTTAGCATTCACAG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.341585397720337e-06,Thymine -> Succinyl-CoA
+D2_TGTCAGAGTTGCATAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.427267074584961e-06,Thymine -> Succinyl-CoA
+D2_TGTGTGATCTCTCAAT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.2652169466018677e-06,Thymine -> Succinyl-CoA
+D2_TTCCTAACACGACGAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.2223761081695557e-06,Thymine -> Succinyl-CoA
+D2_TTCTAACTCCGTCACT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.4123659133911133e-06,Thymine -> Succinyl-CoA
+D2_TTTCAGTAGCGATCGA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.291293978691101e-06,Thymine -> Succinyl-CoA
+D2_CCACGTTTCAGCTGAT,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_166,-3.390014171600342e-06,Thymine -> Succinyl-CoA
+D2_CTCAGAAGTTCCAGGC,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.373250365257263e-06,Thymine -> Succinyl-CoA
+D2_CTGTAGAAGGTCACAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.460794687271118e-06,Thymine -> Succinyl-CoA
+D2_TCGGATAGTTAAACAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.4030526876449585e-06,Thymine -> Succinyl-CoA
+D2_CTCAGTCGTACGACTT,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.421679139137268e-06,Thymine -> Succinyl-CoA
+D2_GACTGATGTCACGTGC,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.2819807529449463e-06,Thymine -> Succinyl-CoA
+D2_TACTTGTGTGGTAACG,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_166,-3.4812837839126587e-06,Thymine -> Succinyl-CoA
+D2_ACTTTCATCTACGGGC,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.376975655555725e-06,Thymine -> Succinyl-CoA
+D2_CCCAACTTCTCTTCAA,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.4440308809280396e-06,Thymine -> Succinyl-CoA
+D2_CTATCTATCATCGTAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_166,-3.3117830753326416e-06,Thymine -> Succinyl-CoA
+D1_KC1_AATGGAAAGGTTACAA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0027981698513031006,3PD -> Pyruvate
+D1_KC1_ACAGAAAGTTCGGGTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.002801164984703064,3PD -> Pyruvate
+D1_KC1_ACCATTTTCATCGCTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC1_ACTTTGTCAAGGCGTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028011053800582886,3PD -> Pyruvate
+D1_KC1_AGACAGGAGTCTGCAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028009265661239624,3PD -> Pyruvate
+D1_KC1_AGGAAATGTGATGAAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002801045775413513,3PD -> Pyruvate
+D1_KC1_CGCCAGACAATTCTCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC1_CTGTAGATCTACGGTA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC1_GTAGAAAGTAGCTGTT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0027988851070404053,3PD -> Pyruvate
+D1_KC1_GTCGTTCAGCACCAGA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC1_GTTACGAGTTAAGCAA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0027986913919448853,3PD -> Pyruvate
+D1_KC1_TCAGGTATCTCACGAA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC1_TCGACCTCAGGACGAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002800002694129944,3PD -> Pyruvate
+D1_KC1_TGGAGAGCACACAGAG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0027997642755508423,3PD -> Pyruvate
+D1_KC1_TGGGATTAGATTTGCC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028007030487060547,3PD -> Pyruvate
+D1_KC1_TGTAACGTCTAACACG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC1_TTCCACGTCCTCTCTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028018802404403687,3PD -> Pyruvate
+D1_KC1_TTGCATTAGAAGCGGG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028023123741149902,3PD -> Pyruvate
+D1_KC2_AAACCCATCAAAGCCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.002800583839416504,3PD -> Pyruvate
+D1_KC2_AGCGCCATCGTCTACC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002798512578010559,3PD -> Pyruvate
+D1_KC2_AGTAGTCCAGAATGTA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002778291702270508,3PD -> Pyruvate
+D1_KC2_ATGAGTCAGGTAAGAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0027983933687210083,3PD -> Pyruvate
+D1_KC2_CATCCCATCCTAAGTG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0027967840433120728,3PD -> Pyruvate
+D1_KC2_GCATGATGTTGACTAC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC2_GGGTGTCGTTGCCGAC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002796545624732971,3PD -> Pyruvate
+D1_KC2_GTTGAACAGAGCAAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002787470817565918,3PD -> Pyruvate
+D1_KC2_TGCGGGTGTGGCTAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027839988470077515,3PD -> Pyruvate
+D1_KC3_AAGCCATGTCTGGTTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028022676706314087,3PD -> Pyruvate
+D1_KC3_AAGTACCTCTTGCAGA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028007477521896362,3PD -> Pyruvate
+D1_KC3_AATAGAGGTCAGGAGT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027799606323242188,3PD -> Pyruvate
+D1_KC3_ACAAGCTCATGAGATA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028010159730911255,3PD -> Pyruvate
+D1_KC3_ACCCTCAGTCCACAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.002800479531288147,3PD -> Pyruvate
+D1_KC3_ACCTGAACAACCACGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.002790778875350952,3PD -> Pyruvate
+D1_KC3_ACCTGAAGTGCGAACA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027865320444107056,3PD -> Pyruvate
+D1_KC3_ACTCTCGTCAGCTTGA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002799615263938904,3PD -> Pyruvate
+D1_KC3_ATCGTCCGTGAGTAAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0027969777584075928,3PD -> Pyruvate
+D1_KC3_CACAGATCAACAGAGC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002793923020362854,3PD -> Pyruvate
+D1_KC3_CATCCACAGGTCGTAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0027903616428375244,3PD -> Pyruvate
+D1_KC3_CCTCCTCGTAGGATAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028008967638015747,3PD -> Pyruvate
+D1_KC3_CGTGCTTAGACCAGCA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028011202812194824,3PD -> Pyruvate
+D1_KC3_CTAACTTCACAATCTG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0027981698513031006,3PD -> Pyruvate
+D1_KC3_CTACGGGCAAATTAGG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0027971267700195312,3PD -> Pyruvate
+D1_KC3_GAACACTTCCGGTAAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002799093723297119,3PD -> Pyruvate
+D1_KC3_GCCGATGTCTTGGATG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002799421548843384,3PD -> Pyruvate
+D1_KC3_GTCGCGAAGGGAGGAC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028002113103866577,3PD -> Pyruvate
+D1_KC3_GTCTACCGTGCACGCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.002798140048980713,3PD -> Pyruvate
+D1_KC3_GTTCTATTCAAGCGTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002800777554512024,3PD -> Pyruvate
+D1_KC3_GTTTGGAGTGTTCAGT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002801164984703064,3PD -> Pyruvate
+D1_KC3_TAGGAGGTCTCGGCTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002796456217765808,3PD -> Pyruvate
+D1_KC3_TCATATCTCATCTATC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002784043550491333,3PD -> Pyruvate
+D1_KC3_TCATCCGGTCGCCTAG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027739107608795166,3PD -> Pyruvate
+D1_KC3_TCGGGCAAGACCAAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC3_TGAGCGCTCAGCTGAT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.00279352068901062,3PD -> Pyruvate
+D1_KC3_TGCCGAGAGTGAGTGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC3_TGCTTCGAGTATTGCC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC3_TTTACTGCACTCCTGT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_KC3_TTTGTTGGTACCTAAC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_NC1_AATCACGAGCGTCAAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D1_NC1_AATGACCAGCAAGTCG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.002795279026031494,3PD -> Pyruvate
+D1_NC1_ACGGTTATCAAAGACA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027717500925064087,3PD -> Pyruvate
+D1_NC1_ACTATTCGTGTAAACA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.002794891595840454,3PD -> Pyruvate
+D1_NC1_CATTCATCATTGAAAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0027959495782852173,3PD -> Pyruvate
+D1_NC1_CGGTCAGTCATACGGT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027707070112228394,3PD -> Pyruvate
+D1_NC1_GAACGTTAGCACAAAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.00278259813785553,3PD -> Pyruvate
+D1_NC1_GCTCAAAAGACCTCCG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027802735567092896,3PD -> Pyruvate
+D1_NC1_GGCTTTCTCATTGTTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027834177017211914,3PD -> Pyruvate
+D1_NC1_GGGTAGAGTCGGTGTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002785518765449524,3PD -> Pyruvate
+D1_NC1_TCAGTTTAGCGCCTAC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002791181206703186,3PD -> Pyruvate
+D1_NC1_TCCTTCTCATCATTTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.00278317928314209,3PD -> Pyruvate
+D1_NC1_TGCTCGTTCGCGAAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027820467948913574,3PD -> Pyruvate
+D1_NC1_TGGATCAAGCACTTTG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027966946363449097,3PD -> Pyruvate
+D1_NC1_TTTACTGTCACACCGG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027749836444854736,3PD -> Pyruvate
+D1_NC2_AGCCACGAGCGTGTCC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002776816487312317,3PD -> Pyruvate
+D1_NC2_AGGACGATCCACTTCG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002788841724395752,3PD -> Pyruvate
+D1_NC2_ATGCATGTCGGAATTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002775147557258606,3PD -> Pyruvate
+D1_NC2_CTTCTAACACCTATCC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027880817651748657,3PD -> Pyruvate
+D1_NC2_GAACTGTTCGCTCATC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002800852060317993,3PD -> Pyruvate
+D1_NC2_GAGGCAAGTATTCCGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027826428413391113,3PD -> Pyruvate
+D1_NC2_TACACCCTCTTCCAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0027834028005599976,3PD -> Pyruvate
+D1_NC2_TCATCATAGTGACACG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027648061513900757,3PD -> Pyruvate
+D1_NC2_TGCTTGCAGATAACGT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.002783849835395813,3PD -> Pyruvate
+D1_NC2_TGTTCCGGTTTCTTAC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027959495782852173,3PD -> Pyruvate
+D1_NC2_TTTACGTGTACTGGGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027752965688705444,3PD -> Pyruvate
+D1_NC3_AACAAGAAGATCACTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027994662523269653,3PD -> Pyruvate
+D1_NC3_AGAAGTATCGCGGACT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028014034032821655,3PD -> Pyruvate
+D1_NC3_AGTCATGTCGGCTTCT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002793937921524048,3PD -> Pyruvate
+D1_NC3_CAGTTAGAGTTTAGGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027914345264434814,3PD -> Pyruvate
+D1_NC3_CATTCATAGCCGCACT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.00280192494392395,3PD -> Pyruvate
+D1_NC3_CCACAAAGTCGTCGGT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002801164984703064,3PD -> Pyruvate
+D1_NC3_CTTGATTTCGTCAGAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027865618467330933,3PD -> Pyruvate
+D1_NC3_GAGCCTGCAGCATACT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028009116649627686,3PD -> Pyruvate
+D1_NC3_GTCACGGAGGAAGTGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.002794817090034485,3PD -> Pyruvate
+D1_NC3_TATCAGGCACGTACTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0028012841939926147,3PD -> Pyruvate
+D1_NC3_TATTGGGTCCATTGCC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.0028000324964523315,3PD -> Pyruvate
+D1_NC3_TGGGATTCAATCCTAG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002796560525894165,3PD -> Pyruvate
+D1_NC4_CCGAACGTCTGTCGTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_4,-0.00279998779296875,3PD -> Pyruvate
+D1_NC4_GAGGCAAGTCAAGTTC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0027969181537628174,3PD -> Pyruvate
+D1_NC4_GCACATAAGCCTCACG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027988702058792114,3PD -> Pyruvate
+D1_NC4_TCAAGACCATTCCTCG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.0027970969676971436,3PD -> Pyruvate
+D1_NC4_TCAAGTGCACACAGAG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_4,-0.0027979910373687744,3PD -> Pyruvate
+D1_NC4_TCTATCAGTCTTCATT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_4,-0.002796679735183716,3PD -> Pyruvate
+D2_ACGTACATCAGCGCAC_1,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002785205841064453,3PD -> Pyruvate
+D2_GGAGGTATCGGTGAAG_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027749836444854736,3PD -> Pyruvate
+D2_GTCACTCCAGAAGCTG_1,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027893036603927612,3PD -> Pyruvate
+D2_GTGGGAAGTCCAGTTA_1,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.00278627872467041,3PD -> Pyruvate
+D2_TACACCCTCACGGTCG_1,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002784445881843567,3PD -> Pyruvate
+D2_TGGAGGAAGAGGTTAT_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027952641248703003,3PD -> Pyruvate
+D2_TTCCAATAGGACACTG_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027690082788467407,3PD -> Pyruvate
+D2_AAGAACAAGAGTGACC_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027750134468078613,3PD -> Pyruvate
+D2_ACATCCCAGACGGTTG_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002786204218864441,3PD -> Pyruvate
+D2_ATCGCCTTCCCGGTAG_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027757585048675537,3PD -> Pyruvate
+D2_ATTCCTATCCGATAAC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.002785786986351013,3PD -> Pyruvate
+D2_CGGAGAAAGCCGAACA_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002773284912109375,3PD -> Pyruvate
+D2_CTATAGGCAGATGCGA_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.002794012427330017,3PD -> Pyruvate
+D2_GATGACTAGTAGATCA_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027885138988494873,3PD -> Pyruvate
+D2_TACGCTCTCACTTATC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.002790406346321106,3PD -> Pyruvate
+D2_TCTGTCGCAGTCTGGC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027772635221481323,3PD -> Pyruvate
+D2_TGCATGAGTGAAGCTG_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002770170569419861,3PD -> Pyruvate
+D2_TTCATGTAGTTGCCTA_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027914047241210938,3PD -> Pyruvate
+D2_GAGAAATCAAGCAATA_3,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027904659509658813,3PD -> Pyruvate
+D2_TACGGTAAGGCCTAAG_3,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027549713850021362,3PD -> Pyruvate
+D2_TTCAATCTCTCACCCA_3,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0028012245893478394,3PD -> Pyruvate
+D2_AAACCCAAGGGAGGCA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002751082181930542,3PD -> Pyruvate
+D2_AACAACCGTCATTCCC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027972757816314697,3PD -> Pyruvate
+D2_AATAGAGCAACTTCTT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002785623073577881,3PD -> Pyruvate
+D2_ACCCTCAGTAGGGTAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002796262502670288,3PD -> Pyruvate
+D2_ACCCTCATCGGTAGAG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027876943349838257,3PD -> Pyruvate
+D2_ACCGTTCCAGTCGCTG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027937591075897217,3PD -> Pyruvate
+D2_ACGTACACATACTGAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027804523706436157,3PD -> Pyruvate
+D2_ACTTATCGTGTAACGG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002767220139503479,3PD -> Pyruvate
+D2_AGGAGGTGTAGCTTGT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002794429659843445,3PD -> Pyruvate
+D2_AGGCTGCGTGATACTC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027684569358825684,3PD -> Pyruvate
+D2_AGTGTTGTCGCAGTGC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027913451194763184,3PD -> Pyruvate
+D2_ATACCGAAGACGCTCC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.002775251865386963,3PD -> Pyruvate
+D2_ATAGAGACACCTCAGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027891695499420166,3PD -> Pyruvate
+D2_ATCTCTAAGCACTCGC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002786293625831604,3PD -> Pyruvate
+D2_ATGAGGGAGTCTGGTT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002795785665512085,3PD -> Pyruvate
+D2_ATGAGTCTCTTGAACG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027891993522644043,3PD -> Pyruvate
+D2_ATGGGTTCAATTGCCA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002789616584777832,3PD -> Pyruvate
+D2_ATTCCATCAGACCATT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002789422869682312,3PD -> Pyruvate
+D2_ATTCGTTGTAGCTTAC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027696043252944946,3PD -> Pyruvate
+D2_CACACAACAATTCTCT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027715712785720825,3PD -> Pyruvate
+D2_CACGGGTAGAAATCCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027713775634765625,3PD -> Pyruvate
+D2_CACTGAAGTATAGGAT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.00278453528881073,3PD -> Pyruvate
+D2_CACTGTCGTACTGGGA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002775236964225769,3PD -> Pyruvate
+D2_CATGCCTGTTCACGAT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002776026725769043,3PD -> Pyruvate
+D2_CATTGCCGTTAGTTCG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002781212329864502,3PD -> Pyruvate
+D2_CCGATGGTCTGTGTGA_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.002782464027404785,3PD -> Pyruvate
+D2_CCTCCAATCCTTCTTC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027744323015213013,3PD -> Pyruvate
+D2_CGATGCGAGGAGTCTG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.002776101231575012,3PD -> Pyruvate
+D2_CGCGTGATCCGCGATG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027555078268051147,3PD -> Pyruvate
+D2_CGTTGGGCAAACCATC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002784132957458496,3PD -> Pyruvate
+D2_CTACCTGTCACCACAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002795010805130005,3PD -> Pyruvate
+D2_CTCAACCAGCATAGGC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002793237566947937,3PD -> Pyruvate
+D2_CTGAGCGTCAAATAGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027859658002853394,3PD -> Pyruvate
+D2_CTTGATTAGTCGTCTA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027853399515151978,3PD -> Pyruvate
+D2_GAACACTTCATATGGC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.002776801586151123,3PD -> Pyruvate
+D2_GAACGTTCACTTGGCG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002769261598587036,3PD -> Pyruvate
+D2_GATCCCTAGAATCCCT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027587413787841797,3PD -> Pyruvate
+D2_GCACTAATCTCTTCAA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0028008967638015747,3PD -> Pyruvate
+D2_GCAGGCTGTATCGAAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027786344289779663,3PD -> Pyruvate
+D2_GCTGAATCAGTCCGTG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027936846017837524,3PD -> Pyruvate
+D2_GCTTGGGAGATGTAGT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027658790349960327,3PD -> Pyruvate
+D2_GGGAAGTCAGGACAGT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002781704068183899,3PD -> Pyruvate
+D2_GGGACAACAAATGGAT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027935802936553955,3PD -> Pyruvate
+D2_GGGACAAGTTACTCAG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027612149715423584,3PD -> Pyruvate
+D2_GTAGAAAAGACTACGG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027757883071899414,3PD -> Pyruvate
+D2_GTAGATCGTGTTGATC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027834177017211914,3PD -> Pyruvate
+D2_GTATTTCGTCGCTGCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027533620595932007,3PD -> Pyruvate
+D2_GTCCCATGTCTTTCTA_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.00279022753238678,3PD -> Pyruvate
+D2_GTGCTTCTCAACTACG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002759084105491638,3PD -> Pyruvate
+D2_GTTACCCAGTTTCGAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027515292167663574,3PD -> Pyruvate
+D2_TAACGACTCATGAGGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027913302183151245,3PD -> Pyruvate
+D2_TACTTGTGTAAGATTG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027908235788345337,3PD -> Pyruvate
+D2_TAGACCATCCAATCCC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002787262201309204,3PD -> Pyruvate
+D2_TATCAGGGTCGTCAGC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.002784237265586853,3PD -> Pyruvate
+D2_TATGTTCAGATACGAT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027870088815689087,3PD -> Pyruvate
+D2_TATTCCAGTCCTTGTC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027939975261688232,3PD -> Pyruvate
+D2_TCATTGTTCAATCGGT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.002784907817840576,3PD -> Pyruvate
+D2_TCCTCTTCATACACCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027915537357330322,3PD -> Pyruvate
+D2_TGATCAGAGACCTTTG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002772122621536255,3PD -> Pyruvate
+D2_TGCAGATCATAAGCAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027923285961151123,3PD -> Pyruvate
+D2_TGCTGAACAGGAGGTT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027946829795837402,3PD -> Pyruvate
+D2_TGCTTCGCATAATGAG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027910619974136353,3PD -> Pyruvate
+D2_TGGTTAGCATTCACAG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027923882007598877,3PD -> Pyruvate
+D2_TGTCAGAGTTGCATAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027771741151809692,3PD -> Pyruvate
+D2_TGTGTGATCTCTCAAT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027910470962524414,3PD -> Pyruvate
+D2_TTCCTAACACGACGAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027885884046554565,3PD -> Pyruvate
+D2_TTCTAACTCCGTCACT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.0027873069047927856,3PD -> Pyruvate
+D2_TTTCAGTAGCGATCGA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027861595153808594,3PD -> Pyruvate
+D2_CCACGTTTCAGCTGAT,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_4,-0.002775818109512329,3PD -> Pyruvate
+D2_CTCAGAAGTTCCAGGC,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027841180562973022,3PD -> Pyruvate
+D2_CTGTAGAAGGTCACAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027976185083389282,3PD -> Pyruvate
+D2_TCGGATAGTTAAACAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.002783864736557007,3PD -> Pyruvate
+D2_CTCAGTCGTACGACTT,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027769654989242554,3PD -> Pyruvate
+D2_GACTGATGTCACGTGC,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.00278279185295105,3PD -> Pyruvate
+D2_TACTTGTGTGGTAACG,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_4,-0.0027651935815811157,3PD -> Pyruvate
+D2_ACTTTCATCTACGGGC,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.002783268690109253,3PD -> Pyruvate
+D2_CCCAACTTCTCTTCAA,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027866363525390625,3PD -> Pyruvate
+D2_CTATCTATCATCGTAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_4,-0.0027761608362197876,3PD -> Pyruvate
+D1_KC1_AATGGAAAGGTTACAA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021573901176452637,dTMP -> Succinyl-CoA
+D1_KC1_ACAGAAAGTTCGGGTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC1_ACCATTTTCATCGCTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.000216655433177948,dTMP -> Succinyl-CoA
+D1_KC1_ACTTTGTCAAGGCGTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021654367446899414,dTMP -> Succinyl-CoA
+D1_KC1_AGACAGGAGTCTGCAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC1_AGGAAATGTGATGAAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.0002164989709854126,dTMP -> Succinyl-CoA
+D1_KC1_CGCCAGACAATTCTCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.0002166256308555603,dTMP -> Succinyl-CoA
+D1_KC1_CTGTAGATCTACGGTA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC1_GTAGAAAGTAGCTGTT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.0002164021134376526,dTMP -> Succinyl-CoA
+D1_KC1_GTCGTTCAGCACCAGA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021669268608093262,dTMP -> Succinyl-CoA
+D1_KC1_GTTACGAGTTAAGCAA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021626055240631104,dTMP -> Succinyl-CoA
+D1_KC1_TCAGGTATCTCACGAA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021677464246749878,dTMP -> Succinyl-CoA
+D1_KC1_TCGACCTCAGGACGAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.0002165287733078003,dTMP -> Succinyl-CoA
+D1_KC1_TGGAGAGCACACAGAG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021647661924362183,dTMP -> Succinyl-CoA
+D1_KC1_TGGGATTAGATTTGCC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021655112504959106,dTMP -> Succinyl-CoA
+D1_KC1_TGTAACGTCTAACACG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021655112504959106,dTMP -> Succinyl-CoA
+D1_KC1_TTCCACGTCCTCTCTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC1_TTGCATTAGAAGCGGG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.0002163425087928772,dTMP -> Succinyl-CoA
+D1_KC2_AAACCCATCAAAGCCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021650642156600952,dTMP -> Succinyl-CoA
+D1_KC2_AGCGCCATCGTCTACC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021652132272720337,dTMP -> Succinyl-CoA
+D1_KC2_AGTAGTCCAGAATGTA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021644681692123413,dTMP -> Succinyl-CoA
+D1_KC2_ATGAGTCAGGTAAGAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC2_CATCCCATCCTAAGTG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC2_GCATGATGTTGACTAC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC2_GGGTGTCGTTGCCGAC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.0002164095640182495,dTMP -> Succinyl-CoA
+D1_KC2_GTTGAACAGAGCAAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021649152040481567,dTMP -> Succinyl-CoA
+D1_KC2_TGCGGGTGTGGCTAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC3_AAGCCATGTCTGGTTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC3_AAGTACCTCTTGCAGA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC3_AATAGAGGTCAGGAGT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021649152040481567,dTMP -> Succinyl-CoA
+D1_KC3_ACAAGCTCATGAGATA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.0002166256308555603,dTMP -> Succinyl-CoA
+D1_KC3_ACCCTCAGTCCACAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021626800298690796,dTMP -> Succinyl-CoA
+D1_KC3_ACCTGAACAACCACGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021650642156600952,dTMP -> Succinyl-CoA
+D1_KC3_ACCTGAAGTGCGAACA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.0002162158489227295,dTMP -> Succinyl-CoA
+D1_KC3_ACTCTCGTCAGCTTGA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021655112504959106,dTMP -> Succinyl-CoA
+D1_KC3_ATCGTCCGTGAGTAAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021626055240631104,dTMP -> Succinyl-CoA
+D1_KC3_CACAGATCAACAGAGC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021642446517944336,dTMP -> Succinyl-CoA
+D1_KC3_CATCCACAGGTCGTAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.0002165287733078003,dTMP -> Succinyl-CoA
+D1_KC3_CCTCCTCGTAGGATAT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021657347679138184,dTMP -> Succinyl-CoA
+D1_KC3_CGTGCTTAGACCAGCA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC3_CTAACTTCACAATCTG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021654367446899414,dTMP -> Succinyl-CoA
+D1_KC3_CTACGGGCAAATTAGG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021650642156600952,dTMP -> Succinyl-CoA
+D1_KC3_GAACACTTCCGGTAAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021651387214660645,dTMP -> Succinyl-CoA
+D1_KC3_GCCGATGTCTTGGATG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021655112504959106,dTMP -> Succinyl-CoA
+D1_KC3_GTCGCGAAGGGAGGAC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021652132272720337,dTMP -> Succinyl-CoA
+D1_KC3_GTCTACCGTGCACGCT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC3_GTTCTATTCAAGCGTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.0002164989709854126,dTMP -> Succinyl-CoA
+D1_KC3_GTTTGGAGTGTTCAGT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021652132272720337,dTMP -> Succinyl-CoA
+D1_KC3_TAGGAGGTCTCGGCTT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.0002163425087928772,dTMP -> Succinyl-CoA
+D1_KC3_TCATATCTCATCTATC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021646171808242798,dTMP -> Succinyl-CoA
+D1_KC3_TCATCCGGTCGCCTAG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC3_TCGGGCAAGACCAAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021674484014511108,dTMP -> Succinyl-CoA
+D1_KC3_TGAGCGCTCAGCTGAT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC3_TGCCGAGAGTGAGTGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_KC3_TGCTTCGAGTATTGCC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021586567163467407,dTMP -> Succinyl-CoA
+D1_KC3_TTTACTGCACTCCTGT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021642446517944336,dTMP -> Succinyl-CoA
+D1_KC3_TTTGTTGGTACCTAAC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021657347679138184,dTMP -> Succinyl-CoA
+D1_NC1_AATCACGAGCGTCAAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_NC1_AATGACCAGCAAGTCG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_NC1_ACGGTTATCAAAGACA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021588057279586792,dTMP -> Succinyl-CoA
+D1_NC1_ACTATTCGTGTAAACA-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021669268608093262,dTMP -> Succinyl-CoA
+D1_NC1_CATTCATCATTGAAAG-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021654367446899414,dTMP -> Succinyl-CoA
+D1_NC1_CGGTCAGTCATACGGT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021650642156600952,dTMP -> Succinyl-CoA
+D1_NC1_GAACGTTAGCACAAAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_NC1_GCTCAAAAGACCTCCG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021650642156600952,dTMP -> Succinyl-CoA
+D1_NC1_GGCTTTCTCATTGTTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_NC1_GGGTAGAGTCGGTGTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021573156118392944,dTMP -> Succinyl-CoA
+D1_NC1_TCAGTTTAGCGCCTAC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021649152040481567,dTMP -> Succinyl-CoA
+D1_NC1_TCCTTCTCATCATTTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.0002164989709854126,dTMP -> Succinyl-CoA
+D1_NC1_TGCTCGTTCGCGAAGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021649152040481567,dTMP -> Succinyl-CoA
+D1_NC1_TGGATCAAGCACTTTG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021652132272720337,dTMP -> Succinyl-CoA
+D1_NC1_TTTACTGTCACACCGG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021639466285705566,dTMP -> Succinyl-CoA
+D1_NC2_AGCCACGAGCGTGTCC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.0002163723111152649,dTMP -> Succinyl-CoA
+D1_NC2_AGGACGATCCACTTCG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.0002163723111152649,dTMP -> Succinyl-CoA
+D1_NC2_ATGCATGTCGGAATTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021649152040481567,dTMP -> Succinyl-CoA
+D1_NC2_CTTCTAACACCTATCC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021651387214660645,dTMP -> Succinyl-CoA
+D1_NC2_GAACTGTTCGCTCATC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021658092737197876,dTMP -> Succinyl-CoA
+D1_NC2_GAGGCAAGTATTCCGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021644681692123413,dTMP -> Succinyl-CoA
+D1_NC2_TACACCCTCTTCCAGC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021632760763168335,dTMP -> Succinyl-CoA
+D1_NC2_TCATCATAGTGACACG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.0002165287733078003,dTMP -> Succinyl-CoA
+D1_NC2_TGCTTGCAGATAACGT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021649152040481567,dTMP -> Succinyl-CoA
+D1_NC2_TGTTCCGGTTTCTTAC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.0002165287733078003,dTMP -> Succinyl-CoA
+D1_NC2_TTTACGTGTACTGGGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021623820066452026,dTMP -> Succinyl-CoA
+D1_NC3_AACAAGAAGATCACTC-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021652132272720337,dTMP -> Succinyl-CoA
+D1_NC3_AGAAGTATCGCGGACT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.0002161860466003418,dTMP -> Succinyl-CoA
+D1_NC3_AGTCATGTCGGCTTCT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021637976169586182,dTMP -> Succinyl-CoA
+D1_NC3_CAGTTAGAGTTTAGGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.0002165287733078003,dTMP -> Succinyl-CoA
+D1_NC3_CATTCATAGCCGCACT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021674484014511108,dTMP -> Succinyl-CoA
+D1_NC3_CCACAAAGTCGTCGGT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021627545356750488,dTMP -> Succinyl-CoA
+D1_NC3_CTTGATTTCGTCAGAT-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.0002160295844078064,dTMP -> Succinyl-CoA
+D1_NC3_GAGCCTGCAGCATACT-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.000216558575630188,dTMP -> Succinyl-CoA
+D1_NC3_GTCACGGAGGAAGTGA-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021655112504959106,dTMP -> Succinyl-CoA
+D1_NC3_TATCAGGCACGTACTA-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021647661924362183,dTMP -> Succinyl-CoA
+D1_NC3_TATTGGGTCCATTGCC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.000216655433177948,dTMP -> Succinyl-CoA
+D1_NC3_TGGGATTCAATCCTAG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.000216558575630188,dTMP -> Succinyl-CoA
+D1_NC4_CCGAACGTCTGTCGTC-1,D1,corneal suprabasal epithelial cells,D1 | corneal suprabasal epithelial cells,M_164,-0.00021658092737197876,dTMP -> Succinyl-CoA
+D1_NC4_GAGGCAAGTCAAGTTC-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021636486053466797,dTMP -> Succinyl-CoA
+D1_NC4_GCACATAAGCCTCACG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D1_NC4_TCAAGACCATTCCTCG-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021639466285705566,dTMP -> Succinyl-CoA
+D1_NC4_TCAAGTGCACACAGAG-1,D1,corneal basal epithelium,D1 | corneal basal epithelium,M_164,-0.00021637976169586182,dTMP -> Succinyl-CoA
+D1_NC4_TCTATCAGTCTTCATT-1,D1,corneal superficial epithelium,D1 | corneal superficial epithelium,M_164,-0.00021636486053466797,dTMP -> Succinyl-CoA
+D2_ACGTACATCAGCGCAC_1,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021579116582870483,dTMP -> Succinyl-CoA
+D2_GGAGGTATCGGTGAAG_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021514296531677246,dTMP -> Succinyl-CoA
+D2_GTCACTCCAGAAGCTG_1,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002151578664779663,dTMP -> Succinyl-CoA
+D2_GTGGGAAGTCCAGTTA_1,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021611154079437256,dTMP -> Succinyl-CoA
+D2_TACACCCTCACGGTCG_1,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002157837152481079,dTMP -> Succinyl-CoA
+D2_TGGAGGAAGAGGTTAT_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021428614854812622,dTMP -> Succinyl-CoA
+D2_TTCCAATAGGACACTG_1,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.0002161860466003418,dTMP -> Succinyl-CoA
+D2_AAGAACAAGAGTGACC_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021598488092422485,dTMP -> Succinyl-CoA
+D2_ACATCCCAGACGGTTG_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021606683731079102,dTMP -> Succinyl-CoA
+D2_ATCGCCTTCCCGGTAG_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021530687808990479,dTMP -> Succinyl-CoA
+D2_ATTCCTATCCGATAAC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021608173847198486,dTMP -> Succinyl-CoA
+D2_CGGAGAAAGCCGAACA_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.0002160966396331787,dTMP -> Succinyl-CoA
+D2_CTATAGGCAGATGCGA_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021573156118392944,dTMP -> Succinyl-CoA
+D2_GATGACTAGTAGATCA_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021573901176452637,dTMP -> Succinyl-CoA
+D2_TACGCTCTCACTTATC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021569430828094482,dTMP -> Succinyl-CoA
+D2_TCTGTCGCAGTCTGGC_2,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.0002160891890525818,dTMP -> Succinyl-CoA
+D2_TGCATGAGTGAAGCTG_2,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021585077047348022,dTMP -> Succinyl-CoA
+D2_TTCATGTAGTTGCCTA_2,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002164393663406372,dTMP -> Succinyl-CoA
+D2_GAGAAATCAAGCAATA_3,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021626055240631104,dTMP -> Succinyl-CoA
+D2_TACGGTAAGGCCTAAG_3,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021409988403320312,dTMP -> Succinyl-CoA
+D2_TTCAATCTCTCACCCA_3,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D2_AAACCCAAGGGAGGCA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021620094776153564,dTMP -> Succinyl-CoA
+D2_AACAACCGTCATTCCC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021620839834213257,dTMP -> Succinyl-CoA
+D2_AATAGAGCAACTTCTT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021651387214660645,dTMP -> Succinyl-CoA
+D2_ACCCTCAGTAGGGTAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.0002161562442779541,dTMP -> Succinyl-CoA
+D2_ACCCTCATCGGTAGAG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021604448556900024,dTMP -> Succinyl-CoA
+D2_ACCGTTCCAGTCGCTG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021478533744812012,dTMP -> Succinyl-CoA
+D2_ACGTACACATACTGAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.0002157166600227356,dTMP -> Succinyl-CoA
+D2_ACTTATCGTGTAACGG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021600723266601562,dTMP -> Succinyl-CoA
+D2_AGGAGGTGTAGCTTGT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002150610089302063,dTMP -> Succinyl-CoA
+D2_AGGCTGCGTGATACTC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002164021134376526,dTMP -> Succinyl-CoA
+D2_AGTGTTGTCGCAGTGC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002150610089302063,dTMP -> Succinyl-CoA
+D2_ATACCGAAGACGCTCC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021629035472869873,dTMP -> Succinyl-CoA
+D2_ATAGAGACACCTCAGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021582096815109253,dTMP -> Succinyl-CoA
+D2_ATCTCTAAGCACTCGC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021551549434661865,dTMP -> Succinyl-CoA
+D2_ATGAGGGAGTCTGGTT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002163127064704895,dTMP -> Succinyl-CoA
+D2_ATGAGTCTCTTGAACG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021629035472869873,dTMP -> Succinyl-CoA
+D2_ATGGGTTCAATTGCCA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021549314260482788,dTMP -> Succinyl-CoA
+D2_ATTCCATCAGACCATT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021602213382720947,dTMP -> Succinyl-CoA
+D2_ATTCGTTGTAGCTTAC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021633505821228027,dTMP -> Succinyl-CoA
+D2_CACACAACAATTCTCT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.0002158135175704956,dTMP -> Succinyl-CoA
+D2_CACGGGTAGAAATCCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002163723111152649,dTMP -> Succinyl-CoA
+D2_CACTGAAGTATAGGAT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021641701459884644,dTMP -> Succinyl-CoA
+D2_CACTGTCGTACTGGGA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021610409021377563,dTMP -> Succinyl-CoA
+D2_CATGCCTGTTCACGAT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021629035472869873,dTMP -> Succinyl-CoA
+D2_CATTGCCGTTAGTTCG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002164393663406372,dTMP -> Succinyl-CoA
+D2_CCGATGGTCTGTGTGA_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021610409021377563,dTMP -> Succinyl-CoA
+D2_CCTCCAATCCTTCTTC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021573901176452637,dTMP -> Succinyl-CoA
+D2_CGATGCGAGGAGTCTG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021602213382720947,dTMP -> Succinyl-CoA
+D2_CGCGTGATCCGCGATG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021567195653915405,dTMP -> Succinyl-CoA
+D2_CGTTGGGCAAACCATC_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002164021134376526,dTMP -> Succinyl-CoA
+D2_CTACCTGTCACCACAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021551549434661865,dTMP -> Succinyl-CoA
+D2_CTCAACCAGCATAGGC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021586567163467407,dTMP -> Succinyl-CoA
+D2_CTGAGCGTCAAATAGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021632760763168335,dTMP -> Succinyl-CoA
+D2_CTTGATTAGTCGTCTA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021526962518692017,dTMP -> Succinyl-CoA
+D2_GAACACTTCATATGGC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.0002159997820854187,dTMP -> Succinyl-CoA
+D2_GAACGTTCACTTGGCG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.000215969979763031,dTMP -> Succinyl-CoA
+D2_GATCCCTAGAATCCCT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021535903215408325,dTMP -> Succinyl-CoA
+D2_GCACTAATCTCTTCAA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.0002162829041481018,dTMP -> Succinyl-CoA
+D2_GCAGGCTGTATCGAAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021488219499588013,dTMP -> Succinyl-CoA
+D2_GCTGAATCAGTCCGTG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021627545356750488,dTMP -> Succinyl-CoA
+D2_GCTTGGGAGATGTAGT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021405518054962158,dTMP -> Succinyl-CoA
+D2_GGGAAGTCAGGACAGT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021661072969436646,dTMP -> Succinyl-CoA
+D2_GGGACAACAAATGGAT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.0002154707908630371,dTMP -> Succinyl-CoA
+D2_GGGACAAGTTACTCAG_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.0002162158489227295,dTMP -> Succinyl-CoA
+D2_GTAGAAAAGACTACGG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021450966596603394,dTMP -> Succinyl-CoA
+D2_GTAGATCGTGTTGATC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021614134311676025,dTMP -> Succinyl-CoA
+D2_GTATTTCGTCGCTGCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021576136350631714,dTMP -> Succinyl-CoA
+D2_GTCCCATGTCTTTCTA_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021523982286453247,dTMP -> Succinyl-CoA
+D2_GTGCTTCTCAACTACG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021553784608840942,dTMP -> Succinyl-CoA
+D2_GTTACCCAGTTTCGAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.0002160593867301941,dTMP -> Succinyl-CoA
+D2_TAACGACTCATGAGGG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002163425087928772,dTMP -> Succinyl-CoA
+D2_TACTTGTGTAAGATTG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021515041589736938,dTMP -> Succinyl-CoA
+D2_TAGACCATCCAATCCC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.0002160891890525818,dTMP -> Succinyl-CoA
+D2_TATCAGGGTCGTCAGC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021639466285705566,dTMP -> Succinyl-CoA
+D2_TATGTTCAGATACGAT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.0002162456512451172,dTMP -> Succinyl-CoA
+D2_TATTCCAGTCCTTGTC_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.0002148076891899109,dTMP -> Succinyl-CoA
+D2_TCATTGTTCAATCGGT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021598488092422485,dTMP -> Succinyl-CoA
+D2_TCCTCTTCATACACCA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021592527627944946,dTMP -> Succinyl-CoA
+D2_TGATCAGAGACCTTTG_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002157464623451233,dTMP -> Succinyl-CoA
+D2_TGCAGATCATAAGCAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021591037511825562,dTMP -> Succinyl-CoA
+D2_TGCTGAACAGGAGGTT_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.0002162456512451172,dTMP -> Succinyl-CoA
+D2_TGCTTCGCATAATGAG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021508336067199707,dTMP -> Succinyl-CoA
+D2_TGGTTAGCATTCACAG_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.0002158135175704956,dTMP -> Succinyl-CoA
+D2_TGTCAGAGTTGCATAC_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021582841873168945,dTMP -> Succinyl-CoA
+D2_TGTGTGATCTCTCAAT_4,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021637976169586182,dTMP -> Succinyl-CoA
+D2_TTCCTAACACGACGAA_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021467357873916626,dTMP -> Succinyl-CoA
+D2_TTCTAACTCCGTCACT_4,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.0002155303955078125,dTMP -> Succinyl-CoA
+D2_TTTCAGTAGCGATCGA_4,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021532922983169556,dTMP -> Succinyl-CoA
+D2_CCACGTTTCAGCTGAT,D2,corneal superficial epithelium,D2 | corneal superficial epithelium,M_164,-0.00021509826183319092,dTMP -> Succinyl-CoA
+D2_CTCAGAAGTTCCAGGC,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.0002156570553779602,dTMP -> Succinyl-CoA
+D2_CTGTAGAAGGTCACAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021629035472869873,dTMP -> Succinyl-CoA
+D2_TCGGATAGTTAAACAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021567195653915405,dTMP -> Succinyl-CoA
+D2_CTCAGTCGTACGACTT,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021619349718093872,dTMP -> Succinyl-CoA
+D2_GACTGATGTCACGTGC,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.000213623046875,dTMP -> Succinyl-CoA
+D2_TACTTGTGTGGTAACG,D2,corneal basal epithelium,D2 | corneal basal epithelium,M_164,-0.00021653622388839722,dTMP -> Succinyl-CoA
+D2_ACTTTCATCTACGGGC,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021585077047348022,dTMP -> Succinyl-CoA
+D2_CCCAACTTCTCTTCAA,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021582841873168945,dTMP -> Succinyl-CoA
+D2_CTATCTATCATCGTAG,D2,corneal suprabasal epithelial cells,D2 | corneal suprabasal epithelial cells,M_164,-0.00021542608737945557,dTMP -> Succinyl-CoA

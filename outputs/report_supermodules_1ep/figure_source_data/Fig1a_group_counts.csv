@@ -1,0 +1,7 @@
+dataset,cluster,n_cells,dataset_cluster
+D1,corneal basal epithelium,34,D1 | corneal basal epithelium
+D1,corneal superficial epithelium,34,D1 | corneal superficial epithelium
+D1,corneal suprabasal epithelial cells,33,D1 | corneal suprabasal epithelial cells
+D2,corneal basal epithelium,33,D2 | corneal basal epithelium
+D2,corneal superficial epithelium,33,D2 | corneal superficial epithelium
+D2,corneal suprabasal epithelial cells,33,D2 | corneal suprabasal epithelial cells
