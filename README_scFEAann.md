@@ -212,6 +212,55 @@ Add `--gradient` to calculate the more expensive gene-to-module gradient. Use
 `--dataset D2` restricts the run to one dataset without splitting the remaining
 cells into separate models.
 
+### Run every example
+
+[examples/run_all_examples.sh](examples/run_all_examples.sh) runs the examples
+in dependency order: global flux, all 22 supermodule models, the SCI report,
+and the performance benchmark. Its defaults use all 17,492 cells and
+100 epochs:
+
+```bash
+examples/run_all_examples.sh
+```
+
+This is intentionally a long validation run. Check the generated commands
+without creating files or starting training:
+
+```bash
+examples/run_all_examples.sh --dry-run
+```
+
+A fast end-to-end smoke test:
+
+```bash
+examples/run_all_examples.sh \
+  --output-dir /tmp/scfeaann_examples_smoke \
+  --max-cells 10 \
+  --epochs 1 \
+  --device cpu \
+  --benchmark-repeats 1
+```
+
+The default output directory is `outputs/examples_full_100ep`. It contains:
+
+| Path | Contents |
+|---|---|
+| `global_scfeaann.h5ad` | Full-cell global flux and balance |
+| `supermodule_scfeaann.h5ad` | Global model plus 22 independent class models |
+| `report/` | Figures, workbook, source data, and report manifest |
+| `benchmark.json` | Timing and memory benchmark |
+| `logs/<stage>.log` | Complete stdout and stderr for each stage |
+| `run_summary.tsv` | Stage status, timestamps, duration, and artifact |
+| `environment.txt` | Resolved parameters and Python version |
+
+Use `--resume` to skip stages whose expected artifact already exists. Use
+`--skip-benchmark` to omit the extra global training run, and
+`--with-gradient` only when the expensive per-cell refitting analysis is
+required. For a partial `--classes` run, the report uses
+`global_scfeaann.h5ad`; an all-class run reports directly from
+`supermodule_scfeaann.h5ad`. Matplotlib, Fontconfig, and Numba caches are kept
+inside the output directory.
+
 ## SCI-style figures and tables
 
 Generate a complete English SCI-style report from a result H5AD:
@@ -371,6 +420,75 @@ adds:
 Main figures use `flux_mean`; both `flux_mean` and `flux_sum` are retained in
 the node tables.
 
+## Performance and memory controls
+
+`prediction_batch_size` controls inference only. The network, loss, Adam
+optimizer, original full-cell training behavior, and random seed are unchanged.
+Its default is `1024`:
+
+```python
+scFEAann.run_scfeaann(
+    adata,
+    prediction_batch_size=1024,
+)
+
+scFEAann.run_scfeaann_supermodules(
+    adata,
+    include_total=True,
+    prediction_batch_size=1024,
+)
+```
+
+The effective batch is stored in
+`uns["scFEAann"]["parameters"]["prediction_batch_size"]` for the global model
+and in each `class_results[class_id]["parameters"]` record. Batched and
+one-cell inference are numerically equivalent up to float32 execution-order
+rounding.
+
+Sparse non-MAGIC input takes a sparse fast path: finite-value checks,
+log transformation, and row sums operate on sparse storage, and only genes in
+the scFEA module vocabulary are densified. MAGIC still requires the original
+dense preprocessing path.
+
+When `include_total=False`, the run does not allocate the full
+`n_cells × 168 × n_overlap_genes` tensor. It retains the shared gene expression
+and materializes only the requested class blocks. With `include_total=True`,
+the full tensor is released after global training and result writing, then
+each supermodule class is built on demand. The persisted class-level result
+matrices still occupy memory and H5AD space.
+
+The benchmark below uses a deterministic 1,000-cell sample from
+`testdata/testdata.h5ad`, one epoch, CPU Torch, and three timed inference
+repeats. Full JSON and environment details are in
+[benchmark_testdata_1000.json](outputs/benchmark_testdata_1000.json).
+
+| Measurement | Result |
+|---|---:|
+| Overlap genes | 661 |
+| Full module tensor | 423.6 MiB |
+| Representative class tensor (14 modules) | 35.3 MiB |
+| Full preprocessing | 0.230 s |
+| Deferred preprocessing | 0.201 s |
+| Inference, batch 1 | 68.7 cells/s |
+| Inference, batch 64 | 2,464 cells/s |
+| Inference, batch 1024 | 4,235 cells/s |
+
+Run the same benchmark locally:
+
+```bash
+MPLCONFIGDIR=/tmp/scfeaann-mpl \
+.venv/bin/python examples/scfeaann_benchmark.py \
+  --max-cells 1000 \
+  --epochs 1 \
+  --prediction-batch-sizes 1,64,1024 \
+  --repeats 3 \
+  --output-json outputs/benchmark_testdata_1000.json
+```
+
+Use `--max-cells 0` only after confirming that enough RAM is available. The
+benchmark reports stage timing, current/peak RSS, and calculated tensor sizes;
+machine load and CPU/GPU choice affect absolute timings.
+
 ## Network construction
 
 Two network views can be built directly from the current model and AnnData:
@@ -453,7 +571,9 @@ and [module_annotation.csv](outputs/report_100ep/module_annotation.csv).
 
 ## Shared parameters
 
-Both public APIs accept the same input and model options:
+The flux and gradient APIs share the input and model options below.
+`prediction_batch_size` applies only to flux inference in `run_scfeaann` and
+`run_scfeaann_supermodules`:
 
 | Parameter | Default | Meaning |
 |---|---|---|
@@ -469,6 +589,7 @@ Both public APIs accept the same input and model options:
 | `compound_name_file` | human C70/M168 | Compound-name CSV filename |
 | `copy` | `False` | Update and return input, or operate on a copy |
 | `verbose` | `True` | Show training and gradient progress |
+| `prediction_batch_size` | `1024` | Flux inference cells per chunk; not used by gradient refitting |
 
 Packaged alternatives include the complete mouse, iron, and glutaminolysis
 models. For example:
@@ -536,11 +657,16 @@ gene-block per module. Memory therefore grows with:
 n_cells x n_modules x n_overlap_genes
 ```
 
-For example, the human complete model with 168 modules and 374 overlap genes
-uses about 2.34 GiB just for a dense float32 input matrix at 10,000 cells,
-before autograd and model state. Subset cells, use a GPU, or increase available
-memory for large datasets. The package does not silently switch the training
-algorithm or batching strategy.
+For the test-data vocabulary, 168 modules and 661 overlap genes use about
+4.14 GiB just for the dense float32 input matrix at 10,000 cells, before
+autograd and model state. The number of overlap genes depends on the selected
+model and AnnData variable vocabulary. At all 17,492 test-data cells, the same
+tensor alone projects to about 7.24 GiB.
+
+Use `include_total=False` for class-only supermodule runs, subset cells for an
+initial analysis, or increase available RAM. Set `prediction_batch_size` to
+tune inference without changing training. The package does not silently switch
+the training algorithm.
 
 ## Verification
 
@@ -554,4 +680,4 @@ network and loss, gradient parity, supermodule-specific training, singleton
 module fallbacks, AnnData/H5AD round-trips, report tables, figure exports,
 network construction, layout reproducibility, and network metadata.
 
-Current verification: `83 passed`.
+Current verification: `96 passed`.

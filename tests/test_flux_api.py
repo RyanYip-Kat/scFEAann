@@ -71,3 +71,22 @@ def test_layer_source_is_recorded() -> None:
     )
 
     assert adata.uns["scFEAann"]["expression_source"] == "layer:counts"
+
+
+def test_invalid_prediction_batch_size_fails_before_preprocessing(
+    monkeypatch,
+) -> None:
+    import scFEAann.api as api
+
+    def unexpected_preprocessing(*args, **kwargs):
+        raise AssertionError("preprocessing should not start")
+
+    monkeypatch.setattr(api, "prepare_scfea_inputs", unexpected_preprocessing)
+
+    with pytest.raises(ValueError, match="prediction_batch_size"):
+        run_scfeaann(
+            tiny_adata(),
+            epochs=1,
+            verbose=False,
+            prediction_batch_size=0,
+        )

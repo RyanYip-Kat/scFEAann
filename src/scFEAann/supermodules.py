@@ -9,7 +9,11 @@ import pandas as pd
 import torch
 
 from .modules import get_module_annotation
-from .preprocessing import PACKAGE_DATA_DIR, PreparedInputs
+from .preprocessing import (
+    PACKAGE_DATA_DIR,
+    PreparedInputs,
+    materialize_module_blocks,
+)
 
 
 DEFAULT_SUPERMODULE_FILE = "supermetabolic_modules.csv"
@@ -124,6 +128,8 @@ def subset_prepared_inputs(
     module_names: list[str],
 ) -> PreparedInputs:
     """Select an aligned module subset from one prepared AnnData tensor."""
+    if prepared.X is None:
+        return materialize_module_blocks(prepared, module_names)
     if not module_names:
         raise ValueError("at least one module is required")
     if len(set(module_names)) != len(module_names):

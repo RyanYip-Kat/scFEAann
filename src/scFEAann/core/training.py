@@ -157,32 +157,28 @@ def predict_scfea(
     n_genes: int,
     n_comps: int,
     device: str | torch.device = "auto",
+    prediction_batch_size: int = 1024,
 ) -> tuple[np.ndarray, np.ndarray]:
-    """Predict flux and compound balance with the original batch size of one."""
+    """Predict flux and balance in cell chunks."""
+    if prediction_batch_size <= 0:
+        raise ValueError("prediction_batch_size must be greater than zero")
     selected_device = resolve_device(device)
     stoichiometry_device = stoichiometry.to(selected_device)
-    dataset = MyDataset(expression, torch.zeros(len(expression)), torch.zeros((len(expression), 1)))
-    loader = DataLoader(
-        dataset=dataset,
-        batch_size=1,
-        shuffle=False,
-        num_workers=0,
-        pin_memory=False,
-    )
     flux = np.zeros((len(expression), n_modules), dtype=np.float32)
     balance = np.zeros((len(expression), n_comps), dtype=np.float32)
     net.eval()
-    with torch.no_grad():
-        for index, (batch_x, _, _) in enumerate(loader):
+    with torch.inference_mode():
+        for start in range(0, len(expression), prediction_batch_size):
+            stop = min(start + prediction_batch_size, len(expression))
             output_flux, output_balance = net(
-                _to_float_tensor(batch_x, selected_device),
+                _to_float_tensor(expression[start:stop], selected_device),
                 n_modules,
                 n_genes,
                 n_comps,
                 stoichiometry_device,
             )
-            flux[index, :] = output_flux.detach().cpu().numpy()
-            balance[index, :] = output_balance.detach().cpu().numpy()
+            flux[start:stop, :] = output_flux.detach().cpu().numpy()
+            balance[start:stop, :] = output_balance.detach().cpu().numpy()
     return flux, balance
 
 

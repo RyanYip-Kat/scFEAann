@@ -36,11 +36,17 @@ from .supermodules import (
 )
 
 
+def _validate_prediction_batch_size(value: int) -> None:
+    if value <= 0:
+        raise ValueError("prediction_batch_size must be greater than zero")
+
+
 def _common_parameters(
     *,
     sc_imputation: bool,
     epochs: int,
     device: str,
+    prediction_batch_size: int | None = None,
     module_gene_file: str | Path | None,
     stoichiometry_matrix: str | Path | None,
     compound_name_file: str | Path | None,
@@ -66,6 +72,11 @@ def _common_parameters(
         "compound_name_file": (
             None if compound_name_file is None else str(compound_name_file)
         ),
+        **(
+            {}
+            if prediction_batch_size is None
+            else {"prediction_batch_size": int(prediction_batch_size)}
+        ),
     }
 
 
@@ -77,6 +88,7 @@ def _fit_predict_prepared(
     verbose: bool,
     lamb_module: float = LAMB_MOD,
     safe_module_correlation: bool = False,
+    prediction_batch_size: int = 1024,
 ):
     n_comps = prepared.stoichiometry.shape[0]
     fitted = fit_scfea(
@@ -101,6 +113,7 @@ def _fit_predict_prepared(
         n_genes=len(prepared.gene_names),
         n_comps=n_comps,
         device=device,
+        prediction_batch_size=prediction_batch_size,
     )
     return fitted, flux, balance
 
@@ -120,6 +133,7 @@ def run_scfeaann(
     compound_name_file: str | Path | None = None,
     copy: bool = False,
     verbose: bool = True,
+    prediction_batch_size: int = 1024,
 ) -> ad.AnnData:
     """Estimate single-cell metabolic flux and compound balance from AnnData.
 
@@ -156,6 +170,10 @@ def run_scfeaann(
         copy, leaving the input unchanged.
     verbose
         Show the epoch progress bar.
+    prediction_batch_size
+        Number of cells evaluated per inference chunk. The default is 1024.
+        This changes neither the network, loss, optimizer, training batch, nor
+        random seed. It is recorded in ``uns["scFEAann"]["parameters"]``.
 
     Returns
     -------
@@ -170,6 +188,7 @@ def run_scfeaann(
     """
     if not isinstance(adata, ad.AnnData):
         raise TypeError("adata must be an anndata.AnnData object")
+    _validate_prediction_batch_size(prediction_batch_size)
     validate_group_key(adata, group_key)
     target = adata.copy() if copy else adata
 
@@ -184,7 +203,11 @@ def run_scfeaann(
         compound_name_file=compound_name_file,
     )
     fitted, flux, balance = _fit_predict_prepared(
-        prepared, epochs=epochs, device=device, verbose=verbose
+        prepared,
+        epochs=epochs,
+        device=device,
+        verbose=verbose,
+        prediction_batch_size=prediction_batch_size,
     )
     write_flux_results(
         target,
@@ -200,6 +223,7 @@ def run_scfeaann(
             sc_imputation=sc_imputation,
             epochs=epochs,
             device=str(resolve_device(device)),
+            prediction_batch_size=prediction_batch_size,
             module_gene_file=module_gene_file,
             stoichiometry_matrix=stoichiometry_matrix,
             compound_name_file=compound_name_file,
@@ -229,15 +253,34 @@ def run_scfeaann_supermodules(
     copy: bool = False,
     verbose: bool = True,
     continue_on_error: bool = True,
+    prediction_batch_size: int = 1024,
 ) -> ad.AnnData:
     """Train independent scFEA models for selected human supermodules.
 
     The global 168-module model is optionally trained first. Each requested
     supermodule class then gets its own FLUX model using its assigned module
     rows and stoichiometry columns while retaining all compound rows.
+
+    Parameters
+    ----------
+    adata
+        Single-cell AnnData with observations as cells and variables as genes.
+    classes
+        Supermodule IDs, class names, or a sequence of either. ``None`` selects
+        all 22 classes.
+    include_total
+        Train the global 168-module model before class-specific models. When
+        false, no full module tensor is constructed.
+    prediction_batch_size
+        Number of cells evaluated per inference chunk. The default is 1024. It
+        does not change training behavior and is recorded in each requested
+        class result.
+    Other parameters
+        Match :func:`run_scfeaann`.
     """
     if not isinstance(adata, ad.AnnData):
         raise TypeError("adata must be an anndata.AnnData object")
+    _validate_prediction_batch_size(prediction_batch_size)
     validate_group_key(adata, group_key)
     supermodule_table = load_supermodules(
         data_dir=data_dir,
@@ -256,6 +299,7 @@ def run_scfeaann_supermodules(
         module_gene_file=module_gene_file,
         stoichiometry_matrix=stoichiometry_matrix,
         compound_name_file=compound_name_file,
+        build_module_blocks=include_total,
     )
     model_file = Path(
         prepared.model_metadata["module_gene_file"]
@@ -273,7 +317,11 @@ def run_scfeaann_supermodules(
     total_completed = False
     if total_requested:
         fitted, flux, balance = _fit_predict_prepared(
-            prepared, epochs=epochs, device=str(resolve_device(device)), verbose=verbose
+            prepared,
+            epochs=epochs,
+            device=str(resolve_device(device)),
+            verbose=verbose,
+            prediction_batch_size=prediction_batch_size,
         )
         write_flux_results(
             target,
@@ -289,6 +337,7 @@ def run_scfeaann_supermodules(
                 sc_imputation=sc_imputation,
                 epochs=epochs,
                 device=str(resolve_device(device)),
+                prediction_batch_size=prediction_batch_size,
                 module_gene_file=module_gene_file,
                 stoichiometry_matrix=stoichiometry_matrix,
                 compound_name_file=compound_name_file,
@@ -297,6 +346,8 @@ def run_scfeaann_supermodules(
             elapsed_seconds=fitted.elapsed_seconds,
         )
         total_completed = True
+        prepared.X = None
+        del fitted, flux, balance
 
     all_class_ids = supermodule_table.index.astype(int).tolist()
     all_class_names = [
@@ -355,6 +406,7 @@ def run_scfeaann_supermodules(
                 sc_imputation=sc_imputation,
                 epochs=epochs,
                 device=str(resolve_device(device)),
+                prediction_batch_size=prediction_batch_size,
                 module_gene_file=module_gene_file,
                 stoichiometry_matrix=stoichiometry_matrix,
                 compound_name_file=compound_name_file,
@@ -372,6 +424,7 @@ def run_scfeaann_supermodules(
                 verbose=verbose,
                 lamb_module=0.0 if len(subset.module_names) < 2 else LAMB_MOD,
                 safe_module_correlation=True,
+                prediction_batch_size=prediction_batch_size,
             )
             if not np.isfinite(class_flux).all() or not np.isfinite(
                 class_balance

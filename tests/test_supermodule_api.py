@@ -73,6 +73,39 @@ def test_selected_supermodules_write_fixed_ann_data_layout() -> None:
     assert metadata["total_model"]["completed"] is True
 
 
+def test_classes_use_deferred_x_after_total_model(monkeypatch) -> None:
+    import scFEAann.api as api
+
+    adata = full_model_adata()
+    real_subset = api.subset_prepared_inputs
+    seen_x: list[object] = []
+
+    def observed_subset(prepared, module_names):
+        seen_x.append(prepared.X)
+        return real_subset(prepared, module_names)
+
+    monkeypatch.setattr(api, "subset_prepared_inputs", observed_subset)
+    run_scfeaann_supermodules(
+        adata,
+        classes=[1],
+        include_total=True,
+        epochs=1,
+        device="cpu",
+        verbose=False,
+        prediction_batch_size=2,
+    )
+
+    assert seen_x == [None]
+    assert (
+        adata.uns["scFEAann"]["flux"]["parameters"]["prediction_batch_size"]
+        == 2
+    )
+    class_parameters = adata.uns["scFEAann"]["supermodules"]["class_results"][
+        "1"
+    ]["parameters"]
+    assert class_parameters["prediction_batch_size"] == 2
+
+
 def test_all_22_classes_fill_every_supermodule_slot() -> None:
     adata = full_model_adata(n_cells=2)
 

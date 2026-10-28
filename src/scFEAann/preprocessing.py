@@ -26,7 +26,7 @@ DEFAULT_COMPOUND_NAME_FILE = "cName_c70_m168.csv"
 class PreparedInputs:
     """AnnData-independent inputs consumed by the scFEA core."""
 
-    X: torch.Tensor
+    X: torch.Tensor | None
     gene_expression: torch.Tensor
     module_masks: torch.Tensor
     gene_scale: torch.Tensor
@@ -46,32 +46,27 @@ def _model_path(data_dir: str | Path | None, filename: str) -> Path:
     return path if path.is_absolute() else base / path
 
 
-def _read_expression(
+def _read_expression_matrix(
     adata: ad.AnnData,
     *,
     layer: str | None,
     use_raw: bool,
-) -> tuple[pd.DataFrame, str]:
+) -> tuple[Any, pd.Index, str]:
     matrix, var_names, source = resolve_expression(
         adata, layer=layer, use_raw=use_raw
     )
     if sparse.issparse(matrix):
-        dense = matrix.toarray()
+        if not np.isfinite(matrix.data).all():
+            raise ValueError(
+                f"expression source '{source}' must contain only finite values"
+            )
     else:
         dense = np.asarray(matrix)
-    dense = np.asarray(dense, dtype=np.float64)
-    if not np.isfinite(dense).all():
-        raise ValueError(
-            f"expression source '{source}' must contain only finite values"
-        )
-    return (
-        pd.DataFrame(
-            dense,
-            index=pd.Index(adata.obs_names),
-            columns=pd.Index(var_names),
-        ),
-        source,
-    )
+        if not np.isfinite(dense).all():
+            raise ValueError(
+                f"expression source '{source}' must contain only finite values"
+            )
+    return matrix, var_names, source
 
 
 def _apply_magic(expression: pd.DataFrame) -> pd.DataFrame:
@@ -110,6 +105,64 @@ def _read_compound_names(path: Path, n_compounds: int) -> list[str | int]:
     return names
 
 
+def _materialize_module_x(
+    gene_expression: torch.Tensor,
+    module_masks: torch.Tensor,
+    module_indices: list[int],
+) -> torch.Tensor:
+    n_cells, n_genes = gene_expression.shape
+    X = torch.empty(
+        (n_cells, len(module_indices) * n_genes),
+        dtype=torch.float32,
+    )
+    for output_index, module_index in enumerate(module_indices):
+        start = output_index * n_genes
+        stop = start + n_genes
+        torch.mul(
+            gene_expression,
+            module_masks[module_index],
+            out=X[:, start:stop],
+        )
+    return X
+
+
+def materialize_module_blocks(
+    prepared: PreparedInputs,
+    module_names: list[str],
+) -> PreparedInputs:
+    """Build an aligned module subset from deferred prepared inputs."""
+    if not module_names:
+        raise ValueError("at least one module is required")
+    if len(set(module_names)) != len(module_names):
+        raise ValueError("module_names must be unique")
+    module_position = {
+        name: index for index, name in enumerate(prepared.module_names)
+    }
+    missing = [name for name in module_names if name not in module_position]
+    if missing:
+        raise ValueError(f"modules are absent from the prepared model: {missing}")
+    indices = [module_position[name] for name in module_names]
+    index_tensor = torch.tensor(indices, dtype=torch.long)
+    return PreparedInputs(
+        X=_materialize_module_x(
+            prepared.gene_expression,
+            prepared.module_masks,
+            indices,
+        ),
+        gene_expression=prepared.gene_expression,
+        module_masks=prepared.module_masks.index_select(0, index_tensor),
+        gene_scale=prepared.gene_scale,
+        module_scale=prepared.module_scale.index_select(1, index_tensor),
+        stoichiometry=prepared.stoichiometry.index_select(1, index_tensor),
+        gene_names=list(prepared.gene_names),
+        cell_names=list(prepared.cell_names),
+        module_names=list(module_names),
+        compound_names=list(prepared.compound_names),
+        expression_source=prepared.expression_source,
+        model_metadata=dict(prepared.model_metadata),
+    )
+
+
 def prepare_scfea_inputs(
     adata: ad.AnnData,
     *,
@@ -120,6 +173,7 @@ def prepare_scfea_inputs(
     module_gene_file: str | Path | None = None,
     stoichiometry_matrix: str | Path | None = None,
     compound_name_file: str | Path | None = None,
+    build_module_blocks: bool = True,
 ) -> PreparedInputs:
     """Prepare scFEA tensors while preserving the legacy preprocessing order.
 
@@ -142,17 +196,9 @@ def prepare_scfea_inputs(
         if not path.exists():
             raise ValueError(f"{label} file does not exist: {path}")
 
-    expression, source = _read_expression(
+    source_matrix, var_names, source = _read_expression_matrix(
         adata, layer=layer, use_raw=use_raw
     )
-    if sc_imputation:
-        expression = _apply_magic(expression)
-    if expression.to_numpy().max() > 50:
-        expression = (expression + 1).apply(np.log2)
-
-    gene_scale = expression.sum(axis=1)
-    gene_scale = gene_scale / gene_scale.mean()
-
     module_genes = pd.read_csv(module_path, sep=",", index_col=0)
     if module_genes.empty:
         raise ValueError(f"module gene file is empty: {module_path}")
@@ -164,42 +210,66 @@ def prepare_scfea_inputs(
     module_gene_set = set(
         module_genes.stack().dropna().astype(str).tolist()
     )
-    overlap = sorted(set(expression.columns.astype(str)) & module_gene_set)
+    expression_gene_names = var_names.astype(str).tolist()
+    overlap = sorted(set(expression_gene_names) & module_gene_set)
     if not overlap:
         raise ValueError(
             "expression genes and module genes have no overlap; check gene "
             "identifiers and the selected expression source"
         )
-    expression = expression.loc[:, overlap]
-    cell_names = expression.index.astype(str).tolist()
+    gene_positions = {
+        gene: index for index, gene in enumerate(expression_gene_names)
+    }
+    overlap_indices = [gene_positions[gene] for gene in overlap]
+    cell_names = adata.obs_names.astype(str).tolist()
 
-    module_blocks: list[pd.DataFrame] = []
-    module_masks: list[list[bool]] = []
-    module_scale_columns: dict[str, np.ndarray] = {}
-    for module_name, row in module_genes.iterrows():
+    if sc_imputation:
+        if sparse.issparse(source_matrix):
+            expression_values = source_matrix.toarray()
+        else:
+            expression_values = np.asarray(source_matrix)
+        expression = pd.DataFrame(
+            np.asarray(expression_values, dtype=np.float64),
+            index=pd.Index(adata.obs_names),
+            columns=pd.Index(expression_gene_names),
+        )
+        expression = _apply_magic(expression)
+        if expression.to_numpy().max() > 50:
+            expression = (expression + 1).apply(np.log2)
+        gene_scale_values = expression.sum(axis=1).to_numpy(dtype=np.float64)
+        overlap_values = expression.loc[:, overlap].to_numpy(dtype=np.float64)
+    elif sparse.issparse(source_matrix):
+        working = source_matrix.astype(np.float64, copy=True)
+        if working.data.size and working.data.max() > 50:
+            working.data = np.log2(working.data + 1)
+        gene_scale_values = np.asarray(working.sum(axis=1)).ravel()
+        overlap_values = working[:, overlap_indices].toarray()
+        overlap_values = np.asarray(overlap_values, dtype=np.float64)
+    else:
+        expression_values = np.asarray(source_matrix, dtype=np.float64)
+        if expression_values.shape[0] and expression_values.size and expression_values.max() > 50:
+            expression_values = np.log2(expression_values + 1)
+        gene_scale_values = expression_values.sum(axis=1)
+        overlap_values = expression_values[:, overlap_indices]
+
+    gene_scale = gene_scale_values / gene_scale_values.mean()
+
+    n_modules = module_genes.shape[0]
+    n_cells = overlap_values.shape[0]
+    module_masks = np.empty((n_modules, len(overlap)), dtype=bool)
+    module_scale = np.empty((n_cells, n_modules), dtype=np.float64)
+    for module_index, (_, row) in enumerate(module_genes.iterrows()):
         genes = set(row.dropna().astype(str))
-        module_masks.append([gene in genes for gene in overlap])
-        masked = expression.copy()
-        masked.loc[:, [gene for gene in overlap if gene not in genes]] = 0
-        block = masked.T
-        block["Module_Gene"] = [
-            f"{module_index:02d}_{gene}"
-            for module_index, gene in enumerate(overlap)
-        ]
-        module_blocks.append(block)
-        module_scale_columns[str(module_name)] = masked.sum(axis=1).to_numpy()
+        mask = np.asarray([gene in genes for gene in overlap], dtype=bool)
+        module_masks[module_index] = mask
+        module_scale[:, module_index] = overlap_values[:, mask].sum(axis=1)
 
-    module_frame = pd.concat(module_blocks, axis=0)
-    X = torch.tensor(
-        module_frame.loc[:, cell_names].to_numpy(dtype=np.float32).T,
-        dtype=torch.float32,
-    )
+    module_masks_tensor = torch.tensor(module_masks, dtype=torch.bool)
     gene_scale_tensor = torch.tensor(
-        gene_scale.to_numpy(dtype=np.float32), dtype=torch.float32
+        np.asarray(gene_scale, dtype=np.float32), dtype=torch.float32
     )
-
-    module_scale = np.column_stack(
-        [module_scale_columns[str(name)] for name in module_genes.index]
+    gene_expression_tensor = torch.tensor(
+        np.asarray(overlap_values, dtype=np.float32), dtype=torch.float32
     )
     module_scale = module_scale / module_lengths[np.newaxis, :]
     module_scale_tensor = torch.tensor(
@@ -220,13 +290,19 @@ def prepare_scfea_inputs(
     compound_names = _read_compound_names(
         compound_path, stoichiometry.shape[0]
     )
+    if build_module_blocks:
+        X = _materialize_module_x(
+            gene_expression_tensor,
+            module_masks_tensor,
+            list(range(module_genes.shape[0])),
+        )
+    else:
+        X = None
 
     return PreparedInputs(
         X=X,
-        gene_expression=torch.tensor(
-            expression.to_numpy(dtype=np.float32), dtype=torch.float32
-        ),
-        module_masks=torch.tensor(module_masks, dtype=torch.bool),
+        gene_expression=gene_expression_tensor,
+        module_masks=module_masks_tensor,
         gene_scale=gene_scale_tensor,
         module_scale=module_scale_tensor,
         stoichiometry=torch.tensor(stoichiometry, dtype=torch.float32),

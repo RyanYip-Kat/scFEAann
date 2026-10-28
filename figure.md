@@ -40,6 +40,78 @@ export MPLCONFIGDIR=/tmp/matplotlib-cache
 
 ## 2. `examples/` 使用流程
 
+### 2.0 一键运行全部示例
+
+[examples/run_all_examples.sh](examples/run_all_examples.sh) 会依次运行：
+
+1. 全局 scFEA；
+2. 全部 22 个 supermodule 独立模型；
+3. SCI 图和表格报告；
+4. 预处理、训练和推理 benchmark。
+
+脚本默认使用全部 17,492 个细胞和 100 epochs：
+
+```bash
+examples/run_all_examples.sh
+```
+
+先检查实际会执行的命令，不创建文件、不开始训练：
+
+```bash
+examples/run_all_examples.sh --dry-run
+```
+
+小样本端到端验收：
+
+```bash
+examples/run_all_examples.sh \
+  --output-dir /tmp/scfeaann_examples_smoke \
+  --max-cells 10 \
+  --epochs 1 \
+  --device cpu \
+  --benchmark-repeats 1
+```
+
+常用参数：
+
+| 参数 | 含义 |
+|---|---|
+| `--input` | 输入 H5AD |
+| `--output-dir` | 总输出目录，默认 `outputs/examples_full_100ep` |
+| `--max-cells` | `0` 表示全部细胞 |
+| `--epochs` | 全部训练阶段的 epochs，默认 `100` |
+| `--device` | `auto`、`cpu` 或 `cuda:0` |
+| `--classes` | `all` 或 `1,8` 等 class 选择 |
+| `--with-gradient` | 增加逐细胞梯度分析，耗时很高 |
+| `--skip-benchmark` | 跳过额外的全局 benchmark 训练 |
+| `--resume` | 跳过已有有效产物的阶段 |
+| `--dry-run` | 仅打印命令 |
+
+默认流程生成：
+
+```text
+outputs/examples_full_100ep/
+├── global_scfeaann.h5ad
+├── supermodule_scfeaann.h5ad
+├── benchmark.json
+├── environment.txt
+├── run_summary.tsv
+├── logs/
+│   ├── global.log
+│   ├── supermodules.log
+│   ├── report.log
+│   └── benchmark.log
+└── report/
+    ├── report_manifest.json
+    ├── report_tables.xlsx
+    └── Fig*.pdf / .svg / .png
+```
+
+任一步骤或任一 supermodule class 失败时，脚本会返回非零状态，并在
+`run_summary.tsv` 中记录失败阶段。`--classes` 只选择部分类别时，因为其余
+class 槽位按设计为 `NaN`，报告阶段会自动改为读取全局结果；只有
+`--classes all` 才从完整 supermodule 结果作图。
+
 ### 2.1 全局 scFEA：flux、balance 和可选梯度
 
 脚本：
